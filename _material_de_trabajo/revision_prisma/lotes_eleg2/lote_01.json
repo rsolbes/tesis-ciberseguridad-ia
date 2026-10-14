@@ -1,0 +1,218 @@
+[
+ {
+  "clave": "R0003",
+  "titulo": "PentestAgent: Incorporating LLM Agents to Automated Penetration Testing",
+  "anio": 2025,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0003.txt"
+ },
+ {
+  "clave": "R0016",
+  "titulo": "CyberRAG: An agentic RAG cyber attack classification and reporting tool",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "Future Generation Computer Systems",
+  "texto": "textos/R0016.txt"
+ },
+ {
+  "clave": "R0018",
+  "titulo": "Reward Shaping for Happier Autonomous Cyber Security Agents",
+  "anio": 2023,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0018.txt"
+ },
+ {
+  "clave": "R0035",
+  "titulo": "Multi-Agent Reinforcement Learning for Maritime Operational Technology Cyber Security",
+  "anio": 2024,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0035.txt"
+ },
+ {
+  "clave": "R0036",
+  "titulo": "On Autonomous Agents in a Cyber Defence Environment",
+  "anio": 2023,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0036.txt"
+ },
+ {
+  "clave": "R0037",
+  "titulo": "Multi-Agent AI Systems for Coordinated Cybersecurity in Smart Cities",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "International Journal for Research Publication and Seminars",
+  "texto": "textos/R0037.txt"
+ },
+ {
+  "clave": "R0041",
+  "titulo": "Learning to Communicate in Multi-Agent Reinforcement Learning for Autonomous Cyber Defence",
+  "anio": 2025,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0041.txt"
+ },
+ {
+  "clave": "R0042",
+  "titulo": "Multi-Agent Actor-Critics in Autonomous Cyber Defense",
+  "anio": 2024,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0042.txt"
+ },
+ {
+  "clave": "R0044",
+  "titulo": "Agentic AI Workflows in Cybersecurity: Opportunities, Challenges, and Governance via the MCP Model",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "Journal of Information Systems Engineering & Management",
+  "texto": "textos/R0044.txt"
+ },
+ {
+  "clave": "R0045",
+  "titulo": "Learning Cyber Defence Tactics from Scratch with Multi-Agent Reinforcement Learning",
+  "anio": 2023,
+  "tipo": "preprint",
+  "venue": "PolyPublie (École Polytechnique de Montréal)",
+  "texto": "textos/R0045.txt"
+ },
+ {
+  "clave": "R0046",
+  "titulo": "Adversarial agent-learning for cybersecurity: a comparison of algorithms",
+  "anio": 2023,
+  "tipo": "article",
+  "venue": "The Knowledge Engineering Review",
+  "texto": "textos/R0046.txt"
+ },
+ {
+  "clave": "R0047",
+  "titulo": "Explainable autonomous cyber defense using adversarial multi-agent reinforcement learning",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Expert Systems with Applications",
+  "texto": "textos/R0047.txt"
+ },
+ {
+  "clave": "R0048",
+  "titulo": "Specification and Evaluation of Multi-Agent LLM Systems - Prototype and Cybersecurity Applications",
+  "anio": 2025,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0048.txt"
+ },
+ {
+  "clave": "R0053",
+  "titulo": "Autonomous Security Operations Centers (SOC): AI Agents for Threat Triage, Response, and Orchestration",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "International Journal of Emerging Research in Engineering and Technology",
+  "texto": "textos/R0053.txt"
+ },
+ {
+  "clave": "R0057",
+  "titulo": "Artificial Intelligence as the New Hacker: Developing Agents for Offensive Security",
+  "anio": 2024,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0057.txt"
+ },
+ {
+  "clave": "R0062",
+  "titulo": "AgentSOC: A Multi-Layer Agentic AI Framework for Security Operations Automation",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0062.txt"
+ },
+ {
+  "clave": "R0067",
+  "titulo": "Agentic AI for Autonomous Cyber Defense",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Journal of Information Systems Engineering & Management",
+  "texto": "textos/R0067.txt"
+ },
+ {
+  "clave": "R0084",
+  "titulo": "A Multi-Agent Reinforcement Learning Blockchain Framework for Improving Vehicular Internet of Things Cybersecurity",
+  "anio": 2024,
+  "tipo": "article",
+  "venue": "Scalable Computing Practice and Experience",
+  "texto": "textos/R0084.txt"
+ },
+ {
+  "clave": "R0090",
+  "titulo": "Experiences of Using Agentic AI to Fill Tooling Gaps in a Security Operations Centers",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0090.txt"
+ },
+ {
+  "clave": "R0092",
+  "titulo": "Transforming Cyber Defense: Harnessing Agentic and Frontier AI for Proactive, Ethical Threat Intelligence",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0092.txt"
+ },
+ {
+  "clave": "R0093",
+  "titulo": "LLM agents security duality: a comprehensive survey of self-security and empowered cybersecurity",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Artificial Intelligence Review",
+  "texto": "textos/R0093.txt"
+ },
+ {
+  "clave": "R0095",
+  "titulo": "D-CIPHER: Dynamic Collaborative Intelligent Multi-Agent System with Planner and Heterogeneous Executors for Offensive Security",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0095.txt"
+ },
+ {
+  "clave": "R0097",
+  "titulo": "Artificial intelligence driven multi agent framework for adaptive cyber attack simulation and automated incident response in cyber range environments",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Scientific Reports",
+  "texto": "textos/R0097.txt"
+ },
+ {
+  "clave": "R0101",
+  "titulo": "AgenticCyber: A GenAI-Powered Multi-Agent System for Multimodal Threat Detection and Adaptive Response in Cybersecurity",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0101.txt"
+ },
+ {
+  "clave": "R0113",
+  "titulo": "Developing a multi-layer agent framework to enhance AI-generated educational questions for cybersecurity",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "Journal of Umm Al-Qura University for Engineering and Architecture",
+  "texto": "textos/R0113.txt"
+ },
+ {
+  "clave": "R0114",
+  "titulo": "Agentic AI-enhanced quantum computing for cybersecurity: a new horizon in internet defense",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Quantum Information Processing",
+  "texto": "textos/R0114.txt"
+ },
+ {
+  "clave": "R0115",
+  "titulo": "Depending on yourself when you should: Mentoring LLM with RL agents to become the master in cybersecurity games",
+  "anio": 2024,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0115.txt"
+ }
+]

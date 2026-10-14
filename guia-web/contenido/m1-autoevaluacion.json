@@ -1,0 +1,106 @@
+{
+  "aprobatorio": 0.7,
+  "insignia": {
+    "nombre": "Defensor inicial",
+    "icono": "🔐",
+    "descripcion": "Comprendes la tríada CIA, identificas amenazas comunes y aplicas medidas de protección en cuentas y dispositivos."
+  },
+  "preguntas": [
+    {
+      "ruta": "ambas",
+      "texto": "¿Qué propiedad de la seguridad se rompe cuando un atacante altera las notas escolares en la base de datos?",
+      "opciones": [
+        "Confidencialidad",
+        "Integridad",
+        "Disponibilidad",
+        "Autonomía"
+      ],
+      "correcta": 1,
+      "explicacion": "La integridad garantiza que los datos no sean modificados de forma no autorizada o fraudulenta."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "Un servidor web de la universidad deja de responder porque miles de peticiones falsas saturan su procesador. ¿Qué propiedad fue atacada?",
+      "opciones": [
+        "Confidencialidad",
+        "Integridad",
+        "Disponibilidad",
+        "Privacidad"
+      ],
+      "correcta": 2,
+      "explicacion": "La disponibilidad asegura que los servicios estén accesibles para los usuarios legítimos cuando los necesitan."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿Cómo se llama el ataque en el que un mensaje falso intenta engañarte para que entregues tu contraseña?",
+      "opciones": [
+        "Phishing",
+        "Ransomware",
+        "Inyección SQL",
+        "Fuerza bruta"
+      ],
+      "correcta": 0,
+      "explicacion": "El phishing es una técnica de ingeniería social que suplanta la identidad de organizaciones conocidas para robar credenciales."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿Por qué es peligroso repetir la misma contraseña en varias plataformas de internet?",
+      "opciones": [
+        "Porque ocupa demasiado espacio en la memoria de la computadora",
+        "Porque si se filtra en un sitio vulnerable, los atacantes probarán esa misma clave en todos tus demás servicios",
+        "Porque las computadoras no admiten contraseñas repetidas",
+        "Porque caducan automáticamente cada semana"
+      ],
+      "correcta": 1,
+      "explicacion": "El reciclaje de contraseñas permite que una sola filtración en una plataforma secundaria comprometa tus cuentas críticas."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿Qué beneficio ofrece la autenticación en dos pasos (2FA)?",
+      "opciones": [
+        "Hace que la computadora funcione el doble de rápido",
+        "Añade un segundo requisito de acceso para que el atacante no pueda entrar aunque conozca tu contraseña",
+        "Elimina la necesidad de escribir contraseñas",
+        "Borra los virus automáticamente"
+      ],
+      "correcta": 1,
+      "explicacion": "Con 2FA, se necesita tanto algo que sabes (la clave) como algo que tienes (el código de la app o llave física)."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿Qué tipo de malware cifra los archivos de la víctima y pide dinero a cambio de desbloquearlos?",
+      "opciones": [
+        "Spyware",
+        "Ransomware",
+        "Adware",
+        "Gusano clásico"
+      ],
+      "correcta": 1,
+      "explicacion": "El ransomware secuestra digitalmente la información cifrando el disco y exigiendo un rescate monetario."
+    },
+    {
+      "ruta": "avanzada",
+      "texto": "En el marco STRIDE, ¿a qué categoría corresponde el ataque que modifica paquetes de datos en tránsito sin autorización?",
+      "opciones": [
+        "Spoofing (suplantación)",
+        "Tampering (manipulación)",
+        "Repudiation (repudio)",
+        "Information Disclosure (divulgación)"
+      ],
+      "correcta": 1,
+      "explicacion": "Tampering describe la alteración no autorizada de datos o memoria, atentando contra la integridad."
+    },
+    {
+      "ruta": "avanzada",
+      "texto": "¿Por qué cerrar puertos de red innecesarios en un servidor mejora su postura de seguridad?",
+      "opciones": [
+        "Porque reduce el consumo de energía eléctrica",
+        "Porque reduce la superficie de ataque disponible para posibles explotaciones",
+        "Porque acelera la velocidad del disco duro",
+        "Porque evita tener que configurar contraseñas"
+      ],
+      "correcta": 1,
+      "explicacion": "Al cerrar puertos sin uso se eliminan servicios expuestos que podrían albergar vulnerabilidades explotables."
+    }
+  ]
+}

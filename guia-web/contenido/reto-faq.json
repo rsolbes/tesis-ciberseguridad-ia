@@ -1,0 +1,17 @@
+[
+  {
+    "pregunta": "¿Qué es un reto defensivo tipo CTF?",
+    "claves": ["ctf", "reto", "bandera", "flag", "integrador"],
+    "respuesta": "Es un desafío práctico de ciberseguridad donde resuelves un problema técnico real (como investigar un incidente o detener un ataque) para descubrir códigos secretos llamados banderas (flags) que confirman tu éxito. Revisa la sección 1 del reto."
+  },
+  {
+    "pregunta": "¿Cómo obtengo las banderas en el Laboratorio 7?",
+    "claves": ["banderas", "flags", "lab7", "obtener", "pistas"],
+    "respuesta": "Debes ejecutar el script de investigación sobre el archivo incidente.json en laboratorios/lab7/. La primera bandera aparece al correlacionar las IPs atacantes, la segunda al identificar la inyección en los datos y la tercera al mitigar el incidente exitosamente."
+  },
+  {
+    "pregunta": "¿Qué debo hacer si el agente sugiere una acción destructiva durante el reto?",
+    "claves": ["accion", "destructiva", "peligro", "agente", "error"],
+    "respuesta": "Nunca debes autorizarla. Como analista humano bajo el Nivel 2 de autonomía, debes rechazar cualquier acción que comprometa la disponibilidad del servidor y contrastar la sugerencia con las evidencias reales de la bitácora. Revisa la sección 2."
+  }
+]

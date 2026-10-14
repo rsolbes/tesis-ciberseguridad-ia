@@ -1,0 +1,18 @@
+[
+  { "pregunta": "¿Qué es la inyección de instrucciones?", "claves": ["inyeccion", "instrucciones", "prompt", "injection"],
+    "respuesta": "Es un ataque en el que alguien logra que el modelo trate un texto como si fuera una orden, aunque ese texto debía ser solo información. Puede ser directa, cuando la escribe el usuario, o indirecta, cuando viene escondida en algo que el agente lee. Revisa la sección 2 del módulo." },
+  { "pregunta": "¿Cuál es la diferencia entre inyección directa e indirecta?", "claves": ["directa", "indirecta", "diferencia"],
+    "respuesta": "En la directa el usuario escribe la instrucción maliciosa al agente. En la indirecta la instrucción viene escondida en un documento, una página web o un registro que el agente lee por su cuenta, y el usuario no se entera. Revisa la sección 2." },
+  { "pregunta": "¿Qué es el mínimo privilegio?", "claves": ["minimo", "privilegio", "permisos"],
+    "respuesta": "Es darle a cada programa solo los permisos que necesita para su tarea y nada más. En un agente significa no entregarle claves, sino herramientas limitadas. Revisa la sección 3." },
+  { "pregunta": "¿Por qué no debo darle una clave a un agente?", "claves": ["clave", "contrasena", "credencial", "api", "key", "variable", "entorno"],
+    "respuesta": "Porque si alguien manipula al agente con una inyección de instrucciones, puede pedirle que revele la clave. Es más seguro que un intermediario de confianza use la clave por el agente. Revisa la sección 3." },
+  { "pregunta": "¿Qué es RAG y qué es la memoria envenenada?", "claves": ["rag", "memoria", "envenenada", "envenenamiento", "conocimiento", "documento"],
+    "respuesta": "RAG es una técnica en la que el agente consulta una base de conocimiento para responder mejor. La memoria envenenada ocurre cuando alguien inserta un documento falso en esa base y el agente lo repite. Revisa la sección 4." },
+  { "pregunta": "¿Qué es el aislamiento o sandboxing?", "claves": ["aislamiento", "sandbox", "sandboxing", "contenedor"],
+    "respuesta": "Es ejecutar al agente en un entorno cerrado del que no pueda salir, para que un error o un ataque no afecte a otros sistemas. Revisa la profundización de la sección 3." },
+  { "pregunta": "¿Cómo hago el laboratorio 4?", "claves": ["laboratorio", "lab", "python", "ollama", "ejecutar", "script"],
+    "respuesta": "Necesitas Python 3 y Ollama con un modelo ligero. Descarga los archivos del laboratorio 4, ejecuta primero triaje_ingenuo.py y después triaje_protegido.py, y compara cómo se clasificó la alerta número 4. Las instrucciones completas están en el LEEME del laboratorio." },
+  { "pregunta": "¿Qué es la agencia excesiva?", "claves": ["agencia", "excesiva", "owasp", "llm06"],
+    "respuesta": "Es el riesgo de que un agente tenga más permisos o autonomía de los que su tarea requiere. OWASP la incluye como LLM06 entre los diez riesgos principales de las aplicaciones con modelos de lenguaje. Revisa la sección 1." }
+]

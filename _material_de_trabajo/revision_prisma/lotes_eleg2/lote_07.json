@@ -1,0 +1,218 @@
+[
+ {
+  "clave": "R0538",
+  "titulo": "Enabling Cyber Security Education through Digital Twins and Generative AI",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0538.txt"
+ },
+ {
+  "clave": "R0543",
+  "titulo": "Cybersecurity Education with Generative AI",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Journal of The Colloquium for Information Systems Security Education",
+  "texto": "textos/R0543.txt"
+ },
+ {
+  "clave": "R0556",
+  "titulo": "Advancing Cybersecurity Education in the Era of Generative AI",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "Norsk IKT-konferanse for forskning og utdanning",
+  "texto": "textos/R0556.txt"
+ },
+ {
+  "clave": "R0558",
+  "titulo": "Cybersecurity AI: Evaluating Agentic Cybersecurity in Attack/Defense CTFs",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0558.txt"
+ },
+ {
+  "clave": "R0565",
+  "titulo": "AEGIS: White-Box Attack Path Generation using LLMs and Training Effectiveness Evaluation for Large-Scale Cyber Defence Exercises",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0565.txt"
+ },
+ {
+  "clave": "R0566",
+  "titulo": "A Case Study for Combating Student Overuse of Generative Artificial Intelligence in Cybersecurity Educational Activities Using Augmented Reality Capture-the-Flag Development",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Journal of The Colloquium for Information Systems Security Education",
+  "texto": "textos/R0566.txt"
+ },
+ {
+  "clave": "R0584",
+  "titulo": "Beyond Rewards in Reinforcement Learning for Cyber Defence",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0584.txt"
+ },
+ {
+  "clave": "R0592",
+  "titulo": "CyberAGENTS: Structured Autonomy for Agentic Gamified Learning in Cybersecurity",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0592.txt"
+ },
+ {
+  "clave": "R0607",
+  "titulo": "AI Supporting Cybersecurity Curriculum",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "European Conference on Cyber Warfare and Security",
+  "texto": "textos/R0607.txt"
+ },
+ {
+  "clave": "R0621",
+  "titulo": "TrainShield: Targeted Awareness for Cybersecurity Training",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0621.txt"
+ },
+ {
+  "clave": "R0638",
+  "titulo": "CyberCompanion: Enhancing Cybersecurity Awareness through AI-Powered Training and Personalized Learning",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "Journal of Posthumanism",
+  "texto": "textos/R0638.txt"
+ },
+ {
+  "clave": "R0644",
+  "titulo": "Cybersecurity AI in OT: Insights from an AI Top-10 Ranker in the Dragos OT CTF 2025",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0644.txt"
+ },
+ {
+  "clave": "R0645",
+  "titulo": "Adversarial Deep Reinforcement Learning for Cyber Security in Software Defined Networks",
+  "anio": 2023,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0645.txt"
+ },
+ {
+  "clave": "R0650",
+  "titulo": "Reinforcement Learning-Based Adaptive Penetration Testing Framework for Wireless Communication",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "International Journal of Advanced Computer Science and Applications",
+  "texto": "textos/R0650.txt"
+ },
+ {
+  "clave": "R0653",
+  "titulo": "VectraYX-Nano: A 42M-Parameter Spanish Cybersecurity Language Model with Curriculum Learning and Native Tool Use",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0653.txt"
+ },
+ {
+  "clave": "R0656",
+  "titulo": "Co-designing an Avatar-based Agent for Cybersecurity Training in VR for Personnel in Critical Infrastructure Sectors",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "AHFE international",
+  "texto": "textos/R0656.txt"
+ },
+ {
+  "clave": "R0668",
+  "titulo": "Automating Cyber Offense Simulations with Machine Learning: Advancements in AI-Augmented Penetration Testing",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "Computer Fraud & Security",
+  "texto": "textos/R0668.txt"
+ },
+ {
+  "clave": "R0672",
+  "titulo": "Cyber Defense Digital Twins: A Federated Learning and Zero-Trust AI Architecture for Autonomous Threat Prediction and Response",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "International Journal of Scientific Research in Computer Science Engineering and Information Technology",
+  "texto": "textos/R0672.txt"
+ },
+ {
+  "clave": "R0674",
+  "titulo": "Teaching Within the Assemblage: A Reflexive Inquiry into Posthuman Cybersecurity Pedagogy",
+  "anio": 2026,
+  "tipo": "book-chapter",
+  "venue": "",
+  "texto": "textos/R0674.txt"
+ },
+ {
+  "clave": "R0676",
+  "titulo": "Intelligent Infrastructure Facilitating Sequence Recommendation for Cybersecurity Education Systems",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "Proceedings of the ... International Florida Artificial Intelligence Research Society Conference",
+  "texto": "textos/R0676.txt"
+ },
+ {
+  "clave": "R0679",
+  "titulo": "Adaptive AI Sentinels Against Phishing Attacks: Democratizing Cybersecurity Through Interactive Learning",
+  "anio": 2025,
+  "tipo": "conference-paper",
+  "venue": "Proceedings of the International Conference on AI Research.",
+  "texto": "textos/R0679.txt"
+ },
+ {
+  "clave": "R0680",
+  "titulo": "Reinforcement Learning Approach for Cybersecurity Threat Detection",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "International Journal on Robotics Automation and Sciences",
+  "texto": "textos/R0680.txt"
+ },
+ {
+  "clave": "R0681",
+  "titulo": "Explainable Hybrid Intelligence for Autonomous Cyber Defense: Adaptive Intrusion Detection and Real-time Firewall Enforcement Using Reinforcement Learning",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "International journal of intelligent engineering and systems",
+  "texto": "textos/R0681.txt"
+ },
+ {
+  "clave": "R0684",
+  "titulo": "EDUHints: A Human-in-the-Loop Small Language Model Hint Generation System for Cybersecurity Education",
+  "anio": 2025,
+  "tipo": "conference-paper",
+  "venue": "European Conference on Cyber Warfare and Security",
+  "texto": "textos/R0684.txt"
+ },
+ {
+  "clave": "R0689",
+  "titulo": "Fine-Tuning Language Models for Pedagogy-Aligned Lesson Plans in Cybersecurity Education",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "International Journal of Advanced Computer Science and Applications",
+  "texto": "textos/R0689.txt"
+ },
+ {
+  "clave": "R0692",
+  "titulo": "The Simulator’s Blueprint: Automata Learning from Cybersecurity Logs",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "Lecture notes in computer science",
+  "texto": "textos/R0692.txt"
+ },
+ {
+  "clave": "R0699",
+  "titulo": "Collaborate, Design, and Generate Cybercrime Script Tabletop Exercises for Cybersecurity Education",
+  "anio": 2023,
+  "tipo": "conference-paper",
+  "venue": "International Conference on Computers in Education",
+  "texto": "textos/R0699.txt"
+ }
+]

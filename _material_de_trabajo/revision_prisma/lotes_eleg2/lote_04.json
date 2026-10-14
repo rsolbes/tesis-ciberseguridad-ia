@@ -1,0 +1,218 @@
+[
+ {
+  "clave": "R0279",
+  "titulo": "Agentic AI-Driven Social Engineering: An Elicitation Simulation for Cybersecurity Education",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "International Conference on Cyber Warfare and Security",
+  "texto": "textos/R0279.txt"
+ },
+ {
+  "clave": "R0280",
+  "titulo": "Towards Optimal Agentic Architectures for Offensive Security Tasks",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0280.txt"
+ },
+ {
+  "clave": "R0281",
+  "titulo": "Context Relay for Long-Running Penetration-Testing Agents",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0281.txt"
+ },
+ {
+  "clave": "R0282",
+  "titulo": "Adaptive Cybersecurity Architecture for Digital Product Ecosystems Using Agentic AI",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0282.txt"
+ },
+ {
+  "clave": "R0283",
+  "titulo": "StealthBench: Measuring Operational Stealth in Autonomous Offensive-Security Agents",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0283.txt"
+ },
+ {
+  "clave": "R0284",
+  "titulo": "Rising From the Ashes: How Agentic AI is Unblocking Challenges in Cybersecurity",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0284.txt"
+ },
+ {
+  "clave": "R0288",
+  "titulo": "Cyber Watch: A Zero-LLM Agentic Pipeline and Comprehensive Platform for Real-Time Cybersecurity Anomaly Detection",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "International Journal on Advanced Computer Theory and Engineering",
+  "texto": "textos/R0288.txt"
+ },
+ {
+  "clave": "R0290",
+  "titulo": "Evaluating Generalization Mechanisms in Autonomous Cyber Attack Agents",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0290.txt"
+ },
+ {
+  "clave": "R0295",
+  "titulo": "ACDZero: MCTS Agent for Mastering Automated Cyber Defense",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0295.txt"
+ },
+ {
+  "clave": "R0296",
+  "titulo": "Agentic AI in cybersecurity: Dual-use dynamics, threat vectors, and governance imperatives",
+  "anio": 2024,
+  "tipo": "article",
+  "venue": "World Journal of Advanced Research and Reviews",
+  "texto": "textos/R0296.txt"
+ },
+ {
+  "clave": "R0298",
+  "titulo": "An Empirical Game-Theoretic Analysis of Autonomous Cyber-Defence Agents",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0298.txt"
+ },
+ {
+  "clave": "R0302",
+  "titulo": "Calibrated Decision Models for Autonomous Penetration-Testing Harnesses: JEV and Laya as System One Decision Layers for LLM-Driven Pentest Agents",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0302.txt"
+ },
+ {
+  "clave": "R0303",
+  "titulo": "Empowering Cybersecurity: Evaluating Agentic AI Frameworks for Threats Detection and Adaptive Incident Response",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Journal of Information Security",
+  "texto": "textos/R0303.txt"
+ },
+ {
+  "clave": "R0305",
+  "titulo": "AWE: Adaptive Agents for Dynamic Web Penetration Testing",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0305.txt"
+ },
+ {
+  "clave": "R0309",
+  "titulo": "ScopeJudge: Cost-Aware Pre-Execution Gating for Offensive Security Agents",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0309.txt"
+ },
+ {
+  "clave": "R0310",
+  "titulo": "RLShield: Practical Multi-Agent RL for Financial Cyber Defense with Attack-Surface MDPs and Real-Time Response Orchestration",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0310.txt"
+ },
+ {
+  "clave": "R0311",
+  "titulo": "Towards a Generalisable Cyber Defence Agent for Real-World Computer Networks",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0311.txt"
+ },
+ {
+  "clave": "R0315",
+  "titulo": "CyberJustice Tutor: An Agentic AI Framework for Cybersecurity Learning via Think–Plan–Act Reasoning and Pedagogical Scaffolding",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0315.txt"
+ },
+ {
+  "clave": "R0316",
+  "titulo": "From obligation to enforcement: mapping EU AI act and CRA cybersecurity requirements to technical controls for LLM-based autonomous agents",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "International Journal of Information Security",
+  "texto": "textos/R0316.txt"
+ },
+ {
+  "clave": "R0318",
+  "titulo": "AI Agents, Cybersecurity, and the Future of Digital Trust",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0318.txt"
+ },
+ {
+  "clave": "R0320",
+  "titulo": "Cybersecurity in AI-Enabled Digital Ecosystems: Evolutionary Game-Theoretic Modelling and Multi-Agent Defence",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0320.txt"
+ },
+ {
+  "clave": "R0322",
+  "titulo": "Autonomous governance integrating agentic AI and zero trust for intelligent cybersecurity in distributed enterprise ecosystems",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Discover Internet of Things",
+  "texto": "textos/R0322.txt"
+ },
+ {
+  "clave": "R0323",
+  "titulo": "Agentic AI with Cybersecurity: How to focus on Risk Analysis via the MCP (Model–Control–Policy) Model",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "International Journal of Emerging Trends in Computer Science and Information Technology",
+  "texto": "textos/R0323.txt"
+ },
+ {
+  "clave": "R0324",
+  "titulo": "Cyber-Agent-Flow: Execution Trace Instrumentation and Analysis for Cybersecurity Agent Workflows (Extended Abstract)",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "Proceedings of the AAAI Symposium Series",
+  "texto": "textos/R0324.txt"
+ },
+ {
+  "clave": "R0325",
+  "titulo": "Trustworthy Agentic AI: A Comprehensive Cybersecurity and Systems Survey on Threat Landscapes, Defense Architectures, and Open Challenges",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0325.txt"
+ },
+ {
+  "clave": "R0326",
+  "titulo": "Retail Cybersecurity in the Agentic Age: Securing Autonomous Shopping Agents in E-Commerce",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "European Modern Studies Journal",
+  "texto": "textos/R0326.txt"
+ },
+ {
+  "clave": "R0327",
+  "titulo": "DefenderBench: A Toolkit for Evaluating Language Agents in Cybersecurity Environments",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0327.txt"
+ }
+]

@@ -1,0 +1,94 @@
+{
+  "aprobatorio": 0.7,
+  "insignia": {
+    "nombre": "Arquitecto de agentes",
+    "icono": "⚙️",
+    "descripcion": "Distingues un asistente conversacional de un agente con herramientas y clasificas agentes según sus niveles de autonomía."
+  },
+  "preguntas": [
+    {
+      "ruta": "ambas",
+      "texto": "¿Cuál es la diferencia fundamental entre un asistente conversacional pasivo y un agente de IA?",
+      "opciones": [
+        "El asistente habla en español y el agente solo en inglés",
+        "El agente posee objetivos, percibe su entorno y utiliza herramientas para ejecutar acciones en el mundo exterior",
+        "El asistente es un programa físico y el agente es un robot con ruedas",
+        "No existe ninguna diferencia, son exactamente lo mismo"
+      ],
+      "correcta": 1,
+      "explicacion": "Un agente no solo conversa, sino que cuenta con un ciclo de percepción, razonamiento y acción mediante herramientas externas."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿Cuáles son los cinco componentes estructurales de un agente inteligente?",
+      "opciones": [
+        "Teclado, ratón, pantalla, bocinas y micrófono",
+        "Percepción, razonamiento y planificación, memoria, herramientas y acción",
+        "Entrada, procesamiento, salida, almacenamiento y red",
+        "CPU, memoria RAM, disco duro, tarjeta madre y fuente de poder"
+      ],
+      "correcta": 1,
+      "explicacion": "La anatomía estándar de un agente agrupa percepción, razonamiento, memoria, herramientas y acción."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿Qué caracteriza al Nivel 2 de autonomía (ejecución supervisada o human-in-the-loop)?",
+      "opciones": [
+        "El agente toma el control absoluto del centro de datos sin avisar a nadie",
+        "El agente ejecuta tareas rutinarias pero solicita autorización expresa de una persona antes de acciones sensibles",
+        "El humano hace todo con lápiz y papel",
+        "El agente solo puede encenderse los fines de semana"
+      ],
+      "correcta": 1,
+      "explicacion": "En el Nivel 2 el humano supervisa y autoriza de forma explícita las acciones que conllevan riesgo para los sistemas."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿Por qué el Nivel 4 de autonomía (autonomía total sin humanos) está desaconsejado en operaciones de ciberseguridad?",
+      "opciones": [
+        "Porque gasta demasiada memoria en la tarjeta gráfica",
+        "Porque una acción autónoma errónea o manipulada por un adversario podría desconectar servicios críticos o borrar bases de datos sin supervisión",
+        "Porque las leyes prohíben que los programas ejecuten código",
+        "Porque los agentes se cansan después de varias horas de trabajo"
+      ],
+      "correcta": 1,
+      "explicacion": "La ausencia de supervisión humana en decisiones críticas de red expone a la organización a incidentes de impacto catastrófico."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿En qué consiste el patrón ReAct (Reason + Act) empleado en agentes?",
+      "opciones": [
+        "En reiniciar la computadora cada vez que hay un error",
+        "En alternar iterativamente pasos de razonamiento lógico y pasos de uso de herramientas para resolver un problema",
+        "En reaccionar con pánico ante una intrusión",
+        "En esperar a que el usuario escriba cada comando a mano"
+      ],
+      "correcta": 1,
+      "explicacion": "ReAct estructura el pensamiento del agente para que reflexione sobre lo que observa antes y después de usar cada herramienta."
+    },
+    {
+      "ruta": "avanzada",
+      "texto": "¿Cómo se asegura técnicamente que un modelo de lenguaje invoque una herramienta con parámetros válidos mediante Function Calling?",
+      "opciones": [
+        "Pidiéndole amablemente que no se equivoque en sus respuestas",
+        "Definiendo un esquema JSON estricto con los tipos de datos requeridos y validando la salida estructurada antes de ejecutar la función en Python",
+        "Entrenando un modelo diferente para cada botón de la interfaz",
+        "Desactivando el cortafuegos de la red"
+      ],
+      "correcta": 1,
+      "explicacion": "El esquema JSON formal impone tipos y campos requeridos que el entorno de ejecución valida estrictamente antes de procesar la llamada."
+    },
+    {
+      "ruta": "avanzada",
+      "texto": "¿Cuál es la principal ventaja de configurar las primeras herramientas de un agente defensivo en modo de «solo lectura»?",
+      "opciones": [
+        "Acelerar la velocidad del disco de almacenamiento",
+        "Garantizar que el agente pueda inspeccionar y recopilar evidencias sin riesgo de alterar o destruir configuraciones del sistema en caso de alucinación",
+        "Evitar que el agente aprenda cosas nuevas",
+        "Permitir que el modelo funcione sin memoria RAM"
+      ],
+      "correcta": 1,
+      "explicacion": "El modo de solo lectura aplica el principio de contención impidiendo mutaciones accidentales en el entorno analizado."
+    }
+  ]
+}

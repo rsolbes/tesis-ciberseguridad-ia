@@ -1,0 +1,77 @@
+{"clave": "R0309", "decision": "incluir", "criterio": "IA", "tema": "seguridad_agentes", "nota": "Control previo de llamadas fuera de alcance en agentes ofensivos LLM"}
+{"clave": "R0310", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Aprendizaje por refuerzo multiagente para ciberdefensa financiera"}
+{"clave": "R0311", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agente de refuerzo profundo generalizable para defensa de redes"}
+{"clave": "R0312", "decision": "incluir", "criterio": "IA", "tema": "seguridad_agentes", "nota": "Gobernanza de confianza cero para agentes multiagente en SOC"}
+{"clave": "R0313", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Sin resumen; título evalúa marcos agénticos de pruebas de penetración"}
+{"clave": "R0314", "decision": "incierto", "criterio": "DUDA", "tema": "general", "nota": "Sin resumen ni venue; título amplio sobre IA agéntica y ciberseguridad"}
+{"clave": "R0315", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "Tutor agéntico para aprendizaje de ciberseguridad en justicia penal"}
+{"clave": "R0316", "decision": "incluir", "criterio": "IA", "tema": "seguridad_agentes", "nota": "Mapeo de AI Act y CRA a controles para agentes LLM"}
+{"clave": "R0317", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "Marco multiagente con LLM para concientización en seguridad"}
+{"clave": "R0318", "decision": "incluir", "criterio": "IA", "tema": "general", "nota": "Agentes LLM en ciberseguridad, oportunidades y riesgos como inyección"}
+{"clave": "R0319", "decision": "incluir", "criterio": "IA", "tema": "seguridad_agentes", "nota": "Revisión de seguridad de sistemas operativos frente a agentes de IA"}
+{"clave": "R0320", "decision": "incierto", "criterio": "DUDA", "tema": "defensa", "nota": "Resumen doctoral breve; sistemas multiagente de IA y teoría de juegos"}
+{"clave": "R0321", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "IA agéntica con aprendizaje profundo para detección y respuesta a malware"}
+{"clave": "R0322", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Marco de IA agéntica y confianza cero para detección y respuesta"}
+{"clave": "R0323", "decision": "incluir", "criterio": "IA", "tema": "seguridad_agentes", "nota": "Modelo de análisis de riesgos para sistemas de IA agéntica"}
+{"clave": "R0324", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Instrumentación de trazas de agentes LLM en pruebas de penetración"}
+{"clave": "R0325", "decision": "incluir", "criterio": "IA", "tema": "seguridad_agentes", "nota": "Encuesta sobre amenazas y defensas de la IA agéntica confiable"}
+{"clave": "R0326", "decision": "incluir", "criterio": "IA", "tema": "seguridad_agentes", "nota": "Riesgos y gobernanza de agentes autónomos de compra en comercio"}
+{"clave": "R0327", "decision": "incluir", "criterio": "IA", "tema": "general", "nota": "Banco de pruebas de agentes de lenguaje en ofensiva y defensa"}
+{"clave": "R0328", "decision": "incierto", "criterio": "DUDA", "tema": "ofensiva", "nota": "Sin resumen; agentes duales para rutas de pentest, tipo de IA incierto"}
+{"clave": "R0329", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "Flujo de agentes de IA que genera pistas en ejercicios de ciberseguridad"}
+{"clave": "R0330", "decision": "incluir", "criterio": "IA", "tema": "seguridad_agentes", "nota": "Marco de rechazos de agentes de IA ante tareas ofensivas dañinas"}
+{"clave": "R0331", "decision": "incierto", "criterio": "DUDA", "tema": "ofensiva", "nota": "Sin resumen; agentes de cadenas de Markov, posible modelado sin ML"}
+{"clave": "R0332", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Sin resumen; análisis sistemático de IA agéntica en pentesting"}
+{"clave": "R0333", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Evaluación de agentes de código para pruebas de penetración autónomas"}
+{"clave": "R0334", "decision": "incierto", "criterio": "DUDA", "tema": "educacion", "nota": "Sin resumen; simulación con agentes y refuerzo sobre capacitación en SOC"}
+{"clave": "R0335", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agente de datos basado en LLM para modelado de amenazas en SOC"}
+{"clave": "R0336", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Agentes de aprendizaje para pruebas de penetración automatizadas"}
+{"clave": "R0337", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "IA agéntica con MCP y Wazuh para respuesta a incidentes"}
+{"clave": "R0338", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "IA agéntica con refuerzo para detección de amenazas en Uganda"}
+{"clave": "R0339", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Agente LLM autoevolutivo para tareas de ciberseguridad"}
+{"clave": "R0340", "decision": "excluir", "criterio": "E5", "tema": "", "nota": "Nota promocional orientada a buscadores sin contenido académico"}
+{"clave": "R0341", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Plataforma de gobernanza de ciberseguridad con agentes autónomos para pymes"}
+{"clave": "R0342", "decision": "incluir", "criterio": "IA", "tema": "seguridad_agentes", "nota": "Amenazas de IA agéntica en sectores de servicios de India"}
+{"clave": "R0343", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Revisión conceptual de IA agéntica en centros de operaciones"}
+{"clave": "R0344", "decision": "incluir", "criterio": "IA", "tema": "seguridad_agentes", "nota": "Sin resumen; capítulo sobre seguridad en MCP y agentes de IA"}
+{"clave": "R0345", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agente basado en DeepSeek para respuesta automática a incidentes"}
+{"clave": "R0346", "decision": "incierto", "criterio": "DUDA", "tema": "defensa", "nota": "Sin resumen; evaluación económica de plataformas de seguridad agénticas"}
+{"clave": "R0347", "decision": "incluir", "criterio": "IA", "tema": "seguridad_agentes", "nota": "Amenazas y salvaguardas de agentes LLM de pruebas de penetración"}
+{"clave": "R0348", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Datos de entrenamiento con vulnerabilidades inyectadas para agentes LLM"}
+{"clave": "R0349", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Ciberdefensa agéntica con engaño para sistemas IoT de borde"}
+{"clave": "R0350", "decision": "incluir", "criterio": "IA", "tema": "general", "nota": "Auditoría de validez de benchmarks de ciberseguridad agéntica"}
+{"clave": "R0351", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "Diseño de CTF educativos con agentes y resultados de aprendizaje"}
+{"clave": "R0352", "decision": "incierto", "criterio": "DUDA", "tema": "defensa", "nota": "Agentes de IA en vehículos autónomos; naturaleza agéntica poco clara"}
+{"clave": "R0353", "decision": "incluir", "criterio": "IA", "tema": "seguridad_agentes", "nota": "Índice de riesgo para pipelines multiagente ante inyección de instrucciones"}
+{"clave": "R0354", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Sistema de pentest interno con agentes de refuerzo y recuperación"}
+{"clave": "R0355", "decision": "excluir", "criterio": "E5", "tema": "", "nota": "Publicación defensiva tipo lista, sin contenido académico desarrollado"}
+{"clave": "R0356", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Evaluación multidimensional de arquitecturas SOC agénticas"}
+{"clave": "R0357", "decision": "incluir", "criterio": "IA", "tema": "general", "nota": "Metasíntesis de blockchain y agentes de IA para seguridad"}
+{"clave": "R0358", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Principios éticos para implementar agentes de IA en ciberdefensa"}
+{"clave": "R0359", "decision": "incluir", "criterio": "IA", "tema": "seguridad_agentes", "nota": "Riesgos de IA generativa y agéntica según marco OWASP"}
+{"clave": "R0360", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Benchmark de ingeniería inversa para agentes de IA"}
+{"clave": "R0361", "decision": "incluir", "criterio": "IA", "tema": "general", "nota": "Sin resumen; título sobre agentes de IA y automatización en ciberseguridad"}
+{"clave": "R0362", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Síntesis de IA agéntica y refuerzo para ciberdefensa autónoma"}
+{"clave": "R0363", "decision": "incierto", "criterio": "DUDA", "tema": "defensa", "nota": "Resumen breve; ML y agentes de IA en nube, tipo de agente incierto"}
+{"clave": "R0364", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Ejecución supervisada con políticas para agentes de pruebas de penetración"}
+{"clave": "R0365", "decision": "incluir", "criterio": "IA", "tema": "general", "nota": "Modelo conceptual de centralidad de la IA agéntica en ciberseguridad"}
+{"clave": "R0366", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Interpretación formal de estrategias de agentes de refuerzo defensivos"}
+{"clave": "R0367", "decision": "incierto", "criterio": "DUDA", "tema": "seguridad_agentes", "nota": "Sin resumen; agentes de trading con retos de ciberseguridad"}
+{"clave": "R0368", "decision": "incluir", "criterio": "IA", "tema": "general", "nota": "Revisión sistemática PRISMA de agentes de IA en ciberseguridad"}
+{"clave": "R0369", "decision": "excluir", "criterio": "E5", "tema": "", "nota": "Compilación de notas misceláneas sin contenido académico propio"}
+{"clave": "R0370", "decision": "incluir", "criterio": "IA", "tema": "general", "nota": "Agentes de IA de ciberseguridad frente a la Ley de Ciberresiliencia"}
+{"clave": "R0371", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agentes con refuerzo para detección de fraude financiero"}
+{"clave": "R0372", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Resultado negativo de Skills en agente CTF con MCP"}
+{"clave": "R0373", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Marco multiagente agéntico para ciberseguridad en ecosistema UPI"}
+{"clave": "R0374", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agentes de refuerzo para mitigación de ataques en tiempo real"}
+{"clave": "R0375", "decision": "incluir", "criterio": "IA", "tema": "seguridad_agentes", "nota": "Gobernanza de identidades agénticas con confianza cero"}
+{"clave": "R0376", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Encuesta de ML, DL y RL en ciberseguridad sin enfoque agéntico"}
+{"clave": "R0377", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "LLM en ciberseguridad vinculando práctica y educación"}
+{"clave": "R0378", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Modelo de aprendizaje profundo para detección de ataques IoT, no agéntico"}
+{"clave": "R0379", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Clasificador CNN-LSTM para detectar phishing, no agéntico"}
+{"clave": "R0380", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "LLM en retos CTF y certificaciones, implicaciones para docentes"}
+{"clave": "R0381", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "Generación de preguntas con LLM para educación en ciberseguridad"}
+{"clave": "R0382", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Aprendizaje por refuerzo para resolver CTF de pruebas de penetración"}
+{"clave": "R0383", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "IA generativa para aprendizaje personalizado de profesionales de ciberseguridad"}
+{"clave": "R0384", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "Enfoques pedagógicos con LLM en educación en ciberseguridad"}
+{"clave": "R0385", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Fundamentos de DL y LLM en ciberseguridad sin enfoque agéntico"}

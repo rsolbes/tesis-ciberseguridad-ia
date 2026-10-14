@@ -1,0 +1,849 @@
+[
+ {
+  "clave": "R0386",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Assessing the Impact of Large Language Models on Cybersecurity Education: A Study of ChatGPT's Influence on Student Performance",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "The popularity of chatbots to facilitate day-to-day business, including students and their study exercises, is on the rise. This paper investigates the extent and effects on the academic performance of students that leverage such tools. While many other approaches are hypothesized and discussed, we measure empirically. We recorded and compared the performance of cybersecurity students in weekly exercises and final exams over a period of three years. This allows us to have three groups with varying degrees of ChatGPT influence, namely no access, uncontrolled access, and controlled access. In an anonymous survey, we found that approximately 80% of our students utilize ChatGPT during the weekly assignments in 2023. However, none of them indicated this on their submission, despite it being a mandatory requirement. Through statistical analysis of achieved points in our sample groups, we identified that students perform similarly on the weekly assignments. However, their performance on the final examination deteriorates."
+ },
+ {
+  "clave": "R0387",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Towards Supporting Penetration Testing Education with Large Language Models: an Evaluation and Comparison",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "Cybersecurity education is challenging and it is helpful for educators to understand Large Language Models' (LLMs') capabilities for supporting education. This study eval-uates the effectiveness of LLMs in conducting a variety of pene-tration testing tasks. Fifteen representative tasks were selected to cover a comprehensive range of real-world scenarios. We evaluate the performance of 6 models (GPT-40 mini, GPT-40, Gemini 1.5 Flash, Llama 3.1 405B, Mixtral8x7B and WhiteRabbitNeo) upon the Metasploitable v3 Ubuntu image and OWASP Web Goat. Our findings suggest that GPT-40 mini currently offers the most consistent support making it a valuable tool for educational purposes. However, its use in conjonction with WhiteRabbitNeo should be considered, because of its innovative approach to tool and command recommendations. This study underscores the need for continued research into optimising LLMs for complex, domain-specific tasks in cybersecurity education."
+ },
+ {
+  "clave": "R0388",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Cyber Attack Prediction: From Traditional Machine Learning to Generative Artificial Intelligence",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "IEEE Access",
+  "resumen": "The escalating sophistication of cyber threats poses significant risks to individuals, organizations, and nations. Cybercrime, encompassing activities like hacking and data breaches, has severe economic and societal consequences. In today’s interconnected world, robust cybersecurity measures are paramount to mitigate these risks and protect sensitive information. However, traditional security solutions struggle to keep pace with the evolving threat landscape. Artificial Intelligence (AI) offers a powerful arsenal of techniques to address these challenges. This paper explores the application of AI methods, including Machine Learning (ML), Deep Learning (DL), Natural Language Processing (NLP), Explainable AI (XAI), and Generative AI, in solving various cybersecurity problems. This paper presents a comprehensive analysis of AI techniques for enhancing cybersecurity. Key contributions include: 1) comparative study of ML and DL methods: Evaluating their accuracy, applicability, and suitability for various cybersecurity challenges; 2) investigation into XAI approaches: Enhancing the transparency and interpretability of AI-powered security solutions, particularly in anomaly detection; 3) exploration of emerging trends in Generative AI (Gen-AI) and NLP: Examining their potential to simulate and mitigate cyber threats through advanced techniques like threat intelligence generation and attack simulations; 4) application of GenAI in cybersecurity and real-world products of GenAI for cyber security. This research aims to advance the state-of-the-art in AI-driven cybersecurity by providing insights into effective and reliable solutions for mitigating cyber risks and improving the overall security posture."
+ },
+ {
+  "clave": "R0389",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Machine Learning Based Multi-Agent System for Detecting and Neutralizing Unseen Cyber-Attacks in AGC and HVDC Systems",
+  "anio": 2022,
+  "tipo": "article",
+  "venue": "IEEE Journal on Emerging and Selected Topics in Circuits and Systems",
+  "resumen": "This paper presents a multi-agent based approach to secure the automatic generation control (AGC) loop and the power modulation controller of a high voltage direct current system against cyber-attacks. To achieve this, we propose to embed a multi-agent system (MAS) to the existing AGC layer comprising a Master Agent (MA) and several Slave Agents (SAs). The MA is equipped with a one-class classifier (OCC) to scrutinize the wide-area signals for intrusion detection. For the SAs, Support Vector Regression (SVR) models are utilized that exploit local information for attack mitigation. In the proposed approach, a new algorithm for training the OCCs is adopted, which uses onlysecureddata, without utilizing theattackedinstances. Next, we present a framework for setting up the SVR models for online operation in the context of the AGC system. For performance evaluation, various test cases corresponding to thesecured case, which includes nominal and stressed system operation, andattacked case, which includes multiple types of data integrity and availability attacks, grid states are considered. It is observed that the OCC, namely, Support Vector Data Description model performs reasonably well in identifying the attacks. Moreover, the performance of the SVR models during attack neutralization is found quite efficient and acceptable."
+ },
+ {
+  "clave": "R0390",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "GAIL-PT: An intelligent penetration testing framework with generative adversarial imitation learning",
+  "anio": 2022,
+  "tipo": "article",
+  "venue": "Computers & Security",
+  "resumen": ""
+ },
+ {
+  "clave": "R0391",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Multi-Agent Distributed Deep Learning Algorithm to Detect Cyber-Attacks in Distance Relays",
+  "anio": 2023,
+  "tipo": "article",
+  "venue": "IEEE Access",
+  "resumen": "Distance relays are critical components in protection systems of power grids that can be attacked by cyber-attackers. Indeed, a cyber-attacker injects fake data into a distance relay to pretend a fault has happened, and the distance relay must be tripped. Thus, a new powerful approach, named Multi-Agent Distributed Deep Learning (MADDL) method is proposed to tackle cyber-attacks in distance relays. Unlike centralized methods, the protection system with several distance relays is mapped to a multi-agent distributed system by employing the graph theory, in which the distance relays are considered as the agents of the multi-agent system or the nodes of the considered graph. Each agent is only connected to the neighboring agents to exchange voltage and current data. Then, a deep neural network as a cyber-attack detection structure is assumed for each agent that utilizes the local voltage and current data and the received data from the neighboring agents to detect the attacks. Hence, the considered detection structures are tuned by employing train data, obtained by simulating the grid in different types of faults. Then, the tuned detection structures are evaluated by a test dataset, including data from the grid under various faults and the normal situation by injecting fake data as cyber-attacks. The developed method has been employed for three different case studies, including IEEE 6-bus, IEEE 14-bus, and IEEE 118-bus power grids. According to the simulation results, the proposed algorithm has succeeded in identifying more than 99.88% of faults and cyber-attacks."
+ },
+ {
+  "clave": "R0392",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Using Cyber Terrain in Reinforcement Learning for Penetration Testing",
+  "anio": 2022,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "Reinforcement learning (RL) has been applied to attack graphs for penetration testing, however, trained agents do not reflect reality because the attack graphs lack operational nuances typically captured within the intelligence preparation of the battlefield (IPB) that include notions of (cyber) terrain. In particular, current practice constructs attack graphs exclusively using the Common Vulnerability Scoring System (CVSS) and its components. We present methods for constructing attack graphs using notions from IPB on cyber terrain. We consider a motivating example where firewalls are treated as obstacles and represented in (1) the reward space and (2) the state dynamics. We show that terrain analysis can be used to bring realism to attack graphs for RL. We use an attack graph with roughly 1000 vertices and 2300 edges and deep Q reinforcement learning with experience replay to demonstrate the method."
+ },
+ {
+  "clave": "R0393",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Towards a High Fidelity Training Environment for Autonomous Cyber Defense Agents",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "Cyber defenders are overwhelmed by the frequency and scale of attacks against their networks. This problem will only be exacerbated as attackers leverage AI to automate their workflows. Autonomous cyber defense capabilities could aid defenders by automating operations and adapting dynamically to novel threats. However, existing training environments fall short in areas such as generalization, explainability, scalability, and transferability, making it intractable to train agents that will be effective in real networks. In this paper we take an important step towards creating autonomous cyber defense agents — we present a high fidelity training environment called Cyberwheel that includes both simulation and emulation capabilities. Cyberwheel simplifies customization of the training network and easily allows redefining the agent’s reward function, observation space, and action space to support rapid experimentation of novel approaches to agent design. It also provides visibility into agent behaviors necessary for agent evaluation and sufficient documentation / examples to lower the barrier to entry. As an example use case of Cyberwheel, we present initial results training an autonomous agent to deploy cyber deception strategies in simulation."
+ },
+ {
+  "clave": "R0394",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "ChatGPT in Education, Healthcare, and Cybersecurity: Opportunities and Challenges",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "An important breakthrough in artificial intelligence. OpenAI's ChatGPT uses natural language processing and has serious consequences for education, healthcare, and other areas. cybersecurity. A balanced integration strategy takes into consideration factors of both concerns about ChatGPT, its strengths, and its limitations. The revolutionary impact that ChatGPT has had, is recommended in this article. Because of its interrelationships, the movement is dynamic. and individualized instruction, ChatGPT revolutionizes education, and it introduces prejudices. false information. This substance's diagnostic and therapeutic The healthcare industry's potential requires a comprehensive approach. study of its reliability in diverse medical settings. ChatGPT's move into other fields of knowledge has wide ramifications. depending on trust and the specter of hostile attacks. Factors such as these indicate the need to implement strong security mechanisms for artificial intelligence systems. In In conclusion, those with a stake in education, health care and. cybersecurity should use ChatGPT with care, focusing particularly on rational and ethical, that it will be a beneficial contribution to contemporary society. LLM, ChatGPT, artificial intelligence in education, artificial intelligence in medicine. Cybersecurity is among the keywords."
+ },
+ {
+  "clave": "R0395",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "The influence of work overload on cybersecurity behavior: A moderated mediation model of psychological contract breach, burnout, and self-efficacy in AI learning such as ChatGPT",
+  "anio": 2024,
+  "tipo": "article",
+  "venue": "Technology in Society",
+  "resumen": ""
+ },
+ {
+  "clave": "R0396",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Automatic Generation of Cybersecurity Teaching Cases Using Large Language Models",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "Computer Applications in Engineering Education",
+  "resumen": "ABSTRACT Higher education in cybersecurity faces significant challenges in developing practical and innovative offensive‐defensive teaching cases. We present an automated framework for generating cybersecurity teaching cases using Large Language Models (LLMs), designed specifically for university‐level cybersecurity education. The framework leverages the deep learning capabilities of LLMs and Artificial Intelligence Generated Content (AIGC) technology to enable intelligent construction and assessment of teaching cases. Our system allows instructors to automatically generate multidimensional teaching cases encompassing both known and potentially unknown security threats, based on parameters including network architecture, service configuration, security requirements, and network topology. Through prompt engineering techniques, the system enables fine‐tuning of generated cases to accommodate diverse educational objectives and student proficiency levels. The framework incorporates an assessment module employing semantic analysis to provide automated multidimensional evaluation of student solutions, establishing a comprehensive pedagogical cycle. Empirical studies demonstrate that this framework significantly enhances the efficiency and quality of practical cybersecurity education, provides a replicable paradigm for vertical AI applications in higher education, and offers a novel approach to addressing resource constraints in university‐level cybersecurity talent development."
+ },
+ {
+  "clave": "R0397",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Introduction to ChatGPT: A new revolution of artificial intelligence with machine learning algorithms and cybersecurity",
+  "anio": 2023,
+  "tipo": "article",
+  "venue": "Science Archives",
+  "resumen": "ChatGPTis an innovative natural language processing (NLP) technology developed by OpenAI. It has revolutionized humancomputer interactions by utilizing Machine Learning (ML) and Deep Learning (DL) algorithms. ChatGPT generates a remarkable human-like conversations in response to user input. Consequently, the efficiency of ChatGPT lies in its ability to identify patterns in text, analyze context and produce responses that mimic human conversation. Its use of deep learning techniques which enables it to capture syntactic and semantic structures that resulting in natural-sounding output. Furthermore, its adaptive learning capability allows it to continuously improve and update its language understanding through exposure to a vast amount of user interactions. In this paper, a historical review of ChatGPT is introduced to catch up with the revolution of the Artificial Intelligence (AI) impact on life aspects, economic, financial, military and cybersecurity. Eventually, a comparison is made between ChatGPT versions and other AI platforms to present the effectiveness, weakness and strength points."
+ },
+ {
+  "clave": "R0398",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Autonomous Penetration Testing: Solving Capture-the-Flag Challenges with LLMs",
+  "anio": 2025,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "This study evaluates the ability of GPT-4o to autonomously solve beginner-level offensive security tasks by connecting the model to OverTheWire's Bandit capture-the-flag game. Of the 25 levels that were technically compatible with a single-command SSH framework, GPT-4o solved 18 unaided and another two after minimal prompt hints for an overall 80% success rate. The model excelled at single-step challenges that involved Linux filesystem navigation, data extraction or decoding, and straightforward networking. The approach often produced the correct command in one shot and at a human-surpassing speed. Failures involved multi-command scenarios that required persistent working directories, complex network reconnaissance, daemon creation, or interaction with non-standard shells. These limitations highlight current architectural deficiencies rather than a lack of general exploit knowledge. The results demonstrate that large language models (LLMs) can automate a substantial portion of novice penetration-testing workflow, potentially lowering the expertise barrier for attackers and offering productivity gains for defenders who use LLMs as rapid reconnaissance aides. Further, the unsolved tasks reveal specific areas where secure-by-design environments might frustrate simple LLM-driven attacks, informing future hardening strategies. Beyond offensive cybersecurity applications, results suggest the potential to integrate LLMs into cybersecurity education as practice aids."
+ },
+ {
+  "clave": "R0399",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Cybersecurity of multi-cloud healthcare systems: A hierarchical deep learning approach",
+  "anio": 2022,
+  "tipo": "article",
+  "venue": "Applied Soft Computing",
+  "resumen": "With the increase in sophistication and connectedness of the healthcare networks, their attack surfaces and vulnerabilities increase significantly. Malicious agents threaten patients' health and life by stealing or altering data as it flows among the multiple domains of healthcare networks. The problem is likely to exacerbate with the increasing use of IoT devices, edge, and core clouds in the next generation healthcare networks. Presented in this paper is MUSE, a system of deep hierarchical stacked neural networks for timely and accurate detection of malicious activity that leads to alteration of meta-information or payload of the dataflow between the IoT gateway, edge and core clouds. Smaller models at the edge clouds take substantially less time to train as compared to the large models in the core cloud. To improve the speed of training and accuracy of detection of large core cloud models, the MUSE system uses a novel method of merging and aggregating layers of trained edge cloud models to construct a partly pre-trained core cloud model. As a result, the model in the core cloud takes substantially smaller number of epochs (6 to 8) and, consequently, less time, compared to edge clouds, training of which take 35 to 40 epochs to converge. With the help of extensive evaluations, it is shown that with the MUSE system, large, merged models can be trained in significantly less time than the unmerged models that are created independently in the core cloud. Through several runs it is seen that the merged models give on an average 26.2% reduction in training times. From the experimental evaluation we demonstrate that along with fast training speeds the merged MUSE model gives high training and test accuracies, ranging from 95% to 100%, in detection of unknown attacks on datafl"
+ },
+ {
+  "clave": "R0400",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Critic learning control via zero-sum differential game for affine formation maneuver of multi-agent systems with cyber-attacks",
+  "anio": 2024,
+  "tipo": "article",
+  "venue": "International Journal of Systems Science",
+  "resumen": "The affine formation maneuver (AFM) control problem using the zero-sum differential game is studied for a second-order multi-agent system (MAS) against cyber-injection attacks on the actuators. First and foremost, the distributed control signals and the cyber-injected attack signals are viewed as two competing teams. Then, the leader-follower tracking error system is established where the followers aim to track the AFMs of the leaders. The leader-follower distributed optimal control policies and the cyber-attack attenuation policies are derived from the Nash equilibrium solution of the Hamilton-Jacobi-Isaac (HJI) equation. The solution of the HJI equation is estimated with the aid of the critic neural network. The weights of the critic system are learned online based on the adaptive dynamic programming (ADP) scheme. The uniformly ultimately bounded stability of the closed-loop system under the formulated zero-sum differential game control strategy has been proven by the Lyapunov stability theorem. A simulation example illustrates that the presented control method can attenuate cyber-injection attacks on the actuators and maintain the AFMs of the agents."
+ },
+ {
+  "clave": "R0401",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "A hierarchical deep reinforcement learning model with expert prior knowledge for intelligent penetration testing",
+  "anio": 2023,
+  "tipo": "article",
+  "venue": "Computers & Security",
+  "resumen": ""
+ },
+ {
+  "clave": "R0402",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "NYU CTF Bench: A Scalable Open-Source Benchmark Dataset for Evaluating LLMs in Offensive Security",
+  "anio": 2024,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "Large Language Models (LLMs) are being deployed across various domains today. However, their capacity to solve Capture the Flag (CTF) challenges in cybersecurity has not been thoroughly evaluated. To address this, we develop a novel method to assess LLMs in solving CTF challenges by creating a scalable, open-source benchmark database specifically designed for these applications. This database includes metadata for LLM testing and adaptive learning, compiling a diverse range of CTF challenges from popular competitions. Utilizing the advanced function calling capabilities of LLMs, we build a fully automated system with an enhanced workflow and support for external tool calls. Our benchmark dataset and automated framework allow us to evaluate the performance of five LLMs, encompassing both black-box and open-source models. This work lays the foundation for future research into improving the efficiency of LLMs in interactive cybersecurity tasks and automated task planning. By providing a specialized benchmark, our project offers an ideal platform for developing, testing, and refining LLM-based approaches to vulnerability detection and resolution. Evaluating LLMs on these challenges and comparing with human performance yields insights into their potential for AI-driven cybersecurity solutions to perform real-world threat management. We make our benchmark dataset open source to public https://github.com/NYU-LLM-CTF/NYU_CTF_Bench along with our playground automated framework https://github.com/NYU-LLM-CTF/llm_ctf_automation."
+ },
+ {
+  "clave": "R0403",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Exploiting LLMs for E-Learning: A Cybersecurity Perspective on AI-Generated Tools in Education",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "AI and LLM technologies have emerged rapidly, creating more opportunities to develop and enhance e-learning. This paper provides a detailed account of the tools built by the current and future generations of LLMs and AI technologies for creating complex e-learning applications. It introduces the application of these tools, including innovative learning, context-awareness and intelligent learning systems. Moreover, it delves systematically into the security issues of these AI-integrated e-learning environments. The work applies strict research approaches to determine and describe possible risks in system design, data processing, and AI model deployment. We also undertake deeper penetration tests to assess the level of preparedness of these platforms against different types of attacks from the attackers such as attacks targeting the AI components, injection of unverified data and privacy violations. Our study findings reveal the opportunity to apply AI in e-learning, thus highlighting the importance of addressing these concerns. It is a complete guide for the developers and the educational institutions to integrate the LLMs and AI and keep the security strong. This paper adds to the existing literature on the role of AI in education and cybersecurity, providing essential information to the future advancements of safe and innovative e-learning systems."
+ },
+ {
+  "clave": "R0404",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Integrating Large Language Models with Cybersecurity Education",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "The demand for cybersecurity professionals with advanced static analysis expertise has grown exponentially, driven by the increasing sophistication of malware, advanced persistent threats, and nation-state cyber attacks. Our project provides a design and implementation of an innovative static analysis course that integrates large language models (LLMs) to enhance student learning and engagement. Our approach leverages LLMs as intelligent assistants within a Capture The Flag (CTF) framework, enabling students to collaborate with LLMs to solve complex binary analysis tasks. We present our course structure, AI facilitation process, and evaluation results, highlighting how LLM integration impacts students' understanding of reverse engineering and symbolic execution concepts, how students adapt their learning strategies when working with LLMs, and cons and pros of LLMs in reverse engineering. This report provides valuable insights for educators seeking to incorporate LLMs technologies into cybersecurity curricula, addressing both technical and motivational challenges in static analysis education."
+ },
+ {
+  "clave": "R0405",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Knowledge Guided Two-player Reinforcement Learning for Cyber Attacks and Defenses",
+  "anio": 2022,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "Cyber defense exercises are an important avenue to understand the technical capacity of organizations when faced with cyber-threats. Information derived from these exercises often leads to finding unseen methods to exploit vulnerabilities in an organization. These often lead to better defense mechanisms that can counter previously unknown exploits. With recent developments in cyber battle simulation platforms, we can generate a defense exercise environment and train reinforcement learning (RL) based autonomous agents to attack the system described by the simulated environment. In this paper, we describe a two-player game-based RL environment that simultaneously improves the performance of both the attacker and defender agents. We further accelerate the convergence of the RL agents by guiding them with expert knowledge from Cybersecurity Knowledge Graphs on attack and mitigation steps. We have implemented and integrated our proposed approaches into the CyberBattleSim system."
+ },
+ {
+  "clave": "R0406",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "LLMs for Penetration Testing: Solving CTF Challenges Using Offensive Cybersecurity Tools",
+  "anio": 2025,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "This paper defines a methodology for using pre-trained large language models (LLMs) to solve capture the flag (CTF) challenges. This investigation is motivated by recent developments introducing frameworks that allow LLMs to execute a set of tools to solve complex problems. The goal is to design and implement realistic red agents capable of executing state-of-the-art offensive tactics/techniques to train blue agents and human cybersecurity experts in gyms, emulated environments, and cyber ranges. Our solution uses a LLM (Claude 3.5 Sonnet) as a CTF Agent, integrating reasoning and tool usage in an iterative loop. In addition, our solution uses a fine-tuned LLM (Quantized LoRA) to automate the generation of code for vulnerability scanning scripts (Mistral 7b). This model interacts with the CTF agent, leveraging cyber threat intelligence to scan the attack surface and identify key areas for penetration testing, thus bridging the gap between CTF-based challenges and offensive security deployments. Our solution is evaluated on an open benchmark with 200 challenges categorized into cryptography, forensics, binary exploitation (pwn), reverse engineering, web exploitation, and miscellaneous, as well as a quantitative evaluation of the fine-tuned Mistral 7b. Experimental results suggest that LLM-based red agents can successfully automate offensive tactics/techniques using the same set of tools available to pen-testers."
+ },
+ {
+  "clave": "R0407",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Applying Reinforcement Learning for Enhanced Cybersecurity against Adversarial Simulation",
+  "anio": 2023,
+  "tipo": "article",
+  "venue": "Sensors",
+  "resumen": "Cybersecurity is a growing concern in today's interconnected world. Traditional cybersecurity approaches, such as signature-based detection and rule-based firewalls, are often limited in their ability to effectively respond to evolving and sophisticated cyber threats. Reinforcement learning (RL) has shown great potential in solving complex decision-making problems in various domains, including cybersecurity. However, there are significant challenges to overcome, such as the lack of sufficient training data and the difficulty of modeling complex and dynamic attack scenarios hindering researchers' ability to address real-world challenges and advance the state of the art in RL cyber applications. In this work, we applied a deep RL (DRL) framework in adversarial cyber-attack simulation to enhance cybersecurity. Our framework uses an agent-based model to continuously learn from and adapt to the dynamic and uncertain environment of network security. The agent decides on the optimal attack actions to take based on the state of the network and the rewards it receives for its decisions. Our experiments on synthetic network security show that the DRL approach outperforms existing methods in terms of learning optimal attack actions. Our framework represents a promising step towards the development of more effective and dynamic cybersecurity solutions."
+ },
+ {
+  "clave": "R0408",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "VishBox: An AI-Agent-Based Adaptive Voice Phishing Simulation Framework for Cybersecurity Education",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "IEEE Access",
+  "resumen": "Voice phishing has grown increasingly sophisticated, employing a range of deceptive tactics and social engineering skills to exploit individual and institutional vulnerabilities. In South Korea, countermeasures usually rely on static educational scenarios that fail to capture the dynamic, psychologically adaptive nature of real-time manipulation. This study introduces VishBox, an AI agent-orchestrated simulation framework that enables ethically safe reproduction of attacker-victim interactions through coordinated autonomous agents. VishBox generates high-fidelity synthetic crime dialogues and integrates empirically calibrated victim profiles parameterized by demographics, digital financial literacy, and personality traits, grounded in South Korean empirical studies. The system further incorporates an autonomous risk evaluation process to model escalation and derive personalized prevention strategies. Validation using national crime statistics and a survey with 102 participants shows that VishBox produces psychologically plausible deception patterns that are difficult for humans to distinguish from authentic cases. Simulated vulnerability distributions broadly align with real-world victimization patterns across age groups, while also revealing personality-driven risk scenarios that are underrepresented in incident statistics. Human risk ratings also mirrored the system’s turn-level estimates, confirming the realism of its escalation modeling. By providing a controlled, scalable environment for observing real-time manipulation, VishBox establishes a foundation for behavioral cybersecurity research, adaptive educational design, and evidence-driven policy development against evolving phishing threats."
+ },
+ {
+  "clave": "R0409",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Deep Reinforcement Learning-Driven Mitigation of Adverse Effects of Cyber-Attacks on Electric Vehicle Charging Station",
+  "anio": 2023,
+  "tipo": "article",
+  "venue": "Energies",
+  "resumen": "An electric vehicle charging station (EVCS) infrastructure is the backbone of transportation electrification; however, the EVCS has various vulnerabilities in software, hardware, supply chain, and incumbent legacy technologies such as network, communication, and control. These standalone or networked EVCSs open up large attack surfaces for local or state-funded adversaries. The state-of-the-art approaches are not agile and intelligent enough to defend against and mitigate advanced persistent threats (APT). We propose data-driven model-free digital clones based on multiple independent agents deep reinforcement learning (IADRL) that uses the Twin Delayed Deep Deterministic Policy Gradient (TD3) to efficiently learn the control policy to mitigate the cyberattacks on the controllers of EVCS. Also, the proposed digital clones trained with TD3 are compared against the benchmark Deep Deterministic Policy Gradient (DDPG) agent. The attack model considers the APT designed to malfunction the duty cycles of the EVCS controllers with Type-I low-frequency attacks and Type-II constant attacks. The proposed model restores the EVCS operation under threat incidence in any/all controllers by correcting the control signals generated by the legacy controllers. Our experiments verify the superior control policies and actions of TD3-based clones compared to the DDPG-based clones. Also, the TD3-based controller clones solve the problem of incremental bias, suboptimal policy, and hyperparameter sensitivity of the benchmark DDPG-based digital clones, enforcing the efficient mitigation of the impact of cyberattacks on EVCS controllers."
+ },
+ {
+  "clave": "R0410",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Strengthening Cyber Security Education: Designing Robust Assessments for ChatGPT-Generated Answers",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "Lecture notes in computer science",
+  "resumen": ""
+ },
+ {
+  "clave": "R0411",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "The SAGE framework for developing critical thinking and responsible generative AI use in cybersecurity education",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "Discover Education",
+  "resumen": "The rapid advancement of Generative Artificial Intelligence (GenAI) has introduced new opportunities for transforming higher education, particularly in fields requiring critical analysis and regulatory compliance, such as cybersecurity management. This study introduces the Structured AI Guided Education (SAGE) framework, which integrates generative AI responsibly to cultivate critical thinking in cybersecurity education and offers systematic, ready-to-adopt implementation blueprints. The implementation strategy followed a two-stage approach, embedding GenAI within tutorial exercises and assessment tasks. Tutorials enabled students to generate, critique, and refine AI-assisted cybersecurity policies, whilst assessments required them to apply AI-generated outputs within real-world industry scenarios, ensuring alignment with academic standards and regulatory requirements. The research provides practical blueprints for curriculum design, tutorial structure, and assessment methodologies that enable educators to leverage GenAI whilst maintaining academic rigour and developing critical thinking competencies. Findings indicate that AI-assisted learning significantly enhanced students’ ability to evaluate security policies, refine risk assessments, and bridge theoretical knowledge with practical application. Student reflections and instructor observations revealed improvements in analytical engagement, yet challenges emerged regarding AI dependence, variability in AI literacy, and contextual limitations of AI-generated content. Through structured intervention and research-driven refinement, students experienced AI’s strengths as a generative tool while recognising the importance of human oversight and critical evaluation. This study contributes a replicable pedagogical model tha"
+ },
+ {
+  "clave": "R0412",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Generative AI for Cybersecurity Awareness Training",
+  "anio": 2025,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "Human errors remain one of the leading causes of cybersecurity breaches during the rapid growth of cyber-attack techniques recently, underscoring the need for adaptive and personalized training programs. Traditional Cybersecurity Awareness Training (CSAT) programs often rely on static content, lack of personalization, and struggle remain in the face of evolving threats. This study presents an AI driven CSAT framework that integrates Generative Artificial Intelligence (GAI), Online Machine Learning, and adaptive data processing to deliver personalized, scalable, and real-time training contents. The proposed model utilizes GAI to dynamically generate interactive training contents tailored to individual user profiles based on job roles, behavioural risk indicators, impact assessment scores, and the pre-assessment outcomes. An online Naïve Bayes algorithm enables continuous risk profiling and content adaptation according to user performance, while windowing technique and integrated search engine ensure up-to-date and contextually relevant training materials. The proposed system aligns with Bloom’s Taxonomy and MITRE ATT&CK framework to ensure cognitive depth and real-world attack vector relevance. The research demonstrates that the integration of GAI with adaptive learning technologies significantly improves knowledge retention, enhance user engagement, and delivers cost-effective training solution. Further this study highlights the potential of GAI in revolutionizing cybersecurity training, ensuring resilience against evolving cyber-threats."
+ },
+ {
+  "clave": "R0413",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Teaching Generative AI for Cybersecurity: A Project-Based Learning Approach",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "Journal of The Colloquium for Information Systems Security Education",
+  "resumen": "In the Spring 2024 semester, we introduced an elective course titled “Generative AI and Cybersecurity” for MS and upper-division BS students specializing in cybersecurity at our university. The course was designed to equip students with a foundational understanding of Generative AI, particularly large language models (LLMs) like GPT-4, and explore their applications within the field of cybersecurity. Through a combination of classroom instruction, hands-on projects, and industry guest lectures, students engaged with the technical, ethical, and legal dimensions of AI in cybersecurity. The course emphasized practical learning, with students gaining experience in AI tools such as ChatGPT, as well as developing skills in prompt engineering and API usage. While some students were eager for even more technical AI content, they appreciated the hands-on learning, insights from industry guest speakers, and the chance to see how the more powerful models like GPT-4 could be usefully applied to cybersecurity problems."
+ },
+ {
+  "clave": "R0414",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Generative AI Misuse Potential in Cyber Security Education: A Case Study of a UK Degree Program",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "Lecture notes in networks and systems",
+  "resumen": "Recent advances in generative artificial intelligence (AI), such as ChatGPT, Google Gemini, and other large language models (LLMs), pose significant challenges for maintaining academic integrity within higher education. This paper examines the structural susceptibility of a certified M.Sc. Cyber Security program at a UK Russell Group university to the misuse of LLMs. Building on and extending a recently proposed quantitative framework for estimating assessment-level exposure, we analyse all summative assessments on the program and derive both module-level and program-level exposure metrics. Our results show that the majority of modules exhibit high exposure to LLM misuse, driven largely by independent project- and report-based assessments, with the capstone dissertation module particularly vulnerable. We introduce a credit-weighted program exposure score and find that the program as a whole falls within a high to very high risk band. We also discuss contextual factors -- such as block teaching and a predominantly international cohort -- that may amplify incentives to misuse LLMs. In response, we outline a set of LLM-resistant assessment strategies, critically assess the limitations of detection-based approaches, and argue for a pedagogy-first approach that preserves academic standards while preparing students for the realities of professional cyber security practice."
+ },
+ {
+  "clave": "R0415",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Leveraging Deep Reinforcement Learning for Automating Penetration Testing in Reconnaissance and Exploitation Phase",
+  "anio": 2022,
+  "tipo": "conference-paper",
+  "venue": "2022 RIVF International Conference on Computing and Communication Technologies (RIVF)",
+  "resumen": "Penetration testing is one of the most common methods for assessing the security of a system, application, or network. Although there are different support tools with great efficiency in this field, penetration testing is done mostly manually and relies heavily on the experience of the ethical hackers who are doing it, known as pentesters. This paper presents an automated penetration testing approach that leverages deep reinforcement learning (RL) to automate the penetration testing process, including the reconnaissance and exploitation phases. More specifically, the RL agent is trained with the A3C model to gain experience choosing an exact payload to exploit available vulnerabilities. Ad-ditionally, our RL-based pentesting tool has three main functions: information gathering, vulnerability exploitation, and reporting. The performance of this approach is benchmarked against real-world vulnerabilities in our experimental environments. After training with environmental settings, the RL agent can assist pentesters in quickly identifying vulnerabilities in their own servers. The RL-based approach can mitigate the problems of labor costs and hunger data for automating penetration testing in the system by learning how to execute exploits on its own. The more pentesters who use this tool, the more accurate the pentesting results will be. With outstanding results, this method proves that it can accumulate learning results from previous environments to successfully exploit vulnerabilities for the next exploit in another environment on the first try."
+ },
+ {
+  "clave": "R0416",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "DynPen: Automated Penetration Testing in Dynamic Network Scenarios Using Deep Reinforcement Learning",
+  "anio": 2024,
+  "tipo": "article",
+  "venue": "IEEE Transactions on Information Forensics and Security",
+  "resumen": "Penetration testing, a crucial industrial practice for securing networked systems and infrastructures, has traditionally depended on the extensive expertise of human professionals. Addressing the scarcity of human experts, the development of automated penetration testing tools emerges as a promising avenue. Against the backdrop of rapid advancements in artificial intelligence technologies, reinforcement learning has demonstrated considerable potential for realizing automated penetration testing. However, existing research predominantly concentrates on reinforcement learning-based automated penetration testing tools within static scenarios, with limited exploration in dynamic network environments. This paper addresses a noteworthy challenge in developing autonomous agents for real-world applications, particularly focusing on scenarios marked by environmental changes. Such alterations necessitate autonomous agents to continuously monitor environmental characteristics, and adapt, and adjust learned actions to ensure the system’s effective operation. Consequently, the paper proposes an automated reinforcement learning-based penetration testing scheme tailored for dynamic network scenarios, named DynPen. DynPen captures observed changes in the scenario, aiding the penetration testing agent in decision-making based on historical experiences. Simulation results demonstrate the proposed scheme’s efficacy in significantly expediting the convergence speed of the penetration testing agent using reinforcement learning algorithms. Furthermore, the scheme successfully maintains the learning agility and adaptability of the agent in dynamic network scenarios."
+ },
+ {
+  "clave": "R0417",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Deep Reinforcement Learning for Penetration Testing of Cyber-Physical Attacks in the Smart Grid",
+  "anio": 2022,
+  "tipo": "conference-paper",
+  "venue": "2022 International Joint Conference on Neural Networks (IJCNN)",
+  "resumen": "The fast expansion of interconnectivity in cyber-physical critical infrastructures like smart grids has given rise to concerning exposures and vulnerabilities. Although penetration testing (PT) has been an effective approach to searching for vulnerabilities in software, devices, and networks from the attacker's view, the strong cyber-physical coupling in these large-scale infrastructures has made it challenging to manually pinpoint critical vulnerabilities, particularly at system levels due to the complexity, dimensionality, and uncertainty therein. To better protect the security of cyber-physical systems, this paper proposes a deep reinforcement learning (DRL)-based PT framework to efficiently and adaptively identify critical vulnerabilities in smart grids. Using replay attacks as an example, the paper models the attack as a Markov Decision Process with three actions - stop, record, and replay - to learn the optimal timing and ordering of replays in different operating scenarios. A cyber-physical co-simulation platform with dedicated simulators for the physical part, cyber part, control part, and attacker part of a smart distribution grid was developed as a sandbox environment to train the DRL agent. Scenarios with different levels of difficulty are tested to validate the learning capability and performance in finding critical attack paths of the DRL-based PT. The simulation results show that DRL-based PT can learn to find the optimal attack path against system stability when the grid is under high load demand, solar power generation, and weather variation. These results are promising first steps toward a highly customizable framework to pen-test complex cyber-physical systems with automatic DRL agents and various attack schemes."
+ },
+ {
+  "clave": "R0418",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Enabling Cybersecurity Education Through Digital Twins and Generative AI",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "Lecture notes in computer science",
+  "resumen": ""
+ },
+ {
+  "clave": "R0419",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Leveraging Deep Reinforcement Learning for Cyber-Attack Paths Prediction: Formulation, Generalization, and Evaluation",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "Attack paths represent the sequences of network nodes compromised by attackers while exploiting their respective vulnerabilities. Current methods for predicting such attack paths largely depend on existing human expertise or established heuristics. These traditional methods are time-consuming and require highly skilled threat-hunting analysts to identify these attack paths and proactively apply security measures. However, the task becomes challenging when facing large-scale and highly vulnerable networks. In this paper, we propose an alternative approach leveraging Deep Reinforcement Learning (DRL) techniques aiming to approximate the decision-making of attackers. Our approach embodies the attacker’s perspective and tactics to leverage discovered paths for proactive security analysis and establish defense strategies. We introduce a novel re-formulation of the problem with a local view for the DRL agent, representing the source and target node of the attack at each timestep. Additionally, our training methodology involves a diverse set of network topologies of different sizes and exploitable vulnerabilities, demonstrating the ability of DRL algorithms to navigate topologies, identify attack paths, and compromise nodes. Results highlight the capability of the learned policies to generalize within entirely new topologies, arriving to discover 80% ± 0.08% of the attack paths in 1500 steps."
+ },
+ {
+  "clave": "R0420",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Large Language Models for Cybersecurity Education: A Survey of Current Practices and Future Directions",
+  "anio": 2025,
+  "tipo": "conference-paper",
+  "venue": "Lecture notes in computer science",
+  "resumen": ""
+ },
+ {
+  "clave": "R0421",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Embracing the Generative AI Revolution: Advancing Tertiary Education in Cybersecurity with GPT",
+  "anio": 2024,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "The rapid advancement of generative Artificial Intelligence (AI) technologies, particularly Generative Pre-trained Transformer (GPT) models such as ChatGPT, has the potential to significantly impact cybersecurity. In this study, we investigated the impact of GPTs, specifically ChatGPT, on tertiary education in cybersecurity, and provided recommendations for universities to adapt their curricula to meet the evolving needs of the industry. Our research highlighted the importance of understanding the alignment between GPT's ``mental model'' and human cognition, as well as the enhancement of GPT capabilities to human skills based on Bloom's taxonomy. By analyzing current educational practices and the alignment of curricula with industry requirements, we concluded that universities providing practical degrees like cybersecurity should align closely with industry demand and embrace the inevitable generative AI revolution, while applying stringent ethics oversight to safeguard responsible GPT usage. We proposed a set of recommendations focused on updating university curricula, promoting agility within universities, fostering collaboration between academia, industry, and policymakers, and evaluating and assessing educational outcomes."
+ },
+ {
+  "clave": "R0422",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Using Machine Learning for Detection and Classification of Cyber Attacks in Edge IoT",
+  "anio": 2023,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "Internet of Things (IoT) devices are omnipresent due to their ease of use and level of connectivity. Because of wide deployment, IoT network traffic security is a large issue, especially as the devices become more common at the edge of the connected ecosystem. In general, low-powered IoT devices themselves are not inherently secure, so tailored security mechanisms are needed to make the ecosystem secure. The incorporation of the cloud also adds new security issues with the cloud service provider (CSP). In addition, several smart applications necessitate deploying edge-based infrastructure due to their real-time computation and communication requirements, while also having the ability to detect and mitigate different cyber attacks and remain light-weight. In this paper, we propose a machine learning-based approach to detect and classify different edge IoT network traffic driven cyber attacks, and evaluate their strengths and weaknesses. Particularly, we will compare eleven machine learning models to determine the best security agent trained for attack detection and classification on an edge IoT cyber security dataset with fourteen different attacks. We also provide experimental evaluation and analysis of our work, followed by our conclusion."
+ },
+ {
+  "clave": "R0423",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Innovating Cybersecurity Education Through AI-augmented Teaching",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "European Conference on Cyber Warfare and Security",
+  "resumen": "In traditional teaching frameworks, instructors face significant obstacles in offering current and synchronized learning materials and examples, especially when the course is taught by multiple instructors. This situation can affect the quality of the course's learning outcomes. These challenges become more pronounced in today’s higher education, because of the heightened complexity arising from the need to cover a range of course materials, diverse student backgrounds, varying skill levels, and different student expectations—all within the constraints of a fixed teaching and learning schedule. Furthermore, due to resource constraints, not every instructor has the availability of a teaching assistant (TA). Especially, while the demand for cybersecurity continues to rise, the dynamic nature of the cybersecurity field leads to the frequent emergence of new issues and incidents. To address these challenges, we examine the capabilities of generative AI to innovate teaching techniques and methods for cybersecurity curricula. We further explore the novel challenges introduced by generative AI, including issues related to privacy, data ownership, transparency, and other associated concerns, underscoring the need for comprehensive solutions. Our work further examines the teaching and learning capabilities of dynamically generated, up-to-date class materials in a personalized study environment augmented by AI. The adaptability of AI-augmented teaching across various disciplines will bring innovation to higher"
+ },
+ {
+  "clave": "R0424",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Advancing electronic communication Compliance and fraud detection Through Machine Learning, NLP and generative AI: A Pathway to Enhanced Cybersecurity and Regulatory Adherence",
+  "anio": 2024,
+  "tipo": "article",
+  "venue": "World Journal of Advanced Research and Reviews",
+  "resumen": "This research investigates the application of advanced technologies, specifically machine learning (ML), natural language processing (NLP), and generative artificial intelligence (AI), to enhance regulatory compliance and fraud detection within the financial services sector. Machine learning, with its ability to analyze vast amounts of data and identify patterns, provides predictive capabilities that can significantly improve the accuracy of fraud detection systems. NLP, on the other hand, offers a nuanced understanding of textual data, facilitating more efficient processing of compliance documentation and communication logs. Generative AI introduces innovative approaches by simulating potential fraud scenarios, thereby allowing organizations to anticipate and mitigate emerging threats. The study aims to integrate these technologies into a cohesive framework that enhances both the detection of fraudulent activities and the efficiency of compliance processes. By leveraging ML's predictive power, NLP's textual analysis capabilities, and generative AI's scenario simulation, this research seeks to address existing limitations in traditional fraud detection and regulatory adherence systems. Traditional methods often struggle with adapting to new fraud tactics and managing large volumes of compliance data, leading to inefficiencies and increased vulnerability. Key findings of this research demonstrate that the implementation of machine learning algorithms results in a 30% increase in fraud detection accuracy and a 25% reduction in false positives compared to conventional approaches. NLP techniques have been shown to enhance processing efficiency for compliance documentation by 40%, reducing errors and speeding up the review process. Additionally, generative AI models have con"
+ },
+ {
+  "clave": "R0425",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Entity-based Reinforcement Learning for Autonomous Cyber Defence",
+  "anio": 2023,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "A significant challenge for autonomous cyber defence is ensuring a defensive agent's ability to generalise across diverse network topologies and configurations. This capability is necessary for agents to remain effective when deployed in dynamically changing environments, such as an enterprise network where devices may frequently join and leave. Standard approaches to deep reinforcement learning, where policies are parameterised using fixed-input multi-layer perceptrons (MLP) expect fixed-size observation and action spaces. In autonomous cyber defence, this makes it hard to develop agents that generalise to environments with network topologies different from those trained on, as the number of nodes affects the natural size of the observation and action spaces. To overcome this limitation, we reframe the problem of autonomous network defence using entity-based reinforcement learning, where the observation and action space of an agent are decomposed into a collection of discrete entities. This framework enables the use of policy parameterisations specialised in compositional generalisation. Namely, we train a Transformer-based policy on the Yawning Titan cyber-security simulation environment and test its generalisation capabilities across various network topologies. We demonstrate that this approach significantly outperforms an MLP-based policy on fixed networks, and has the ability for zero-shot generalisation to networks of a different size to those seen in training. These findings highlight the potential for entity-based reinforcement learning to advance the field of autonomous cyber defence by providing more generalisable policies capable of handling variations in real-world network environments."
+ },
+ {
+  "clave": "R0426",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Cyber security Enhancements with reinforcement learning: A zero-day vulnerabilityu identification perspective",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "PLoS ONE",
+  "resumen": "A zero-day vulnerability is a critical security weakness of software or hardware that has not yet been found and, for that reason, neither the vendor nor the users are informed about it. These vulnerabilities may be taken advantage of by malicious people to execute cyber-attacks leading to severe effects on organizations and individuals. Given that nobody knows and is aware of these weaknesses, it becomes challenging to detect and prevent them. For the real-time zero-day vulnerabilities detection, we bring out a novel reinforcement learning (RL) methodology with the help of Deep Q-Networks (DQN). It works by learning the vulnerabilities without any prior knowledge of vulnerabilities, and it is evaluated using rigorous statistical metrics. Traditional methods are surpassed by this one that is able to adjust to changing threats and cope with intricate state spaces while providing scalability to cybersecurity personnel. In this paper, we introduce a new methodology that uses reinforcement learning for zero-day vulnerability detection. Zero-day vulnerabilities are security weaknesses that have never been exposed or published and are considered highly dangerous for systems and networks. Our method exploits reinforcement learning, a sub-type of machine learning which trains agents to make decisions and take actions to maximize an approximation of some underlying cumulative reward signal and discover patterns and features within data related to zero-day discovery. Training of the agent could allow for real-time detection and classification of zero-day vulnerabilities. Our approach will have the potential as a powerful tool of detection and defense against zero-day vulnerabilities and probably brings significant benefits to security experts and researchers in the field of cyber"
+ },
+ {
+  "clave": "R0427",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Learning automated defense strategies using graph-based cyber attack simulations",
+  "anio": 2023,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "We implemented and evaluated an automated cyber defense agent.The agent takes security alerts as input and uses reinforcement learning to learn a policy for executing predefined defensive measures.The defender policies were trained in an environment intended to simulate a cyber attack.In the simulation, an attacking agent attempts to capture targets in the environment, while the defender attempts to protect them by enabling defenses.The environment was modeled using attack graphs based on the Meta Attack Language language.We assumed that defensive measures have downtime costs, meaning that the defender agent was penalized for using them.We also assumed that the environment was equipped with an imperfect intrusion detection system that occasionally produces erroneous alerts based on the environment state.To evaluate the setup, we trained the defensive agent with different volumes of intrusion detection system noise.We also trained agents with different attacker strategies and graph sizes.In experiments, the defensive agent using policies trained with reinforcement learning outperformed agents using heuristic policies.Experiments also demonstrated that the policies could generalize across different attacker strategies.However, the performance of the learned policies decreased as the attack graphs increased in size."
+ },
+ {
+  "clave": "R0428",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Behaviour-diverse automatic penetration testing: a coverage-based deep reinforcement learning approach",
+  "anio": 2024,
+  "tipo": "article",
+  "venue": "Frontiers of Computer Science",
+  "resumen": "Coverage-Based Reinforcement Learning to Automate Penetration Testing is presented, an RL penetration testing agent that provides comprehensive network security assessments with diverse adversary testing behaviours on a massive scale and provides enhanced training efficiency and stability."
+ },
+ {
+  "clave": "R0429",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "ChatGPT vs. Gemini: Comparative Evaluation in Cybersecurity Education with Prompt Engineering Impact",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "The advent of Large Language Models (LLMs) has revolutionized numerous domains, notably education, by offering powerful tools for personalized learning and automated assistance. These models have the potential to significantly enhance the educational experience, particularly in the field of Computer Science (CS), where the complexity and rapidly evolving nature of topics present unique challenges and opportunities. In this study, we present a comparative evaluation into the transformative potential of LLMs in CS education, with a specific focus on cybersecurity. Our study centers on two leading LLMs: Ope-nAI's ChatGPT and Google's Gemini Pro, employing a three-fold assessment methodology. Firstly, we analyze the subject matter within cybersecurity education to identify key topics and challenges for examination. Secondly, we meticulously assess and compare the efficacy of ChatGPT and Gemini across various factors in producing satisfactory responses. Lastly, we explore the impact of leveraging prompt engineering on enhancing the quality of responses generated by these AI tools. Through this holistic approach, our research aims to provide insights into the strengths, limitations, and potential avenues for enhancement of these models, thereby enriching the ongoing discourse on LLMs integration in higher education."
+ },
+ {
+  "clave": "R0430",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Cybersecurity Awareness, Education, and Workplace Training Using Socially Enabled Intelligent Chatbots",
+  "anio": 2023,
+  "tipo": "conference-paper",
+  "venue": "Lecture notes in networks and systems",
+  "resumen": ""
+ },
+ {
+  "clave": "R0431",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Knowledge-Informed Auto-Penetration Testing Based on Reinforcement Learning with Reward Machine",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "Automated penetration testing (AutoPT) based on reinforcement learning (RL) has proven its ability to improve the efficiency of vulnerability identification in information systems. However, RL-based PT encounters several challenges, including poor sampling efficiency, intricate reward specification, and limited interpretability. To address these issues, we propose a knowledge-informed AutoPT framework called DRLRM-PT, which leverages reward machines (RMs) to encode domain knowledge as guidelines for training a PT policy. In our study, we specifically focus on lateral movement as a PT case study and formulate it as a partially observable Markov decision process (POMDP) guided by RMs. We design two RMs based on the MITRE ATT&CK knowledge base for lateral movement. To solve the POMDP and optimize the PT policy, we employ the deep Q-learning algorithm with RM (DQRM). The experimental results demonstrate that the DQRM agent exhibits higher training efficiency in PT compared to agents without knowledge embedding. Moreover, RMs encoding more detailed domain knowledge demonstrated better PT performance compared to RMs with simpler knowledge."
+ },
+ {
+  "clave": "R0432",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Reinforcement Learning for Automated Cybersecurity Penetration Testing",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "This paper aims to provide an innovative machine learning-based solution to automate security testing tasks for web applications, ensuring the correct functioning of all components while reducing project maintenance costs. Reinforcement Learning is proposed to select and prioritize tools and optimize the testing path. The presented approach utilizes a simulated webpage along with its network topology to train the agent. Additionally, the model leverages Geometric Deep Learning to create priors that reduce the search space and improve learning convergence. The validation and testing process was conducted on real-world vulnerable web pages commonly used by human hackers for learning. As a result of this study, a reinforcement learning algorithm was developed that maximizes the number of vulnerabilities found while minimizing the number of steps required"
+ },
+ {
+  "clave": "R0433",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Evaluation of AI Models to Update Cybersecurity Curriculum",
+  "anio": 2024,
+  "tipo": "article",
+  "venue": "Journal of The Colloquium for Information Systems Security Education",
+  "resumen": "This study explores the performance of several Large Language Models (LLMs) across different facets of Cybersecurity Modules. Using prompt engineering, this work evaluates publicly available LLMs for their ability to assess the suitability of secure coding topics based on learning outcomes, categorize these topics following OWASP standards, and generate up-to-date examples for curriculum use. The findings would highlight the transformative role that LLMs would play for future advancements in Cybersecurity education."
+ },
+ {
+  "clave": "R0434",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Exploring the Safe Integration of Generative AI in Cybersecurity Education Addressing Challenges in Transparency, Accuracy, and Security",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "Lecture notes in networks and systems",
+  "resumen": ""
+ },
+ {
+  "clave": "R0435",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Experiential Learning Through Immersive XR: Cybersecurity Education for Critical Infrastructures",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "Lecture notes in computer science",
+  "resumen": ""
+ },
+ {
+  "clave": "R0436",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Decentralized Hybrid Intrusion Detection System for Cyber Attack Identification using Machine Learning",
+  "anio": 2023,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "This research proposes a hybrid intrusion detection system that uses machine learning, file integrity monitoring, anomaly-based and signature-based rootkit detection, and signature-and anomaly-based detection. A distributed architecture is also used in my research to share real-time threat intelligence among numerous nodes. The system offers proactive response methods for automatic incident response, endpoint quarantine, and improved detection capabilities.This hybrid intrusion detection system combines rule-based and machine-learning algorithms to detect and prevent cyberattacks better. The system utilizes decentralized storage and distribution of alerts, improving scalability and availability. The main objective of this project is to develop highly effective and efficient IDS that can detect and prevent cyber attacks in real time. The proposed hybrid approach combines rule-based and machine-learning algorithms to achieve better detection rates and reduce false positives. The system architecture consists of a central server and multiple agents deployed across the network to collect data from various sources. The collected data is analyzed using rule-based and machine-learning techniques to identify potential threats. Alerts are then sent to the central server, which distributes them to the relevant agents for further analysis and response.The machine learning models are trained using a large dataset of normal and attack traffic, and the system continuously learns and adapts to new attack techniques. Using decentralized storage ensures that alerts are always available, even during network disruptions or server failures. The effectiveness of the proposed system was evaluated using various performance metrics, including detection rate, false positive rate, and response ti"
+ },
+ {
+  "clave": "R0437",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Optimal Deception Asset Deployment in Cybersecurity: A Nash Q-Learning Approach in Multi-Agent Stochastic Games",
+  "anio": 2023,
+  "tipo": "article",
+  "venue": "Applied Sciences",
+  "resumen": "In the face of an increasingly intricate network structure and a multitude of security threats, cyber deception defenders often employ deception assets to safeguard critical real assets. However, when it comes to the intranet lateral movement attackers in the cyber kill chain, the deployment of deception assets confronts the challenges of lack of dynamics, inability to make real-time decisions, and not considering the dynamic change of an attacker’s strategy. To address these issues, this study introduces a novel maze pathfinding model tailored to the lateral movement context, in which we try to find out the attacker’s location to deploy deception assets accurately for interception. The attack–defense process is modeled as a multi-agent stochastic game, by comparing it with random action policy and Minimax-Q algorithm, we choose Nash Q-learning to solve the deception asset’s deployment strategy to achieve the optimal solution effect. Extensive simulation tests reveal that our proposed model exhibits good convergence properties. Moreover, the average defense success rate surpasses 70%, attesting to the model’s efficacy."
+ },
+ {
+  "clave": "R0438",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Deep Reinforcement Learning for Autonomous Cyber Defence: A Survey",
+  "anio": 2023,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "The rapid increase in the number of cyber-attacks in recent years raises the need for principled methods for defending networks against malicious actors. Deep reinforcement learning (DRL) has emerged as a promising approach for mitigating these attacks. However, while DRL has shown much potential for cyber defence, numerous challenges must be overcome before DRL can be applied to the autonomous cyber defence (ACD) problem at scale. Principled methods are required for environments that confront learners with very high-dimensional state spaces, large multi-discrete action spaces, and adversarial learning. Recent works have reported success in solving these problems individually. There have also been impressive engineering efforts towards solving all three for real-time strategy games. However, applying DRL to the full ACD problem remains an open challenge. Here, we survey the relevant DRL literature and conceptualize an idealised ACD-DRL agent. We provide: i.) A summary of the domain properties that define the ACD problem; ii.) A comprehensive comparison of current ACD environments used for benchmarking DRL approaches; iii.) An overview of state-of-the-art approaches for scaling DRL to domains that confront learners with the curse of dimensionality, and; iv.) A survey and critique of current methods for limiting the exploitability of agents within adversarial settings from the perspective of ACD. We conclude with open research questions that we hope will motivate future directions for researchers and practitioners working on ACD."
+ },
+ {
+  "clave": "R0439",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Adaptive Cyber Defense Technique Based on Multiagent Reinforcement Learning Strategies",
+  "anio": 2023,
+  "tipo": "article",
+  "venue": "Intelligent Automation & Soft Computing",
+  "resumen": "The static nature of cyber defense systems gives attackers a sufficient amount of time to explore and further exploit the vulnerabilities of information technology systems. In this paper, we investigate a problem where multiagent systems sensing and acting in an environment contribute to adaptive cyber defense. We present a learning strategy that enables multiple agents to learn optimal policies using multiagent reinforcement learning (MARL). Our proposed approach is inspired by the multiarmed bandits (MAB) learning technique for multiple agents to cooperate in decision making or to work independently. We study a MAB approach in which defenders visit a system multiple times in an alternating fashion to maximize their rewards and protect their system. We find that this game can be modeled from an individual player’s perspective as a restless MAB problem. We discover further results when the MAB takes the form of a pure birth process, such as a myopic optimal policy, as well as providing environments that offer the necessary incentives required for cooperation in multiplayer projects."
+ },
+ {
+  "clave": "R0440",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Training of cyber defense agents in tactical inter-organizational networks by using federated learning",
+  "anio": 2022,
+  "tipo": "conference-paper",
+  "venue": "Procedia Computer Science",
+  "resumen": "Malware used in advanced persistent threats often establish a covert channel. By means of such a channel, the malware can communicate with external Command & Control servers or send classified data to a server controlled by the attacker. In military networks, these covert transmissions are a security problem with significant impact on the success of a military operation. Mobile agents in combination with machine learning are particularly suitable to detect and mitigate these type of attacks. However, a mobile agent needs to be trained before its deployment. In this paper, a concept is defined how federated learning can be used to train the mobile agents in tactical networks if the training data is distributed on the nodes of a tactical network. Furthermore, we propose an algorithm to select the nodes that are involved in the training. The proposed concepts and methods are evaluated regarding their efficiency. The evaluation considers in particular federated learning in the inter-organizational tactical networks because multinational armed forces are often involved in modern military operations."
+ },
+ {
+  "clave": "R0441",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Modular deep learning-based network intrusion detection architecture for real-world cyber-attack simulation",
+  "anio": 2024,
+  "tipo": "article",
+  "venue": "Simulation Modelling Practice and Theory",
+  "resumen": ""
+ },
+ {
+  "clave": "R0442",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Adversarial Reinforcement Learning for Adaptive Cyber Security Defence",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "International Journal for Global Academic & Scientific Research",
+  "resumen": "The growing adjustment capability of cyber attackers poses hurdles to conventional security systems, as opponent nonstop change their strategies to overcome existing defenses. Conventional approaches, like rule-based firewalls and signature-based intrusion detection systems, based on static assumptions and often unsuccessful by evolving threats. Reinforcement learning (RL) present a dynamic option; however, most prior work considers a single learning agent interacting with a fixed competitor.This paper offers an adversarial reinforcement learning framework in which attacker and defender behave as an autonomous representative within a network shows as a structure of graph. Their communication is behave as a zero-sum Markov game to express the competitive nature of cyber conflicts. The model join the probabilistic intrusion detection, attacker trade-offs between stealth and speed, and resource-constrained protective actions, including concise monitoring and non permanent edge blocking. Through repeated interactions system Both agents utilize independent tabular Q-learning to learn optimal policies. In this paper the experimental results explain that the model reached a high attacker success rate of 97.7% with a close-zero mean reward (0.005), shows fixed and successful learning. The proposed system behave rapidly with an average of one step per episode, and success rates enhance from 96.7% in early stages to 98.7% in later stages, demonstrating consistent performance over time. The results shows the effectiveness of incorporating probabilistic detection and resource-aware procedure in realistic cyber defense scenarios, while providing a actual and interpretable statement for future adversarial cyber security research."
+ },
+ {
+  "clave": "R0443",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Deep Reinforcement Learning-Based Framework for Enhancing Cybersecurity",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "International Journal of Interactive Mobile Technologies (iJIM)",
+  "resumen": "The detection of cyberattacks has been increasingly emphasized in recent years, focusing on both infrastructure and people. Conventional security measures such as intrusion detection, firewalls, and encryption are insufficient in protecting cyber systems against growing and changing threats. In order to address this problem, scholars have explored reinforcement learning (i.e., RL) as a potential solution for intricate cybersecurity decision-making difficulties. Nevertheless, the use of RL faces several obstacles, including dynamic attack scenarios, insufficient training data, and the challenge of replicating real-world complexities. This study presents a novel framework that uses deep reinforcement learning (i.e., DRL) to simulate harmful cyberattacks and improve cybersecurity. This study presents an agent-based framework that is capable of ongoing learning and adaptation in a dynamic network security environment. The agent determines the optimal course of action by considering the current state of the network and the rewards it receives for its decisions. The CIC-IDS-2018 database, constructed using Python 3.7 programming, was used. The conducted studies yielded outstanding results, with a detection accuracy of 98.82% achieved for the CIC-IDS-2018 database in cyberattack classification."
+ },
+ {
+  "clave": "R0444",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "APPLICATION OF ARTIFICIAL INTELLIGENCE FOR IMPROVING SITUATIONAL TRAINING OF CYBERSECURITY SPECIALISTS",
+  "anio": 2023,
+  "tipo": "article",
+  "venue": "Information Technologies and Learning Tools",
+  "resumen": "The article identifies the problem of the need for continuous development and improvement of practical skills for cybersecurity professionals due to the constant growth and evolution of threats to information and cyber security for organizations, businesses, society, and the state. The relevance of implementing innovative technologies to improve the methods of developing technical and managerial competencies of cybersecurity specialists in higher education institutions is justified in accordance with the strategic direction of education reform in Ukraine. The relevance of developing the ability and skills for cybersecurity professionals to respond promptly to threats is associated with the use of artificial intelligence by cybercriminals. The analysis conducted in this work allowed us to conclude the need for improvement of the situational teaching method as one of the main ways to develop the competencies of students majoring in Cybersecurity and Information Security in higher education institutions. One of the ways to improve the method is to use artificial intelligence tools in creating various types of tasks for classes. To create educational situations and options for resolving conflicting situations in cybersecurity management and cyber incidents with the aim of developing skills in future cybersecurity managers to make timely, correct, and effective decisions, it proposed to use the artificial intelligence tool - the ChatGPT language model. Thanks to its excellent capabilities, which include summarizing and analyzing articles, encoding, debugging, and generating thematic blocks of situations, it represents significant progress in the field of artificial intelligence. The application of ChatGPT allowed the creation of the necessary number of situational tasks with"
+ },
+ {
+  "clave": "R0445",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Deterring Adversarial Learning in Penetration Testing by Exploiting Domain Adaptation Theory",
+  "anio": 2023,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "Artificial intelligence (AI) and machine learning (ML) are increasingly being used in cyber operations. Because of techniques like adversarial learning, the performance of network defenses can degrade quickly. Thus, there is an increasing need for adaptable, dynamic network defenses. Correspondingly, there has been a rise in the use of reconfiguration schemes like moving target defense in software-defined networks. However, moving target defense methods target individual adversaries and rely on an in-depth understanding of an adversary’s utility function. In contrast, domain adaptation theory suggests that learning agents are sensitive to distributional changes in their inputs, regardless of their utilities. In this paper, we identify several kinds of network changes that deter adversaries by exploiting vulnerabilities in their learned assumptions. We use an open source network attack simulator, NASim, to conduct experiments on reinforcement learning (RL)based penetration testers. We measure the time-to-relearn in order to compare the efficacy of different network changes at deterring adversaries. We find that by focusing on shifting the learning domain as a defensive strategy, we are able to degrade the performance of multiple adversaries simultaneously. With our methodology, cyber defenders have tools that allow them to raise the sophistication and cost needed by adversaries to remain a threat to network operations over time."
+ },
+ {
+  "clave": "R0446",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Autonomous penetration testing using reinforcement learning: A review and perspectives",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "Expert Systems with Applications",
+  "resumen": "Penetration testing (pentesting) assesses cybersecurity through controlled, authorized attacks, but traditional manual methods demand considerable human and time resources. Reinforcement learning (RL), with its agent-environment interaction paradigm, offers a promising approach for autonomous pentesting. Despite remarkable advancements in this field, there is a lack of comprehensive reviews and perspectives on RL-based autonomous pentesting. To address this gap, this paper presents a systematic review of RL-based autonomous pentesting research. We outline the key challenges faced when applying RL in autonomous pentesting and categorize the existing literature into two main areas: attack path planning and autonomous pentesting frameworks, based on the research objectives and hypotheses. Additionally, we offer an in-depth analysis of the latest advancements and limitations in this field, while proposing a perspective on future research directions in the field of RL-based autonomous pentesting. We hope that our work will provide valuable insights for researchers, contributing to the advancement of autonomous pentesting and its practical application in the complex and diverse scenarios of the real world."
+ },
+ {
+  "clave": "R0447",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Evaluation of embodied conversational agents designed with ethical principles and personality for cybersecurity ethics training",
+  "anio": 2023,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "There is a lack of training for those designing and implementing cybersecurity policies and technologies concerning the ethical ramifications of their choices on users. Using a principlist approach as our ethical framework, we propose a serious game to assist the player to learn about ethical decision making by providing training about five ethical principles (Autonomy, Justice, Beneficence, Non-maleficence, and Explicability) in the context of cybersecurity decision making. There are many factors that impact human decision making, with personality identified as the most influential factor. A novel feature of our work is that it identifies the relationship between specific personality traits (Openness, Extraversion, Emotional Stability, Conscientiousness, and Agreeableness) and the priority given to each of these five ethical principles. We use personality-principle combinations to design the dialogues of multiple embodied conversational agents, or non-player characters (NPCs), to provide alternative ethical perspectives to the player. To improve the player's learning and engagement, they take on the role of a new employee in a cybersecurity firm and they interact with the NPCs in video meetups to discuss ethical dilemmas currently being faced by the cybersecurity team. Our results from a study conducted online with 219 cybersecurity students show that after playing the game, students were more aware of the ethical principles and their application to cybersecurity decisions. Moreover, players were able to recognize the agents' personalities, which could be helpful in achieving future tailored training."
+ },
+ {
+  "clave": "R0448",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Application of Reinforcement Learning in Adaptive Cyber Defence Mechanism",
+  "anio": 2025,
+  "tipo": "conference-paper",
+  "venue": "Lecture notes in networks and systems",
+  "resumen": ""
+ },
+ {
+  "clave": "R0449",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Primus: A Pioneering Collection of Open-Source Datasets for Cybersecurity LLM Training",
+  "anio": 2025,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "Large Language Models (LLMs) have shown remarkable advancements in specialized fields such as finance, law, and medicine.However, in cybersecurity, we have noticed a lack of opensource datasets, with a particular lack of highquality cybersecurity pretraining corpora, even though much research indicates that LLMs acquire their knowledge during pretraining.To address this, we present a comprehensive suite of datasets covering all major training stages, including pretraining, instruction fine-tuning, and reasoning distillation with cybersecurityspecific self-reflection data.Extensive ablation studies demonstrate their effectiveness on public cybersecurity benchmarks.In particular, continued pre-training on our dataset yields a 15.9% improvement in the aggregate score, while reasoning distillation leads to a 15.8% gain in security certification (CISSP).We will release all datasets and trained cybersecurity LLMs under the ODC-BY and MIT licenses to encourage further research in the community.10 41 4 1 3 2 1 1 1 Natural Language Non-Natural Language General LLM Cybersecurity LLM Cybersecurity Instruction Following, including alert explanation, suspicious command analysis, and security query generation… PT Studies CTI-BERT CyBERT SecBERT SecureBERT Primus(ours) Released Datasets No No No No Yes Exp Arch Bert"
+ },
+ {
+  "clave": "R0450",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "CyberBOT: Ontology-Grounded Retrieval Augmented Generation for Reliable Cybersecurity Education",
+  "anio": 2025,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "Advancements in large language models (LLMs) have enabled the development of intelligent educational tools that support inquiry-based learning across technical domains. In cybersecurity education, where accuracy and safety are paramount, systems must go beyond surface-level relevance to provide information that is both trustworthy and domain-appropriate. To address this challenge, we introduce CyberBOT, a question-answering chatbot that leverages a retrieval-augmented generation (RAG) pipeline to incorporate contextual information from course-specific materials and validate responses using a domain-specific cybersecurity ontology. The ontology serves as a structured reasoning layer that constrains and verifies LLM-generated answers, reducing the risk of misleading or unsafe guidance. CyberBOT has been deployed in a large graduate-level course at Arizona State University (ASU), where more than one hundred students actively engage with the system through a dedicated web-based platform. Computational evaluations in lab environments highlight the potential capacity of CyberBOT, and a forthcoming field study will evaluate its pedagogical impact. By integrating structured domain reasoning with modern generative capabilities, CyberBOT illustrates a promising direction for developing reliable and curriculum-aligned AI applications in specialized educational contexts."
+ },
+ {
+  "clave": "R0451",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Reinforcement Learning for Adaptive Cyber Defense Training Autonomous Systems for Dynamic Threat Response and Strategy Optimization",
+  "anio": 2025,
+  "tipo": "book-chapter",
+  "venue": "Advances in computational intelligence and robotics book series",
+  "resumen": "Reinforcement Learning (RL) offers a process for creating cyber defense methods that adjust to changing threats. Through training an RL agent, defenders discover ways to block intrusions, isolate systems, and reduce false positives. This chapter covers RL concepts, integration with AI security architectures, and procedures for threat response. It addresses attacker strategies, covers multiple optimization goals, and reviews data methods, reward choices, and deployment steps. Examples in healthcare, finance, and industrial networks illustrate outcomes. Governance, regulatory demands, and oversight are included, supporting RL-based cyber defense. These discussions show how RL-based defenses manage sequences and adapt to new threats. The chapter also addresses evaluation and implementation."
+ },
+ {
+  "clave": "R0452",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Cyber Attack Identification System Using Deep Learning",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "Cyber-attack detection is crucial for assuring computer network security. Contemporary research is based on the supervised learning paradigm for cyber-attack detection. Supervised learning techniques require labeled data for training, which may be costly and time-consuming to gather. Furthermore, these methods are rigid and do not adapt effectively to changing data or new circumstances, their use in dynamic contexts is limited. Intrusion detection systems (IDS) are crucial for assuring computer network security. To address this vulnerability, deep learning (DL) has emerged as a viable alternative method to standard cyber-attack detection systems, which depend on supervised learning algorithms to identify network data. The proposed model implements Deep Q-Network (DQN) algorithm because it can learn to detect threats based on network traffic data without depending on predetermined rules or signatures. An adversarial mechanism is included into the DQL-based training process. A deep Q-network agent is trained to identify intrusions by maximizing the anticipated reward function in this manner. The agent interacts with the network environment and learns to differentiate between normal network traffic and cyber-attacks. Another deep Q-network agent is added to generate adversarial data throughout the training process by causing perturbations in the regular and attack data. The proposed model was compared with the state of the art techniques convolutional neural network (CNN) and multilayer perceptron (MLP). The DQN outperformed other models with high accuracy and a low false positive rate."
+ },
+ {
+  "clave": "R0453",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Behaviour-Diverse Automatic Penetration Testing: A Curiosity-Driven Multi-Objective Deep Reinforcement Learning Approach",
+  "anio": 2022,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "Penetration Testing plays a critical role in evaluating the security of a target network by emulating real active adversaries. Deep Reinforcement Learning (RL) is seen as a promising solution to automating the process of penetration tests by reducing human effort and improving reliability. Existing RL solutions focus on finding a specific attack path to impact the target hosts. However, in reality, a diverse range of attack variations are needed to provide comprehensive assessments of the target network's security level. Hence, the attack agents must consider multiple objectives when penetrating the network. Nevertheless, this challenge is not adequately addressed in the existing literature. To this end, we formulate the automatic penetration testing in the Multi-Objective Reinforcement Learning (MORL) framework and propose a Chebyshev decomposition critic to find diverse adversary strategies that balance different objectives in the penetration test. Additionally, the number of available actions increases with the agent consistently probing the target network, making the training process intractable in many practical situations. Thus, we introduce a coverage-based masking mechanism that reduces attention on previously selected actions to help the agent adapt to future exploration. Experimental evaluation on a range of scenarios demonstrates the superiority of our proposed approach when compared to adapted algorithms in terms of multi-objective learning and performance efficiency."
+ },
+ {
+  "clave": "R0454",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Federated Quantum Machine Learning for Distributed Cybersecurity in Multi-Agent Energy Systems",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "Energies",
+  "resumen": "The increasing digitization and decentralization of modern energy systems have heightened their vulnerability to sophisticated cyber threats, necessitating advanced, scalable, and privacy-preserving detection frameworks. This paper introduces a novel Federated Quantum Machine Learning (FQML) framework tailored for anomaly detection in multi-agent energy environments. By integrating parameterized quantum circuits (PQCs) at the local agent level with secure federated learning protocols, the framework enhances detection accuracy while preserving data privacy. A trimmed-mean aggregation scheme and differential privacy mechanisms are embedded to defend against Byzantine behaviors and data-poisoning attacks. The problem is formally modeled as a constrained optimization task, accounting for quantum circuit depth, communication latency, and adversarial resilience. Experimental validation on synthetic smart grid datasets demonstrates that FQML achieves high detection accuracy (≥96.3%), maintains robustness under adversarial perturbations, and reduces communication overhead by 28.6% compared to classical federated baselines. These results substantiate the viability of quantum-enhanced federated learning as a practical, hardware-conscious approach to distributed cybersecurity in next-generation energy infrastructures."
+ },
+ {
+  "clave": "R0455",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "SCRIPT: A Scalable Continual Reinforcement Learning Framework for Autonomous Penetration Testing",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "Expert Systems with Applications",
+  "resumen": ""
+ },
+ {
+  "clave": "R0456",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Embracing AI in Cyber Security Education: A Postgraduate Case Study",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "Lecture notes in networks and systems",
+  "resumen": ""
+ },
+ {
+  "clave": "R0457",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Automated Penetration Testing Based on Adversarial Inverse Reinforcement Learning",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "This article is a study of modern trends in information security from the point of view of vulnerability analysis; the application of the Adversarial machine learning method is considered Inverse Reinforcement Learning (AIRL) in penetration testing. Integration of semantic rewards into the AIRL framework is proposed for deeper modeling of attacker strategies. The article analyzes the problems of penetration testing and proposes tools for collecting expert data, such as Deep Exploit, and discusses the prospects for using AIRL to train agents in dynamic network infrastructures. A model of an automated system for collecting expert data and penetration testing based on Adversarial Inverse Reinforcement Learning is proposed. The method used provides more effective simulation of vulnerabilities and increases the system's adaptability to modern information attacks and a changing environment. The use of AIRL with semantic rewards can significantly improve information security processes and provide new tools for analyzing the effectiveness of countering complex evolving cyber-attacks."
+ },
+ {
+  "clave": "R0458",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "CYBERSHIELD: A Competitive Simulation Environment for Training AI in Cybersecurity",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "Simulation environments are crucial in cybersecurity for training AI algorithms, providing a secure and controlled space to explore the impact derived from diverse cyber threads. They offer a flexible platform for accelerated learning and development, especially useful to train Decision Support Systems in response contexts. This paper introduces CyberShield, an advanced simulation environment tailored for cybersecurity tasks, specifically focusing on supporting the implementation and evaluation of AI algorithms, with an emphasis on RL. CyberShield encompasses a comprehensive environment with multiple computers, each hosting various services with unique vulnerabilities. Within this environment, two opposing agents, defender and attacker, participate in a strategic battle, each equipped with distinct actions aimed at outsmarting the other. CyberShield is optimized for competitive multi-agent training using RL algorithms. The specifically adapted environment facilitates the exploration of novel strategies, thereby fostering the automation of defense and attack strategies. Taking inspiration from Capture The Flag (CTF) competitions, CyberShield offers a dynamic and realistic platform for refining advanced cybersecurity techniques, fostering innovation, and strengthening the resilience of AI algorithms against sophisticated cyber threats."
+ },
+ {
+  "clave": "R0459",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Training Automated Defense Strategies Using Graph-based Cyber Attack Simulations",
+  "anio": 2023,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "We implemented and evaluated an automated cyber defense agent. The agent takes security alerts as input and uses reinforcement learning to learn a policy for executing predefined defensive measures. The defender policies were trained in an environment intended to simulate a cyber attack. In the simulation, an attacking agent attempts to capture targets in the environment, while the defender attempts to protect them by enabling defenses. The environment was modeled using attack graphs based on the Meta Attack Language language. We assumed that defensive measures have downtime costs, meaning that the defender agent was penalized for using them. We also assumed that the environment was equipped with an imperfect intrusion detection system that occasionally produces erroneous alerts based on the environment state. To evaluate the setup, we trained the defensive agent with different volumes of intrusion detection system noise. We also trained agents with different attacker strategies and graph sizes. In experiments, the defensive agent using policies trained with reinforcement learning outperformed agents using heuristic policies. Experiments also demonstrated that the policies could generalize across different attacker strategies. However, the performance of the learned policies decreased as the attack graphs increased in size."
+ },
+ {
+  "clave": "R0460",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Optimizing Cybersecurity Incident Response via Adaptive Reinforcement Learning",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "Journal of advances in engineering and technology.",
+  "resumen": "Cybersecurity threats have evolved dramatically over the past few decades, requiring organizations to continuously improve their security posture. Traditional cybersecurity incident response (CIR) frameworks, which rely on predefined rules and heuristics, have shown significant limitations in addressing sophisticated and rapidly evolving cyberattacks. The increasing complexity of threat landscapes necessitates adaptive security mechanisms capable of learning and evolving in real time. This paper explores the potential of Adaptive Reinforcement Learning (ARL) as a mechanism to enhance cybersecurity incident response strategies. Reinforcement learning (RL), a subset of machine learning, is well-suited for dynamic decision-making scenarios, where optimal strategies emerge through iterative learning. By integrating adaptive RL techniques into CIR, cybersecurity professionals can develop response strategies that continuously refine themselves based on observed threats, attack vectors, and system vulnerabilities. The study first examines conventional CIR approaches, discussing their constraints in modern cybersecurity environments. A comprehensive literature review explores the existing machine learning methodologies applied to cybersecurity and the emerging role of reinforcement learning in security applications. The methodology section presents the design and implementation of an ARL-driven incident response framework, detailing the algorithmic foundation, data sources, and training methodology. The effectiveness of the proposed approach is validated through extensive simulations across different cyberattack scenarios. Results highlight the superior performance of adaptive RL models in minimizing response time, improving threat mitigation rates, and reducing false positives"
+ },
+ {
+  "clave": "R0461",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "Adaptive Cyber Defense Through Hybrid Learning: From Specialization to Generalization",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "Future Internet",
+  "resumen": "This paper introduces a hybrid learning framework that synergistically combines Reinforcement Learning (RL) and Supervised Learning (SL) to train autonomous cyber-defense agents capable of operating effectively in dynamic and adversarial environments. The proposed approach leverages RL for strategic exploration and policy development, while incorporating SL to distill high-reward trajectories into refined policy updates, enhancing sample efficiency, learning stability, and robustness. The framework first targets specialized agent training, where each agent is optimized against a specific adversarial behavior. Subsequently, it is extended to enable the training of a generalized agent that learns to counter multiple, diverse attack strategies through multi-task and curriculum learning techniques. Comprehensive experiments conducted in the CybORG simulation environment demonstrate that the hybrid RL–SL framework consistently outperforms pure RL baselines across both specialized and generalized settings, achieving higher cumulative rewards. Specifically, hybrid-trained agents achieve up to 23% higher cumulative rewards in specialized defense tasks and approximately 18% improvements in generalized defense scenarios compared to RL-only agents. Moreover, incorporating temporal context into the observation space yields a further 4–6% performance gain in policy robustness. Furthermore, we investigate the impact of augmenting the observation space with historical actions and rewards, revealing consistent, albeit incremental, gains in SL-based learning performance. Key contributions of this work include: (i) a novel hybrid learning paradigm that integrates RL and SL for effective cyber-defense policy learning, (ii) a scalable extension for training generalized agents across hetero"
+ },
+ {
+  "clave": "R0462",
+  "cadenas": [
+   "B"
+  ],
+  "titulo": "With ChatGPT, Do We have to Rewrite Our Learning Objectives - CASE Study in Cybersecurity",
+  "anio": 2023,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "With the emergence of Artificial Intelligent chatbot tools such as ChatGPT and code writing AI tools such as GitHub Copilot, educators need to question what and how we should teach our courses and curricula in the future. In reality, automated tools may result in certain academic fields being deeply reduced in the number of employable people. In this work, we make a case study of cybersecurity undergrad education by using the lens of “Understanding by Design” (UbD). First, we provide a broad understanding of learning objectives (LOs) in cybersecurity from a computer science perspective. Next, we dig a little deeper into a curriculum with an undergraduate emphasis on cybersecurity and examine the major courses and their LOs for our cybersecurity program at Miami University. With these details, we perform a thought experiment on how attainable the LOs are with the above-described tools, asking the key question “what needs to be enduring concepts?” learned in this process. If an LO becomes something that the existence of automation tools might be able to do, we then ask “what level is attainable for the LO that is not a simple query to the tools?”. With this exercise, we hope to establish an example of how to prompt ChatGPT to accelerate students in their achievements of LOs given the existence of these new AI tools, and our goal is to push all of us to leverage and teach these tools as powerful allies in our quest to improve human existence and knowledge."
+ }
+]

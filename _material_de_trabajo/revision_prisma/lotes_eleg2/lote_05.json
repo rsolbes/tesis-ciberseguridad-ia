@@ -1,0 +1,218 @@
+[
+ {
+  "clave": "R0329",
+  "titulo": "An AI Agent Workflow for Generating Contextual Cybersecurity Hints",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Journal of The Colloquium for Information Systems Security Education",
+  "texto": "textos/R0329.txt"
+ },
+ {
+  "clave": "R0330",
+  "titulo": "A New Framework for Cybersecurity Refusals in AI Agents",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0330.txt"
+ },
+ {
+  "clave": "R0347",
+  "titulo": "Toward Secure AI-Powered Penetration Testing Agents: Security Threats, Guardrails, and Architectural Perspectives",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0347.txt"
+ },
+ {
+  "clave": "R0348",
+  "titulo": "CyberForge: Verified Vulnerability Injection at Repository Level for Cybersecurity Agent Training",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0348.txt"
+ },
+ {
+  "clave": "R0351",
+  "titulo": "AI In Cybersecurity Education -- Scalable Agentic CTF Design Principles and Educational Outcomes",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0351.txt"
+ },
+ {
+  "clave": "R0353",
+  "titulo": "Trustworthy AI LLM Scalability Risk Index (LSRI): A Cybersecurity Framework Assessing Agentic-AI Security & Software Model Supply Chain Safety Boosting AI-Generated Malware Defense & Explainability Mitigating Emerging Risks of Generative AI",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0353.txt"
+ },
+ {
+  "clave": "R0357",
+  "titulo": "Blockchain-Enabled Artificial Intelligence and AI Agents for Secure Data Sharing and Cybersecurity Applications",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "International Journal of Scientific Research and Management (IJSRM)",
+  "texto": "textos/R0357.txt"
+ },
+ {
+  "clave": "R0358",
+  "titulo": "Principles For The Safe and Ethical Implementation of Artificial Intelligence Agents in Cybersecurity Defense",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "COGNITIONIS Scientific Journal",
+  "texto": "textos/R0358.txt"
+ },
+ {
+  "clave": "R0360",
+  "titulo": "The Next Challenge for Agentic Cybersecurity: A Realistic, Contamination-Free Reverse Engineering Benchmark",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0360.txt"
+ },
+ {
+  "clave": "R0361",
+  "titulo": "Ai Agents and Full Automation in Cybersecurity: Technical, Business, Ethical and Legal Considerations",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "Research Square",
+  "texto": "textos/R0361.txt"
+ },
+ {
+  "clave": "R0363",
+  "titulo": "AI-Driven Cybersecurity: Enhancing Cloud Security with Machine Learning and AI Agents",
+  "anio": 2022,
+  "tipo": "article",
+  "venue": "Journal of Informatics Education and Research",
+  "texto": "textos/R0363.txt"
+ },
+ {
+  "clave": "R0367",
+  "titulo": "AI and Quantum Trading Agents: Cybersecurity, Governance, and Regulatory Challenges in Financial Decision-Making",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "Research Square",
+  "texto": "textos/R0367.txt"
+ },
+ {
+  "clave": "R0368",
+  "titulo": "AI Agents in Cybersecurity: A Systematic Review of Architectures, Applications, Threats, Challenges and Future Directions",
+  "anio": 2026,
+  "tipo": "review",
+  "venue": "IJARCCE",
+  "texto": "textos/R0368.txt"
+ },
+ {
+  "clave": "R0370",
+  "titulo": "Certifying Ghosts: How Cybersecurity AI Agents Break the EU Cyber Resilience Act",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0370.txt"
+ },
+ {
+  "clave": "R0372",
+  "titulo": "When Skills Don't Help: A Negative Result on Procedural Knowledge for Tool-Grounded Agents in Offensive Cybersecurity",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0372.txt"
+ },
+ {
+  "clave": "R0373",
+  "titulo": "AGENTSHIELD: AN AGENTIC ARTIFICIAL INTELLIGENCE FRAMEWORK FOR REAL-TIME CYBERSECURITY ORCHESTRATION IN INDIA’S UPI AND FINTECH ECOSYSTEM",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "International Journal of Science and Research Archive",
+  "texto": "textos/R0373.txt"
+ },
+ {
+  "clave": "R0380",
+  "titulo": "Using Large Language Models for Cybersecurity Capture-The-Flag Challenges and Certification Questions",
+  "anio": 2023,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0380.txt"
+ },
+ {
+  "clave": "R0381",
+  "titulo": "CyberQ: Generating Questions and Answers for Cybersecurity Education Using Knowledge Graph-Augmented LLMs",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "texto": "textos/R0381.txt"
+ },
+ {
+  "clave": "R0383",
+  "titulo": "Empowering Professionals: A Generative AI Approach to Personalized Cybersecurity Learning",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0383.txt"
+ },
+ {
+  "clave": "R0387",
+  "titulo": "Towards Supporting Penetration Testing Education with Large Language Models: an Evaluation and Comparison",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0387.txt"
+ },
+ {
+  "clave": "R0393",
+  "titulo": "Towards a High Fidelity Training Environment for Autonomous Cyber Defense Agents",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0393.txt"
+ },
+ {
+  "clave": "R0398",
+  "titulo": "Autonomous Penetration Testing: Solving Capture-the-Flag Challenges with LLMs",
+  "anio": 2025,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0398.txt"
+ },
+ {
+  "clave": "R0411",
+  "titulo": "The SAGE framework for developing critical thinking and responsible generative AI use in cybersecurity education",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "Discover Education",
+  "texto": "textos/R0411.txt"
+ },
+ {
+  "clave": "R0421",
+  "titulo": "Embracing the Generative AI Revolution: Advancing Tertiary Education in Cybersecurity with GPT",
+  "anio": 2024,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0421.txt"
+ },
+ {
+  "clave": "R0425",
+  "titulo": "Entity-based Reinforcement Learning for Autonomous Cyber Defence",
+  "anio": 2023,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0425.txt"
+ },
+ {
+  "clave": "R0426",
+  "titulo": "Cyber security Enhancements with reinforcement learning: A zero-day vulnerabilityu identification perspective",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "PLoS ONE",
+  "texto": "textos/R0426.txt"
+ },
+ {
+  "clave": "R0427",
+  "titulo": "Learning automated defense strategies using graph-based cyber attack simulations",
+  "anio": 2023,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0427.txt"
+ }
+]

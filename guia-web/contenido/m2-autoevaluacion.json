@@ -1,0 +1,94 @@
+{
+  "aprobatorio": 0.7,
+  "insignia": {
+    "nombre": "Rastreador de eventos",
+    "icono": "📜",
+    "descripcion": "Interpretas registros de eventos e identificas patrones de actividad anómala en redes y sistemas."
+  },
+  "preguntas": [
+    {
+      "ruta": "ambas",
+      "texto": "¿Qué función cumple un cortafuegos (firewall) en una red?",
+      "opciones": [
+        "Aumentar el ancho de banda del internet",
+        "Inspeccionar el tráfico de red y filtrar paquetes según reglas de seguridad predefinidas",
+        "Guardar copias de seguridad de las fotos de los usuarios",
+        "Convertir direcciones IP en nombres de dominio"
+      ],
+      "correcta": 1,
+      "explicacion": "El cortafuegos actúa como una barrera de control que permite o bloquea conexiones entrantes y salientes según reglas fijas."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿Qué elemento de un registro de eventos permite saber el momento exacto en que ocurrió una acción?",
+      "opciones": [
+        "La dirección MAC",
+        "La marca de tiempo (timestamp)",
+        "El nombre del usuario",
+        "El código de error HTTP"
+      ],
+      "correcta": 1,
+      "explicacion": "La marca de tiempo fija la fecha, hora, minuto y segundo en que el evento quedó registrado."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "Si observas 500 intentos de inicio de sesión fallidos en menos de un minuto para el usuario root, ¿a qué tipo de actividad apunta?",
+      "opciones": [
+        "Un usuario que olvidó su clave",
+        "Un ataque de fuerza bruta automatizado",
+        "Una actualización normal del sistema",
+        "Un problema de lentitud del disco duro"
+      ],
+      "correcta": 1,
+      "explicacion": "Una cantidad tan alta de fallos en un intervalo de segundos es un síntoma claro de una herramienta automatizada probando combinaciones de contraseñas."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿Por qué es importante enviar los registros de eventos a un servidor central protegido?",
+      "opciones": [
+        "Porque así se liberan gigabytes de espacio en la computadora local",
+        "Para evitar que un atacante borre o modifique los registros locales al vulnerar una máquina",
+        "Porque los sistemas operativos no saben almacenar texto",
+        "Para que la pantalla del monitor se vea más limpia"
+      ],
+      "correcta": 1,
+      "explicacion": "Almacenar los registros en un servidor central e inmutable preserva la evidencia forense aunque el equipo individual sea comprometido."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿Qué describe el concepto de segmentación de redes?",
+      "opciones": [
+        "Conectar todas las computadoras del mundo a un mismo cable",
+        "Dividir la red en zonas lógicas independientes para aislar problemas e impedir la propagación de amenazas",
+        "Cambiar las contraseñas del router todos los días",
+        "Comprar computadoras de marcas diferentes"
+      ],
+      "correcta": 1,
+      "explicacion": "La segmentación crea compartimentos estancos que frenan el movimiento lateral de un atacante dentro de la organización."
+    },
+    {
+      "ruta": "avanzada",
+      "texto": "¿Qué se busca lograr al realizar la correlación de eventos entre registros de diferentes fuentes?",
+      "opciones": [
+        "Eliminar registros repetidos para ahorrar disco",
+        "Reconstruir la secuencia temporal y causal completa de un incidente cruzando datos de cortafuegos, servidores y aplicaciones",
+        "Acelerar el procesamiento de los procesadores multinúcleo",
+        "Descargar automáticamente parches de seguridad"
+      ],
+      "correcta": 1,
+      "explicacion": "La correlación enlaza sucesos aparentemente aislados para identificar patrones complejos de ataque en distintas capas de la red."
+    },
+    {
+      "ruta": "avanzada",
+      "texto": "Un atacante realiza un escaneo SYN sigiloso en los puertos 1 al 1024. ¿Qué registro revelará con mayor certeza esta actividad?",
+      "opciones": [
+        "El registro de la aplicación de hoja de cálculo",
+        "Los registros de conexiones bloqueadas y paquetes TCP del cortafuegos o del sistema de detección de intrusiones (IDS)",
+        "El registro de correos enviados por los usuarios",
+        "El registro de brillo de la pantalla"
+      ],
+      "correcta": 1,
+      "explicacion": "Un escaneo de puertos genera múltiples intentos de conexión TCP que son capturados de forma directa por el firewall y los sensores IDS de la red."
+    }
+  ]
+}

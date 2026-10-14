@@ -1,0 +1,10 @@
+[
+  { "pregunta": "¿Qué ruta me conviene?", "claves": ["ruta", "basica", "avanzada", "elegir", "conviene"],
+    "respuesta": "Responde la autoevaluación de entrada de este módulo y la guía te recomendará una ruta. La básica construye los conceptos desde cero y la avanzada profundiza en la construcción y evaluación de agentes. Puedes cambiar de ruta cuando quieras." },
+  { "pregunta": "¿Se guardan mis datos?", "claves": ["datos", "guardan", "privacidad", "cuenta", "registro"],
+    "respuesta": "No. El sitio no pide registro y no envía tus respuestas a ningún servidor. Tu ruta, tus resultados y tus insignias se guardan solo en este navegador." },
+  { "pregunta": "¿Por qué tengo que aceptar reglas de uso ético?", "claves": ["reglas", "etico", "etica", "aceptar", "laboratorios"],
+    "respuesta": "Porque las técnicas de ciberseguridad pueden usarse para defender o para atacar. Las reglas aseguran que practiques solo en entornos autorizados y con datos inventados. Al aceptarlas se desbloquean los laboratorios." },
+  { "pregunta": "¿Qué es un agente de IA?", "claves": ["agente", "que", "inteligencia", "artificial"],
+    "respuesta": "Es un sistema que no solo responde preguntas, sino que percibe su entorno, planifica y ejecuta acciones con herramientas para cumplir una meta. Lo verás con detalle en el módulo M5." }
+]

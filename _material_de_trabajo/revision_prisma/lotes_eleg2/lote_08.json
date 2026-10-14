@@ -1,0 +1,218 @@
+[
+ {
+  "clave": "R0728",
+  "titulo": "General Autonomous Cybersecurity Defense: Learning Robust Policies for Dynamic Topologies and Diverse Attackers",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0728.txt"
+ },
+ {
+  "clave": "R0739",
+  "titulo": "SecProbe: Adaptive Evaluation of Coding Agents on Cybersecurity Vulnerabilities",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0739.txt"
+ },
+ {
+  "clave": "R0740",
+  "titulo": "Autonomous Cyber Defense in Connected Vehicles: A Multi-Agent Approach to V2X Security",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0740.txt"
+ },
+ {
+  "clave": "R0741",
+  "titulo": "ATOBench: Tracing How Autonomous Penetration-Testing Agents Verify Vulnerabilities When Target Evidence Lies",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0741.txt"
+ },
+ {
+  "clave": "R0742",
+  "titulo": "AgenticOS: An Intent-Oriented Secure Operating System Architecture for Autonomous AI Agents",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0742.txt"
+ },
+ {
+  "clave": "R0743",
+  "titulo": "Byzantine-Resilient Federated Multi-Agent Optimization Framework for Cyber-Secure Interconnected Microgrids",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0743.txt"
+ },
+ {
+  "clave": "R0744",
+  "titulo": "CyberGym-E2E: Scalable Real-World Benchmark for AI Agents' End-to-End Cybersecurity Capabilities",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0744.txt"
+ },
+ {
+  "clave": "R0745",
+  "titulo": "Lessons from Penetration Tests on Large-Scale Agent Systems",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0745.txt"
+ },
+ {
+  "clave": "R0746",
+  "titulo": "Improving Methodologies for Agentic Evaluations Across Domains: Leakage of Sensitive Information, Fraud and Cybersecurity Threats",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0746.txt"
+ },
+ {
+  "clave": "R0747",
+  "titulo": "Comparing AI Agents to Cybersecurity Professionals in Real-World Penetration Testing",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0747.txt"
+ },
+ {
+  "clave": "R0748",
+  "titulo": "Cybersecurity AI Benchmark (CAIBench): A Meta-Benchmark for Evaluating Cybersecurity AI Agents",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0748.txt"
+ },
+ {
+  "clave": "R0749",
+  "titulo": "A cybersecurity AI agent selection and decision support framework",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0749.txt"
+ },
+ {
+  "clave": "R0750",
+  "titulo": "Shell or Nothing: Real-World Benchmarks and Memory-Activated Agents for Automated Penetration Testing",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0750.txt"
+ },
+ {
+  "clave": "R0751",
+  "titulo": "Cyber-Zero: Training Cybersecurity Agents without Runtime",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0751.txt"
+ },
+ {
+  "clave": "R0752",
+  "titulo": "Vulnerability Mitigation System (VMS): LLM Agent and Evaluation Framework for Autonomous Penetration Testing",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0752.txt"
+ },
+ {
+  "clave": "R0753",
+  "titulo": "CyberGym: Evaluating AI Agents' Real-World Cybersecurity Capabilities at Scale",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0753.txt"
+ },
+ {
+  "clave": "R0754",
+  "titulo": "Dynamic Risk Assessments for Offensive Cybersecurity Agents",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0754.txt"
+ },
+ {
+  "clave": "R0755",
+  "titulo": "CRAKEN: Cybersecurity LLM Agent with Knowledge-Based Execution",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0755.txt"
+ },
+ {
+  "clave": "R0756",
+  "titulo": "BountyBench: Dollar Impact of AI Agent Attackers and Defenders on Real-World Cybersecurity Systems",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0756.txt"
+ },
+ {
+  "clave": "R0757",
+  "titulo": "Enforcing Cybersecurity Constraints for LLM-driven Robot Agents for Online Transactions",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0757.txt"
+ },
+ {
+  "clave": "R0758",
+  "titulo": "Construction and Evaluation of LLM-based agents for Semi-Autonomous penetration testing",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0758.txt"
+ },
+ {
+  "clave": "R0759",
+  "titulo": "Poster: SpiderSim: Multi-Agent Driven Theoretical Cybersecurity Simulation for Industrial Digitalization",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0759.txt"
+ },
+ {
+  "clave": "R0760",
+  "titulo": "Designing Robust Cyber-Defense Agents with Evolving Behavior Trees",
+  "anio": 2024,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0760.txt"
+ },
+ {
+  "clave": "R0761",
+  "titulo": "Autonomous Intelligent Cyber-defense Agent: Introduction and Overview",
+  "anio": 2023,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0761.txt"
+ },
+ {
+  "clave": "R0762",
+  "titulo": "Developing Optimal Causal Cyber-Defence Agents via Cyber Security Simulation",
+  "anio": 2022,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0762.txt"
+ },
+ {
+  "clave": "R0763",
+  "titulo": "Artificial Intelligence as Game Changer in Cybersecurity: What We Learned in 2025-2026, and how this is relevant for Africa",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0763.txt"
+ },
+ {
+  "clave": "R0766",
+  "titulo": "Deep Reinforcement Learning for Cybersecurity Threat Detection and Protection: A Review",
+  "anio": 2022,
+  "tipo": "preprint",
+  "venue": "arXiv",
+  "texto": "textos/R0766.txt"
+ }
+]

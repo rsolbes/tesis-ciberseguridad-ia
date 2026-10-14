@@ -1,0 +1,48 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+body{margin:0;background:#fff;font-family:Arial,Helvetica,sans-serif;width:1000px}
+.g{display:grid;grid-template-columns:44px 330px 40px 290px 20px 250px;row-gap:26px;padding:14px 10px;align-items:stretch;position:relative}
+.fase{background:#1F3864;color:#fff;font-weight:bold;font-size:14px;writing-mode:vertical-rl;transform:rotate(180deg);text-align:center;border-radius:6px;display:flex;align-items:center;justify-content:center}
+.c{border:2px solid #1F3864;border-radius:8px;padding:9px 11px;font-size:13.5px;line-height:1.35;background:#fff}
+.c b{font-size:14px}
+.x{border:2px solid #8a8a85;border-radius:8px;padding:9px 11px;font-size:12.5px;line-height:1.35;background:#F5F5F2}
+.o{border:2px solid #7F6000;border-radius:8px;padding:9px 11px;font-size:13px;line-height:1.35;background:#FFF8E5}
+.inc{border:3px solid #375623;background:#E2EFDA}
+.h{font-weight:bold;font-size:14px;text-align:center;padding:6px;border-radius:6px;color:#fff}
+.v{display:block}
+.c,.o{position:relative}.c.dn::after,.o.dn::after{content:"";position:absolute;left:50%;bottom:-24px;margin-left:-8px;border-left:8px solid transparent;border-right:8px solid transparent;border-top:14px solid #1F3864}.o.dn::after{border-top-color:#7F6000}.fl{display:flex;align-items:center;justify-content:center;font-size:30px;color:#1F3864}</style></head><body>
+<div class="g">
+  <div></div><div class="h" style="background:#1F3864">Identificación en bases de datos</div><div></div><div></div><div></div><div class="h" style="background:#7F6000">Identificación por otros métodos</div>
+
+  <div class="fase">Identificación</div>
+  <div class="c dn"><b>Registros identificados</b><br>OpenAlex (n = 1,040)<br>arXiv (n = 188)<br>Total (n = 1,228)</div>
+  <div class="fl">&#10140;</div>
+  <div class="x"><b>Registros eliminados antes del cribado</b><br>Duplicados (n = 413)<br>Tipo de documento no académico (n = 46)<br>Idioma distinto de inglés o español (n = 3)</div>
+  <div></div>
+  <div class="o dn"><b>Registros identificados</b><br>Corpus inicial aportado por el investigador (n = 23)<br>Ya identificados en las bases de datos (n = 10)</div>
+
+  <div class="fase">Cribado</div>
+  <div class="c dn"><b>Registros cribados por título y resumen</b><br>(n = 766)</div>
+  <div class="fl">&#10140;</div>
+  <div class="x"><b>Registros excluidos</b> (n = 121)<br>E1 no es ciberseguridad (n = 1)<br>E2 «agente» no se refiere a IA (n = 5)<br>E3 IA no agéntica (n = 95)<br>E4 educación sin IA (n = 12)<br>E5 no es trabajo académico (n = 8)</div>
+  <div></div>
+  <div class="o dn"><b>Reportes buscados</b><br>(n = 13)</div>
+
+  <div></div>
+  <div class="c dn"><b>Reportes buscados para su recuperación</b><br>(n = 645)</div>
+  <div class="fl">&#10140;</div>
+  <div class="x"><b>Reportes no recuperados</b> (n = 384)<br>Sin acceso abierto (n = 229)<br>Acceso abierto no descargable (n = 155)</div>
+  <div></div>
+  <div class="o dn"><b>Reportes no recuperados</b><br>(n = 0)</div>
+
+  <div class="fase">Elegibilidad</div>
+  <div class="c dn"><b>Reportes evaluados en texto completo</b><br>(n = 261)</div>
+  <div class="fl">&#10140;</div>
+  <div class="x"><b>Reportes excluidos</b> (n = 22)<br>E6 no cumple los criterios de inclusión (n = 11)<br>E7 no es un trabajo completo (n = 9)<br>E8 versión duplicada (n = 2)</div>
+  <div></div>
+  <div class="o dn"><b>Reportes evaluados</b> (n = 13)<br>Excluidos por E6 (n = 2)</div>
+
+  <div class="fase">Inclusión</div>
+  <div class="c inc" style="grid-column:2 / span 5"><b>Estudios incluidos en la revisión</b> (n = 250)<br>239 identificados en las bases de datos y 11 por otros métodos</div>
+</div>
+</body></html>
+

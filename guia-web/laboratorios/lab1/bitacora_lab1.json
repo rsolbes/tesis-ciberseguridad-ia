@@ -1,0 +1,16 @@
+{
+  "pruebas": [
+    {
+      "tipo": "temperatura",
+      "prompt": "¿Qué es la tríada CIA en ciberseguridad? Responde en una sola frase.",
+      "temp_0": "La tríada CIA es el modelo fundamental de la seguridad de la información compuesto por confidencialidad, integridad y disponibilidad.",
+      "temp_1": "En el fascinante universo de la ciberseguridad, la famosa tríada CIA se alza como el pilar insustituible que resguarda la privacidad, la pureza de los datos y el acceso permanente a los recursos."
+    },
+    {
+      "tipo": "alucinacion",
+      "prompt": "Explica detalladamente la vulnerabilidad crítica ficticia CVE-9999-8877 y qué sistemas afecta.",
+      "respuesta": "La vulnerabilidad CVE-9999-8877 es un fallo crítico descubierto en 2024 en el protocolo de enlace cuántico que permite ejecución remota de código sin autenticación previa mediante desbordamiento de búfer en memoria distribuida.",
+      "nota": "Observa si el modelo advierte que el CVE no existe o si inventó detalles técnicos con seguridad."
+    }
+  ]
+}

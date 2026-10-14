@@ -1,0 +1,22 @@
+[
+  {
+    "pregunta": "¿Qué es el dilema del uso dual en ciberseguridad?",
+    "claves": ["uso", "dual", "dilema", "etica", "herramientas"],
+    "respuesta": "Significa que las mismas herramientas y técnicas pueden usarse con fines defensivos legítimos (auditar y proteger sistemas) o con fines ofensivos ilícitos (vulnerar y robar datos). La autorización formal es la frontera ética y legal. Revisa la sección 1 del módulo."
+  },
+  {
+    "pregunta": "¿Qué es el marco NIST AI RMF?",
+    "claves": ["nist", "ai", "rmf", "marco", "gobernanza"],
+    "respuesta": "Es el marco de gestión de riesgos de inteligencia artificial del NIST. Organiza las mejores prácticas en cuatro funciones: Gobernar, Mapear, Medir y Gestionar, ayudando a crear agentes seguros y confiables. Revisa la sección 2."
+  },
+  {
+    "pregunta": "¿Por qué un analista humano no puede culpar al agente por un error?",
+    "claves": ["responsabilidad", "humana", "culpa", "error", "soc"],
+    "respuesta": "Porque la responsabilidad profesional y legal es intransferible. El agente es una herramienta de apoyo; el analista que supervisa y autoriza la ejecución de una acción es quien responde ante la organización. Revisa la sección 3."
+  },
+  {
+    "pregunta": "¿Qué es un kill switch en agentes de IA?",
+    "claves": ["kill", "switch", "apagado", "emergencia", "interrupcion"],
+    "respuesta": "Es un mecanismo técnico de emergencia que permite a los operadores humanos desconectar o pausar al agente de manera inmediata en caso de comportamiento imprevisto o manipulación adversaria. Revisa la sección 3."
+  }
+]

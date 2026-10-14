@@ -1,0 +1,36 @@
+# Archivos temporales de Microsoft Office
+~$*.docx
+~$*.pptx
+~$*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+*.tmp
+*.log
+
+# Entornos y claves
+.env
+.env.local
+*.key
+*.pem
+
+# Carpetas temporales de editores
+.vscode/
+.idea/
+
+# Claude / Copilot
+.claude/

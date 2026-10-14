@@ -1,0 +1,22 @@
+[
+  {
+    "pregunta": "¿Qué es el marco NIST CSF 2.0?",
+    "claves": ["nist", "csf", "marco", "funciones", "estandar"],
+    "respuesta": "Es un marco de referencia internacional que organiza la ciberseguridad en seis funciones continuas: Gobernar, Identificar, Proteger, Detectar, Responder y Recuperar. Ayuda a que las organizaciones gestionen sus riesgos de forma integral. Revisa la sección 1 del módulo."
+  },
+  {
+    "pregunta": "¿Qué hace un Centro de Operaciones de Seguridad (SOC)?",
+    "claves": ["soc", "centro", "operaciones", "analistas"],
+    "respuesta": "Es el equipo y la instalación técnica encargados de vigilar la red de una organización las 24 horas del día para detectar intrusiones, clasificar alertas y responder ante incidentes de seguridad. Revisa la sección 2."
+  },
+  {
+    "pregunta": "¿Qué es el triaje de alertas?",
+    "claves": ["triaje", "alertas", "nivel", "1", "clasificar"],
+    "respuesta": "Es el proceso de clasificar rápidamente las alertas que llegan al SOC para separar las falsas alarmas de los incidentes reales y urgentes que requieren una investigación a fondo. Revisa la sección 2."
+  },
+  {
+    "pregunta": "¿Qué diferencia hay entre MTTD y MTTR?",
+    "claves": ["mttd", "mttr", "metricas", "tiempo", "deteccion", "respuesta"],
+    "respuesta": "MTTD es el tiempo medio que toma detectar un ataque desde que este inicia. MTTR es el tiempo medio que toma responder y contener ese incidente una vez detectado. El objetivo de todo SOC es reducir ambos tiempos al mínimo. Revisa la sección 3."
+  }
+]

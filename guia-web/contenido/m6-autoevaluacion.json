@@ -1,0 +1,94 @@
+{
+  "aprobatorio": 0.7,
+  "insignia": {
+    "nombre": "Analista de triaje",
+    "icono": "📊",
+    "descripcion": "Despliegas agentes defensivos supervisados para el triaje de alertas y evalúas su precisión frente a reglas fijas."
+  },
+  "preguntas": [
+    {
+      "ruta": "ambas",
+      "texto": "¿Cuál es la principal ventaja de un agente de IA frente a un sistema de reglas fijas en el triaje de alertas?",
+      "opciones": [
+        "El agente es capaz de interpretar la intención contextual de un comando y detectar variantes que no coinciden exactamente con una firma previa",
+        "El agente nunca comete errores de ninguna clase",
+        "El agente funciona sin necesidad de energía eléctrica",
+        "El agente solo cuesta un peso"
+      ],
+      "correcta": 0,
+      "explicacion": "Los agentes aportan comprensión contextual y semántica, superando la rigidez de las firmas de texto literales."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿Qué representa un «falso negativo» en la clasificación de alertas de seguridad?",
+      "opciones": [
+        "Una alerta falsa que el sistema marcó como ataque",
+        "Un ataque real que el sistema pasó por alto y clasificó equivocadamente como benigno",
+        "Una alerta que tardó mucho tiempo en descargarse",
+        "Un archivo que fue borrado por accidente por el usuario"
+      ],
+      "correcta": 1,
+      "explicacion": "El falso negativo es el fallo más crítico en ciberdefensa porque deja una intrusión real activa sin investigar."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿Qué métrica mide el porcentaje de ataques reales que el agente logró detectar del total existente?",
+      "opciones": [
+        "Exhaustividad o recall (R)",
+        "Tasa de clics por minuto",
+        "Resolución de pantalla",
+        "Consumo de ancho de banda"
+      ],
+      "correcta": 0,
+      "explicacion": "La exhaustividad o recall (VP / (VP + FN)) cuantifica la capacidad del sistema para no dejar escapar incidentes reales."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿Qué es la puntuación F1 (F1-score)?",
+      "opciones": [
+        "La tecla F1 del teclado de la computadora",
+        "La media armónica entre precisión y exhaustividad que resume el balance de acierto del modelo",
+        "La cantidad de virus eliminados en el año",
+        "El precio del modelo de lenguaje"
+      ],
+      "correcta": 1,
+      "explicacion": "El F1-score combina armónicamente precisión y exhaustividad en una sola métrica representativa."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "En un entorno de ciberdefensa, ¿por qué los analistas prefieren priorizar la exhaustividad (recall) sobre la precisión?",
+      "opciones": [
+        "Porque prefieren revisar falsas alarmas antes que permitir que un atacante opere libremente en la red por culpa de un falso negativo",
+        "Porque los falsos positivos son divertidos de leer",
+        "Porque la exhaustividad hace que el disco duro sea más veloz",
+        "Porque la ley obliga a tener una precisión baja"
+      ],
+      "correcta": 0,
+      "explicacion": "El costo operativo de revisar un falso positivo es mínimo comparado con el desastre que causa un falso negativo no detectado."
+    },
+    {
+      "ruta": "avanzada",
+      "texto": "Si un agente clasifica 100 alertas, detecta 40 verdaderos positivos, genera 10 falsos positivos y comete 0 falsos negativos, ¿cuál es su precisión?",
+      "opciones": [
+        "100 %",
+        "80 % (40 dividido entre 50 alertas marcadas como positivas)",
+        "50 %",
+        "40 %"
+      ],
+      "correcta": 1,
+      "explicacion": "La precisión es VP / (VP + FP) = 40 / (40 + 10) = 40 / 50 = 0.80 o 80 %."
+    },
+    {
+      "ruta": "avanzada",
+      "texto": "¿Por qué las arquitecturas defensivas de alto rendimiento utilizan un diseño en cascada combinando reglas fijas y agentes de IA?",
+      "opciones": [
+        "Para que la computadora se vea más moderna",
+        "Porque las reglas fijas filtran el tráfico masivo obvio en microsegundos y reservan la inferencia computacionalmente costosa del agente solo para casos anómalos o dudosos",
+        "Porque los agentes no saben procesar texto en inglés",
+        "Para duplicar la cantidad de cables en el centro de datos"
+      ],
+      "correcta": 1,
+      "explicacion": "El esquema híbrido optimiza latencia y recursos, combinando la velocidad de las reglas fijas con la inteligencia contextual del LLM."
+    }
+  ]
+}

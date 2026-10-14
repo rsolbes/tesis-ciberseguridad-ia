@@ -1,0 +1,27 @@
+[
+  {
+    "pregunta": "¿Qué es la tríada CIA?",
+    "claves": ["triada", "cia", "confidencialidad", "integridad", "disponibilidad", "fundamentos"],
+    "respuesta": "Es el modelo central de la seguridad de la información. Se compone de confidencialidad (solo ojos autorizados), integridad (datos exactos y sin alteraciones) y disponibilidad (sistemas listos cuando se necesitan). Revisa la sección 1 del módulo."
+  },
+  {
+    "pregunta": "¿Cuál es la diferencia entre confidencialidad e integridad?",
+    "claves": ["diferencia", "confidencialidad", "integridad"],
+    "respuesta": "La confidencialidad evita que personas no autorizadas lean la información, mientras que la integridad evita que la información sea modificada o falsificada sin permiso. Revisa la sección 1."
+  },
+  {
+    "pregunta": "¿Qué es el phishing y cómo evitarlo?",
+    "claves": ["phishing", "correo", "falso", "engano", "evitar"],
+    "respuesta": "Es un ataque de ingeniería social en el que un mensaje falso simula provenir de una empresa confiable para robar tus claves. Para evitarlo revisa siempre la dirección del remitente, no hagas clic en enlaces urgentes y nunca des contraseñas por correo. Revisa la sección 2."
+  },
+  {
+    "pregunta": "¿Por qué no se recomienda el 2FA por SMS?",
+    "claves": ["sms", "2fa", "autenticacion", "doble", "factor", "telefono"],
+    "respuesta": "Porque los mensajes SMS viajan sin cifrar y pueden ser interceptados o transferidos mediante duplicados no autorizados de la tarjeta SIM. Es mucho más seguro usar una aplicación autenticadora en tu teléfono. Revisa la sección 3."
+  },
+  {
+    "pregunta": "¿Qué es una superficie de ataque?",
+    "claves": ["superficie", "ataque", "avanzada", "puertos", "servicios"],
+    "respuesta": "Es el conjunto de todos los puntos de acceso, puertos, servicios y aplicaciones por donde un atacante puede intentar vulnerar un sistema. Mientras menos servicios innecesarios tengas activos, menor será tu superficie de ataque. Revisa la sección de profundización."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  { "id": 1, "timestamp": "2026-10-14 07:45:10", "servicio": "sshd", "src_ip": "192.168.1.50", "usuario": "rodrigo", "estado": "SUCCESS", "puerto": 22 },
+  { "id": 2, "timestamp": "2026-10-14 08:00:15", "servicio": "nginx", "src_ip": "192.168.1.105", "usuario": "invitado", "estado": "FAIL", "path": "/login", "razon": "credenciales_invalidas" },
+  { "id": 3, "timestamp": "2026-10-14 08:00:18", "servicio": "nginx", "src_ip": "192.168.1.105", "usuario": "admin", "estado": "FAIL", "path": "/admin", "razon": "credenciales_invalidas" },
+  { "id": 4, "timestamp": "2026-10-14 08:00:21", "servicio": "nginx", "src_ip": "192.168.1.105", "usuario": "root", "estado": "FAIL", "path": "/admin", "razon": "credenciales_invalidas" },
+  { "id": 5, "timestamp": "2026-10-14 08:00:25", "servicio": "nginx", "src_ip": "192.168.1.105", "usuario": "soporte", "estado": "FAIL", "path": "/admin", "razon": "credenciales_invalidas" },
+  { "id": 6, "timestamp": "2026-10-14 08:15:30", "servicio": "sshd", "src_ip": "10.0.0.12", "usuario": "analista", "estado": "SUCCESS", "puerto": 22 },
+  { "id": 7, "timestamp": "2026-10-14 08:20:00", "servicio": "smb", "src_ip": "192.168.1.80", "usuario": "profesor", "estado": "SUCCESS", "share": "/material" },
+  { "id": 8, "timestamp": "2026-10-14 08:32:11", "servicio": "nginx", "src_ip": "192.168.1.200", "usuario": "alumno1", "estado": "SUCCESS", "path": "/inicio" },
+  { "id": 9, "timestamp": "2026-10-14 08:45:00", "servicio": "firewall", "src_ip": "203.0.113.15", "destino": "192.168.1.10", "estado": "BLOCKED", "puerto": 3389, "razon": "rdp_bloqueado" },
+  { "id": 10, "timestamp": "2026-10-14 09:00:00", "servicio": "sshd", "src_ip": "192.168.1.50", "usuario": "rodrigo", "estado": "SUCCESS", "puerto": 22 }
+]

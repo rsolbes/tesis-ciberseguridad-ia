@@ -1,0 +1,22 @@
+[
+  {
+    "pregunta": "¿Qué es un archivo de registro o log?",
+    "claves": ["log", "registro", "bitacora", "eventos", "que", "es"],
+    "respuesta": "Es un registro digital que guarda una lista cronológica de eventos ocurridos en un sistema operativo, servidor o red. Contiene marca de tiempo, origen, usuario, acción y resultado. Revisa la sección 2 del módulo."
+  },
+  {
+    "pregunta": "¿Por qué es importante la segmentación de red?",
+    "claves": ["segmentacion", "red", "aislamiento", "zonas"],
+    "respuesta": "Permite separar los equipos en zonas aisladas mediante cortafuegos. Si un equipo es vulnerado, el atacante no puede moverse libremente hacia los servidores centrales ni hacia otros departamentos. Revisa la sección 1."
+  },
+  {
+    "pregunta": "¿Cómo distingo un evento normal de uno sospechoso?",
+    "claves": ["sospechoso", "anomalo", "fuerza", "bruta", "escaneo"],
+    "respuesta": "Un evento normal refleja la actividad cotidiana autorizada. Un evento sospechoso rompe ese patrón habitual, como cientos de intentos fallidos de inicio de sesión en pocos segundos (fuerza bruta) o conexiones a deshoras. Revisa la sección 3."
+  },
+  {
+    "pregunta": "¿Qué es la correlación de eventos?",
+    "claves": ["correlacion", "eventos", "avanzada", "fuentes"],
+    "respuesta": "Es el análisis que junta registros de diferentes equipos (cortafuegos, servidor web y bases de datos) para reconstruir la historia completa de un ataque complejo que atravesó varias capas del sistema. Revisa la profundización del módulo."
+  }
+]

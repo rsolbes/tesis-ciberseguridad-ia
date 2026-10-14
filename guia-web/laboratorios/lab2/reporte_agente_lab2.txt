@@ -1,0 +1,4 @@
+CONSULTA: ¿Hubo algún intento sospechoso de acceso desde la IP 192.168.1.105?
+REGISTROS ANALIZADOS: 4
+CONCLUSION:
+He detectado 4 intentos consecutivos de inicio de sesión fallidos desde la IP 192.168.1.105 en un lapso de 10 segundos contra las cuentas invitado, admin, root y soporte. Este patrón coincide con un ataque de fuerza bruta o diccionario. Recomendación: bloquear temporalmente la IP 192.168.1.105 en el cortafuegos.

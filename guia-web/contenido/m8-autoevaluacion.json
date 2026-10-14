@@ -1,0 +1,94 @@
+{
+  "aprobatorio": 0.7,
+  "insignia": {
+    "nombre": "Auditor ético",
+    "icono": "⚖️",
+    "descripcion": "Formulas políticas de gobernanza y supervisión humana para agentes y distingues usos autorizados bajo el NIST AI RMF."
+  },
+  "preguntas": [
+    {
+      "ruta": "ambas",
+      "texto": "¿Qué determina si el uso de una herramienta o agente de seguridad es legítimo o ilícito?",
+      "opciones": [
+        "El lenguaje de programación en el que esté escrito el agente",
+        "La existencia de una autorización explícita y formal por escrito por parte de los propietarios del sistema",
+        "Que la herramienta se descargue desde un enlace gratuito",
+        "El horario en el que se ejecute el programa"
+      ],
+      "correcta": 1,
+      "explicacion": "La autorización formal expresa y documentada es la frontera legal y ética que distingue una auditoría de un delito informático."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿Cuáles son las cuatro funciones del marco de gestión de riesgos de IA del NIST (NIST AI RMF)?",
+      "opciones": [
+        "Gobernar, Mapear, Medir y Gestionar",
+        "Comprar, Vender, Alquilar y Prestar",
+        "Escanear, Atacar, Explotar y Borrar",
+        "Iniciar, Esperar, Pausar y Detener"
+      ],
+      "correcta": 0,
+      "explicacion": "El NIST AI RMF organiza la gestión de riesgos en Gobernar (Govern), Mapear (Map), Medir (Measure) y Gestionar (Manage)."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "Si un agente defensivo comete un error grave en un centro de operaciones, ¿en quién recae la responsabilidad final?",
+      "opciones": [
+        "En el modelo de lenguaje que tomó la decisión",
+        "En la empresa que fabricó el procesador de la computadora",
+        "En el analista humano y la organización que supervisan y autorizan la operación del sistema",
+        "En nadie, los errores de la IA son considerados eventos fortuitos inevitables"
+      ],
+      "correcta": 2,
+      "explicacion": "La responsabilidad profesional y legal es intransferible y recae siempre en los seres humanos a cargo de la supervisión."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿Qué propósito cumple un «interruptor de apagado» (kill switch) en una política de agentes de IA?",
+      "opciones": [
+        "Permitir que un operador humano desconecte o suspenda las acciones del agente de inmediato ante comportamientos anómalos o sospechosos",
+        "Apagar las luces del edificio para ahorrar energía",
+        "Borrar todos los correos de la empresa",
+        "Hacer que el modelo responda más rápido"
+      ],
+      "correcta": 0,
+      "explicacion": "El interruptor de apagado garantiza que la supervisión humana tenga siempre la última palabra para frenar acciones no deseadas."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿Por qué es indispensable que las acciones de un agente queden registradas en una bitácora inmutable?",
+      "opciones": [
+        "Para ocupar espacio en el disco duro",
+        "Para permitir auditorías forenses posteriores y verificar la cadena de razonamiento y herramientas utilizadas ante cualquier incidente",
+        "Para publicar las conversaciones en redes sociales",
+        "Para que la computadora no se sobrecaliente"
+      ],
+      "correcta": 1,
+      "explicacion": "La inmutabilidad de los registros asegura la trazabilidad y la rendición de cuentas en auditorías de seguridad."
+    },
+    {
+      "ruta": "avanzada",
+      "texto": "¿Qué exige la Ley de Inteligencia Artificial de la Unión Europea para los sistemas clasificados en la categoría de alto riesgo?",
+      "opciones": [
+        "Que sean completamente destruidos",
+        "Garantías de evaluación de conformidad, documentación técnica rigurosa, calidad en los datos, mitigación de riesgos y supervisión humana efectiva",
+        "Que solo puedan ser utilizados por agencias gubernamentales",
+        "Que funcionen exclusivamente en servidores instalados en Europa"
+      ],
+      "correcta": 1,
+      "explicacion": "Los sistemas de alto riesgo están sujetos a estrictas obligaciones de transparencia, auditoría y control humano antes y durante su despliegue."
+    },
+    {
+      "ruta": "avanzada",
+      "texto": "¿En qué consiste el principio de explicabilidad (XAI) aplicado a los agentes en sectores regulados?",
+      "opciones": [
+        "En que el agente traduzca todo a diez idiomas diferentes",
+        "En la capacidad del sistema de exponer de forma transparente y comprensible las evidencias y la cadena lógica de razonamiento que sustentaron una decisión crítica",
+        "En imprimir los manuales de usuario en papel",
+        "En publicar el código fuente en periódicos de circulación nacional"
+      ],
+      "correcta": 1,
+      "explicacion": "La explicabilidad permite verificar que una decisión de seguridad crítica se basó en evidencias reales y válidas, facilitando la auditoría técnica."
+    }
+  ]
+}

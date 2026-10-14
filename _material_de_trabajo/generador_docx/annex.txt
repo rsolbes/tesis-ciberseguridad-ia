@@ -1,0 +1,4 @@
+@ANX:Anexo 1.|Rúbrica de validación por expertos.
+@NOTE:Cada experto aplica la rúbrica a cada uno de los nueve módulos y al reto integrador, y evalúa una sola vez al asistente conversacional. El juicio de necesidad se utiliza para calcular la razón de validez de contenido (Lawshe, 1975).
+@TABLE:rubrica
+@SRC:Elaboración propia.

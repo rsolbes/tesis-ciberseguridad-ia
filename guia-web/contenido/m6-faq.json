@@ -1,0 +1,22 @@
+[
+  {
+    "pregunta": "¿Qué tareas realiza un agente defensivo en el SOC?",
+    "claves": ["soc", "defensivo", "triaje", "enriquecimiento", "resumen"],
+    "respuesta": "Realiza tres tareas principales: el triaje de alertas filtrando falsos positivos, el enriquecimiento consultando fuentes externas de inteligencia de amenazas (como MITRE ATT&CK) y el resumen ejecutivo de incidentes extensos. Revisa la sección 1 del módulo."
+  },
+  {
+    "pregunta": "¿Qué es la precisión y qué es la exhaustividad (recall)?",
+    "claves": ["precision", "exhaustividad", "recall", "metricas", "diferencia"],
+    "respuesta": "La precisión mide de todas las alertas marcadas como ataque cuántas lo eran realmente (evita falsas alarmas). La exhaustividad mide de todos los ataques reales ocurridos cuántos logró atrapar el agente (evita que se escape una intrusión). Revisa la sección 3."
+  },
+  {
+    "pregunta": "¿Por qué es tan peligroso un falso negativo en ciberseguridad?",
+    "claves": ["falso", "negativo", "peligro", "riesgo"],
+    "respuesta": "Porque significa que un ataque real ocurrió pero el sistema lo etiquetó como benigno, lo que deja al atacante operando dentro de la red sin que ningún analista humano se entere. Revisa la sección 3."
+  },
+  {
+    "pregunta": "¿Cómo se realiza el Laboratorio 3?",
+    "claves": ["laboratorio", "lab3", "reglas", "metricas", "python"],
+    "respuesta": "Ejecutarás los scripts de la carpeta laboratorios/lab3/ para comparar cómo clasifican un conjunto de alertas sintéticas un motor de reglas y un agente local, obteniendo la matriz de confusión y las métricas de precisión y recall de ambos."
+  }
+]

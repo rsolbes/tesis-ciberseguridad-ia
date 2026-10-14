@@ -1,0 +1,94 @@
+{
+  "aprobatorio": 0.7,
+  "insignia": {
+    "nombre": "Operador de modelos",
+    "icono": "🧠",
+    "descripcion": "Ejecutas modelos de lenguaje locales sin conexión, analizas su ventana de contexto y reconoces sus límites."
+  },
+  "preguntas": [
+    {
+      "ruta": "ambas",
+      "texto": "¿Cómo genera texto un gran modelo de lenguaje (LLM)?",
+      "opciones": [
+        "Buscando respuestas completas ya redactadas en una enciclopedia interna",
+        "Prediciendo matemáticamente el token más probable a continuación con base en el contexto recibido",
+        "Copiando y pegando fragmentos de páginas de internet en tiempo real",
+        "Consultando a una persona humana a través de internet"
+      ],
+      "correcta": 1,
+      "explicacion": "Un LLM es una red neuronal probabilística que predice iterativamente el siguiente token más coherente con la entrada."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿A qué se le llama «alucinación» en un modelo de lenguaje?",
+      "opciones": [
+        "A que el monitor de la computadora parpadea con luces de colores",
+        "A cuando el modelo inventa datos falsos o comandos inexistentes presentándolos con total seguridad",
+        "A que el modelo responde en un idioma extranjero",
+        "A que el modelo se apaga por falta de batería"
+      ],
+      "correcta": 1,
+      "explicacion": "La alucinación es la generación convincente de información inexacta o inventada debido a la naturaleza probabilística del modelo."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿Por qué es conveniente usar modelos locales como Ollama en tareas de ciberseguridad?",
+      "opciones": [
+        "Porque los modelos comerciales son ilegales",
+        "Porque garantizan que los datos y registros confidenciales no salgan de la propia computadora ni se compartan con terceros",
+        "Porque los modelos locales nunca tienen alucinaciones",
+        "Porque funcionan sin necesidad de electricidad"
+      ],
+      "correcta": 1,
+      "explicacion": "La ejecución local asegura la privacidad, el cumplimiento normativo y la soberanía de los datos sensibles."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "Si deseas que el modelo responda de la forma más precisa, directa y determinista posible al clasificar una alerta, ¿qué valor de temperatura debes elegir?",
+      "opciones": [
+        "Una temperatura cercana a cero (por ejemplo 0.0 o 0.1)",
+        "Una temperatura máxima (por ejemplo 2.0)",
+        "Una temperatura negativa",
+        "La temperatura no influye en las respuestas"
+      ],
+      "correcta": 0,
+      "explicacion": "Una temperatura muy baja favorece los tokens con mayor probabilidad matemática, reduciendo la variabilidad y la creatividad no deseada."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿Qué ocurre cuando el texto de entrada y la respuesta superan el tamaño de la ventana de contexto del modelo?",
+      "opciones": [
+        "La computadora se reinicia de emergencia",
+        "El modelo ignora o descarta la información más antigua que queda fuera de la ventana",
+        "El texto se traduce automáticamente al latín",
+        "El modelo aumenta su memoria física por sí solo"
+      ],
+      "correcta": 1,
+      "explicacion": "La ventana de contexto tiene un límite fijo de tokens; todo lo que excede ese límite deja de ser visible para el modelo."
+    },
+    {
+      "ruta": "avanzada",
+      "texto": "¿En qué consiste la cuantización de un modelo de lenguaje?",
+      "opciones": [
+        "En duplicar la cantidad de parámetros para hacerlo más inteligente",
+        "En reducir la precisión numérica de los pesos (por ejemplo de 16 bits a 4 bits) para disminuir drásticamente el uso de memoria RAM",
+        "En conectar el modelo a una computadora cuántica",
+        "En traducir el código de Python a lenguaje ensamblador"
+      ],
+      "correcta": 1,
+      "explicacion": "La cuantización comprime los pesos numéricos del modelo a enteros de 8 o 4 bits, permitiendo correr modelos grandes en equipos modestos."
+    },
+    {
+      "ruta": "avanzada",
+      "texto": "¿Por qué los términos de uso del nivel gratuito de varias APIs comerciales desaconsejan su empleo con datos confidenciales de empresas o estudiantes?",
+      "opciones": [
+        "Porque los servidores en la nube no tienen conexión a internet",
+        "Porque el proveedor se reserva el derecho de auditar y usar el contenido enviado para reentrenar sus propios modelos",
+        "Porque cobran tarifas ocultas en tarjetas de crédito",
+        "Porque solo admiten consultas en código binario"
+      ],
+      "correcta": 1,
+      "explicacion": "En los planes gratuitos el texto enviado suele almacenarse para mejora del servicio, lo que viola políticas de confidencialidad y normativas de menores."
+    }
+  ]
+}

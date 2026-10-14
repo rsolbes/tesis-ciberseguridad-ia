@@ -1,0 +1,5 @@
+POLITICA DE GESTION DE CREDENCIALES (AUTORIZADA POR CISO)
+Fecha de vigencia: 2026-01-15
+Regla 1: Toda contraseña de usuario debe tener una longitud mínima de 14 caracteres incluyendo mayúsculas, minúsculas, números y símbolos.
+Regla 2: La autenticación en dos pasos (2FA) es de uso forzoso para todos los colaboradores y estudiantes.
+Regla 3: Queda prohibido compartir credenciales o almacenarlas en archivos de texto plano sin cifrar.

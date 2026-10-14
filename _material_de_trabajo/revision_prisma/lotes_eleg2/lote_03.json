@@ -1,0 +1,218 @@
+[
+ {
+  "clave": "R0205",
+  "titulo": "Agentic AI for Autonomous Cyber Defense: Architecture, Evaluation, and Risk Management",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "International Journal of Innovative Research in Technology",
+  "texto": "textos/R0205.txt"
+ },
+ {
+  "clave": "R0206",
+  "titulo": "Big Enough to Break Out: Tracking the Rising Capability of LLM Penetration-Testing Agents",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0206.txt"
+ },
+ {
+  "clave": "R0208",
+  "titulo": "Automated Cyber Defense with Generalizable Graph-based Reinforcement Learning Agents",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0208.txt"
+ },
+ {
+  "clave": "R0221",
+  "titulo": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0221.txt"
+ },
+ {
+  "clave": "R0222",
+  "titulo": "LanG -- A Governance-Aware Agentic AI Platform for Unified Security Operations",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0222.txt"
+ },
+ {
+  "clave": "R0228",
+  "titulo": "MITRE-SAGE: A Multi-Agent Cybersecurity Question-Answering Model",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0228.txt"
+ },
+ {
+  "clave": "R0229",
+  "titulo": "Agentic Security: A Systematization of Tools, Failure Modes, and Design Laws for LLM-Driven Penetration Testing",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0229.txt"
+ },
+ {
+  "clave": "R0230",
+  "titulo": "NetForge RL: A Multi-Agent Simulation Environment for Cyber Defense with Durative Actions",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0230.txt"
+ },
+ {
+  "clave": "R0234",
+  "titulo": "ALUSKORT: A HIERARCHICAL MULTI-AGENT COGNITIVE ARCHITECTURE FOR AUTONOMOUS SECURITY OPERATIONS",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "International Journal of Apllied Mathematics",
+  "texto": "textos/R0234.txt"
+ },
+ {
+  "clave": "R0235",
+  "titulo": "Cybersecurity in the Era of generative and agentic AI: A reimagined architecture",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "International Journal of Cloud Computing and Database Management",
+  "texto": "textos/R0235.txt"
+ },
+ {
+  "clave": "R0238",
+  "titulo": "Penetration Testing of Agentic AI: A Comparative Security Analysis Across Models and Frameworks",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0238.txt"
+ },
+ {
+  "clave": "R0242",
+  "titulo": "Study on Artificial Intelligence Agents Applied to Cybersecurity and Penetration Testing in Systems",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Científica",
+  "texto": "textos/R0242.txt"
+ },
+ {
+  "clave": "R0245",
+  "titulo": "Red-MIRROR: Agentic LLM-based Autonomous Penetration Testing with Reflective Verification and Knowledge-augmented Interaction",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0245.txt"
+ },
+ {
+  "clave": "R0248",
+  "titulo": "The Ethics of Autonomous AI Agents for Offensive Security",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0248.txt"
+ },
+ {
+  "clave": "R0249",
+  "titulo": "Towards Knowledge Graph-Grounded Evaluation of Agentic LLMs on Cybersecurity Capture-the-Flag Challenges",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0249.txt"
+ },
+ {
+  "clave": "R0250",
+  "titulo": "Agent Tarini: A New Generation of AI Cyber Security Agents",
+  "anio": 2023,
+  "tipo": "article",
+  "venue": "International Journal For Multidisciplinary Research",
+  "texto": "textos/R0250.txt"
+ },
+ {
+  "clave": "R0252",
+  "titulo": "CyberAgent: An Agentic AI Framework for Autonomous Security Operations with Reduced Operational Cost",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Interdisciplinary Journal of Information Knowledge and Management",
+  "texto": "textos/R0252.txt"
+ },
+ {
+  "clave": "R0253",
+  "titulo": "It is Not Yet Another Tool: Creating and Deploying an Agentic AI Companion in a Security Operations Center",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0253.txt"
+ },
+ {
+  "clave": "R0254",
+  "titulo": "Emerging Cyber Attack Risks of Medical AI Agents",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0254.txt"
+ },
+ {
+  "clave": "R0260",
+  "titulo": "Agentic AI for Cybersecurity: A Meta-Cognitive Architecture for Governable Autonomy",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0260.txt"
+ },
+ {
+  "clave": "R0261",
+  "titulo": "BlueSTAR: Tiered Agentic Architecture for Autonomous Cyber Defense",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0261.txt"
+ },
+ {
+  "clave": "R0263",
+  "titulo": "Cognitive Trust Architecture for Mitigating Agentic AI Threats: Adaptive Reasoning and Resilient Cyber Defense",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "Journal of Information Systems Engineering & Management",
+  "texto": "textos/R0263.txt"
+ },
+ {
+  "clave": "R0266",
+  "titulo": "Towards Type Agnostic Cyber Defense Agents",
+  "anio": 2024,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0266.txt"
+ },
+ {
+  "clave": "R0270",
+  "titulo": "The Model Proposes, the Code Disposes: A Pre-Registered Ablation of a Verifier-and-Acceptance Stage in an LLM-Orchestrated Offensive-Security Agent",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0270.txt"
+ },
+ {
+  "clave": "R0272",
+  "titulo": "PentestMCP: A Toolkit for Agentic Penetration Testing",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0272.txt"
+ },
+ {
+  "clave": "R0275",
+  "titulo": "PENTESTLLMAGENT: A Task Dependency Graph Planning-Based Multi-Agent Framework for Automated Penetration Testing",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0275.txt"
+ },
+ {
+  "clave": "R0276",
+  "titulo": "A Survey of Agentic AI and Cybersecurity: Challenges, Opportunities and Use-case Prototypes",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0276.txt"
+ }
+]

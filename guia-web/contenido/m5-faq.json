@@ -1,0 +1,22 @@
+[
+  {
+    "pregunta": "¿Qué es un agente de inteligencia artificial?",
+    "claves": ["agente", "ia", "definicion", "componentes", "asistente"],
+    "respuesta": "Es un sistema computacional dotado de un modelo de lenguaje que percibe su entorno, razona sobre metas, recuerda información y utiliza herramientas para ejecutar acciones concretas en el mundo digital. Revisa las secciones 1 y 2 del módulo."
+  },
+  {
+    "pregunta": "¿Qué significa el patrón ReAct?",
+    "claves": ["react", "reason", "act", "patron", "razonamiento"],
+    "respuesta": "Viene de Reason + Act (Razonar y Actuar). Es una técnica donde el agente piensa sobre lo que necesita hacer, llama a una herramienta, analiza el resultado y vuelve a pensar en el siguiente paso hasta resolver la tarea. Revisa la sección 2."
+  },
+  {
+    "pregunta": "¿Cuáles son los niveles de autonomía en ciberseguridad?",
+    "claves": ["autonomia", "niveles", "humano", "supervision", "0", "1", "2", "3", "4"],
+    "respuesta": "La guía clasifica la autonomía en 5 niveles: Nivel 0 (manual), Nivel 1 (asistencia/sugerencia), Nivel 2 (ejecución supervisada con humano en el circuito), Nivel 3 (supervisión por excepción) y Nivel 4 (autonomía total sin intervención humana). Revisa la sección 3."
+  },
+  {
+    "pregunta": "¿De qué trata el Laboratorio 2?",
+    "claves": ["laboratorio", "lab2", "herramienta", "python", "asistente", "agente"],
+    "respuesta": "Conectarás un modelo local con una función de Python que consulta registros de bitácora en modo de solo lectura, construyendo un agente mínimo con ciclo de percepción, uso de herramientas y reporte final. Revisa la carpeta laboratorios/lab2/."
+  }
+]

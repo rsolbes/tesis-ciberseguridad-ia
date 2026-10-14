@@ -1,0 +1,77 @@
+{"clave": "R0001", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Sistema multiagente con LLM para detección y correlación de amenazas"}
+{"clave": "R0002", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agente de ciberdefensa autónoma con DRL y LLM"}
+{"clave": "R0003", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Agentes LLM para pruebas de penetración automatizadas"}
+{"clave": "R0004", "decision": "incluir", "criterio": "IA", "tema": "general", "nota": "IA agéntica en ciberseguridad, SOC y riesgos asociados"}
+{"clave": "R0005", "decision": "incierto", "criterio": "DUDA", "tema": "ofensiva", "nota": "Phishing con LLM; no queda claro el uso de agentes"}
+{"clave": "R0006", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Revisión de aprendizaje por refuerzo multiagente en ciberseguridad"}
+{"clave": "R0007", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "MARL para resiliencia de estaciones de carga ante ciberataques"}
+{"clave": "R0008", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Marco multiagente LLM para pentesting con MITRE ATT&CK"}
+{"clave": "R0009", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "MARL jerárquico para ciberdefensa autónoma en CybORG"}
+{"clave": "R0010", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Pentesting autónomo multiagente LLM con currículo"}
+{"clave": "R0011", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agente de ciberdefensa autónoma con IA híbrida DRL y LLM"}
+{"clave": "R0012", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "MARL para ciberdefensa autónoma en CAGE Challenge 4"}
+{"clave": "R0013", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Agentes RL en cascada para pentesting autónomo"}
+{"clave": "R0014", "decision": "incluir", "criterio": "IA", "tema": "general", "nota": "Revisión narrativa de IA agéntica en ciberseguridad y gobernanza"}
+{"clave": "R0015", "decision": "incluir", "criterio": "IA", "tema": "general", "nota": "Agentes LLM para planificación táctica de ataque y defensa"}
+{"clave": "R0016", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "RAG agéntico para clasificación y reporte de ciberataques"}
+{"clave": "R0017", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "IA agéntica para SOAR y automatización en SOC"}
+{"clave": "R0018", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Diseño de recompensa para agentes RL de defensa de red"}
+{"clave": "R0019", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agentes RL causales para ciberdefensa autónoma"}
+{"clave": "R0020", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agentes de ciberdefensa con MARL y LLM en redes militares"}
+{"clave": "R0021", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Agente LLM HackSynth para pentesting autónomo y benchmarks CTF"}
+{"clave": "R0022", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Marco multiagente LLM para resolver retos CTF"}
+{"clave": "R0023", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Evolución de IA agéntica en SOC, de LLM a multiagente"}
+{"clave": "R0024", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "RedTeamLLM, marco agéntico para seguridad ofensiva"}
+{"clave": "R0025", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "MARL jerárquico guiado por LLM para ciberdefensa"}
+{"clave": "R0026", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agente conversacional GPT para análisis de logs de seguridad"}
+{"clave": "R0027", "decision": "incluir", "criterio": "IA", "tema": "general", "nota": "MARL y coevolución de atacante y defensor en red"}
+{"clave": "R0028", "decision": "incluir", "criterio": "IA", "tema": "general", "nota": "Revisión sistemática de IA agéntica y LLM para ciberseguridad IoT"}
+{"clave": "R0029", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agentes LLM para estrategias de ciberdefensa comparando modelos"}
+{"clave": "R0030", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agentes autónomos de ciberdefensa con DRL en operaciones de seguridad"}
+{"clave": "R0031", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Ciberdefensa multiagente con RL y críticos LLM jerárquicos"}
+{"clave": "R0032", "decision": "incluir", "criterio": "IA", "tema": "seguridad_agentes", "nota": "Robustez adversarial de agentes DRL de ciberdefensa"}
+{"clave": "R0033", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Proceso de evaluación de agentes RL de ciberdefensa autónoma"}
+{"clave": "R0034", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "IA agéntica con DRL para sistemas de seguridad autorreparables"}
+{"clave": "R0035", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "MARL para ciberdefensa de tecnología operacional marítima"}
+{"clave": "R0036", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agentes autónomos DRL en CAGE Challenge 2"}
+{"clave": "R0037", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Sistemas multiagente con IA para ciberseguridad en ciudades inteligentes"}
+{"clave": "R0038", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "MARL profundo para detección de ciberataques en IoT"}
+{"clave": "R0039", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Benchmark de agentes LLM para forense y respuesta a incidentes"}
+{"clave": "R0040", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agente RL para ciberdefensa del bus CAN vehicular"}
+{"clave": "R0041", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Comunicación aprendida entre agentes MARL defensores en CybORG"}
+{"clave": "R0042", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Actor-crítico multiagente para ciberdefensa autónoma"}
+{"clave": "R0043", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "RL offline para agentes de ciberdefensa y playbooks adaptativos"}
+{"clave": "R0044", "decision": "incluir", "criterio": "IA", "tema": "seguridad_agentes", "nota": "Gobernanza de flujos de IA agéntica en ciberseguridad"}
+{"clave": "R0045", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "MARL para aprender tácticas de ciberdefensa en simulación"}
+{"clave": "R0046", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Comparación de algoritmos para agentes adversarios APT en simulación"}
+{"clave": "R0047", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "MARL adversarial explicable para ciberdefensa autónoma"}
+{"clave": "R0048", "decision": "incluir", "criterio": "IA", "tema": "general", "nota": "Especificación y evaluación de sistemas multiagente LLM en ciberseguridad"}
+{"clave": "R0049", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agentes de ciberdefensa autónoma con MARL, grafos y LLM"}
+{"clave": "R0050", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Arquitectura de defensa con MARL, lógica difusa y teoría de juegos"}
+{"clave": "R0051", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "SOAR con LLM y agentes de IA para ciberdefensa"}
+{"clave": "R0052", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Agente RL parcialmente observable para pruebas de penetración"}
+{"clave": "R0053", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Revisión de agentes de IA para SOC autónomos"}
+{"clave": "R0054", "decision": "incierto", "criterio": "DUDA", "tema": "seguridad_agentes", "nota": "Ataques adversariales a sistema MADRL; dudosa relación con ciberseguridad"}
+{"clave": "R0055", "decision": "incluir", "criterio": "IA", "tema": "seguridad_agentes", "nota": "Amenazas y vulnerabilidades de IA agéntica en automatización industrial"}
+{"clave": "R0056", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Pentesting web multiagente con DRL adaptativo"}
+{"clave": "R0057", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Agente ReaperAI basado en LLM para seguridad ofensiva"}
+{"clave": "R0058", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Nash Q-learning multiagente en simulación de ciberdefensa"}
+{"clave": "R0059", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Sin resumen; título compara agentes DRL y LLM en ciberdefensa"}
+{"clave": "R0060", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "SOC autónomo multiagente LLM para pymes"}
+{"clave": "R0061", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Agentes LLM ofensivos para CTF y evaluación con LLM juez"}
+{"clave": "R0062", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Marco agéntico multicapa para automatizar operaciones SOC"}
+{"clave": "R0063", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Sin resumen; revisión sistemática de agentes LLM en ciberdefensa"}
+{"clave": "R0064", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agentes de IA para automatizar SIEM y reducir riesgo"}
+{"clave": "R0065", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Entorno MARL PoolFlip para ciberdefensa basado en FlipIt"}
+{"clave": "R0066", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "IA agéntica y generativa para arquitectura de confianza cero"}
+{"clave": "R0067", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Análisis de IA agéntica para ciberdefensa autónoma"}
+{"clave": "R0068", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Benchmark de agentes generativos para pruebas de penetración"}
+{"clave": "R0069", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Sin resumen; agentes LLM para falsos positivos en SOC"}
+{"clave": "R0070", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "MADRL para mitigar ciberataques en estaciones de carga"}
+{"clave": "R0071", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agentes autónomos de seguridad con LLM para SOC"}
+{"clave": "R0072", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "MARL jerárquico explicable para ciberdefensa en IIoT"}
+{"clave": "R0073", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Agentes LLM y grafos para cadenas de ataque en MANET"}
+{"clave": "R0074", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Entornos CTF dinámicos para entrenar agentes RL ofensivos"}
+{"clave": "R0075", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Comparación de agentes autónomos de pruebas de penetración"}
+{"clave": "R0076", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Arquitectura agéntica para optimizar indicadores de SOC"}
+{"clave": "R0077", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "LLM, agentes y RAG para inteligencia de amenazas"}

@@ -1,0 +1,94 @@
+{
+  "aprobatorio": 0.7,
+  "insignia": {
+    "nombre": "Estratega del SOC",
+    "icono": "🏢",
+    "descripcion": "Mapeas las operaciones de seguridad a las seis funciones del NIST CSF 2.0 y comprendes el flujo de alertas en un SOC."
+  },
+  "preguntas": [
+    {
+      "ruta": "ambas",
+      "texto": "¿Cuáles son las seis funciones continuas del marco de ciberseguridad NIST CSF 2.0?",
+      "opciones": [
+        "Planear, Diseñar, Programar, Probar, Desplegar y Mantener",
+        "Gobernar, Identificar, Proteger, Detectar, Responder y Recuperar",
+        "Comprar, Instalar, Configurar, Encender, Apagar y Reiniciar",
+        "Cifrar, Descifrar, Firmar, Autenticar, Autorizar y Auditar"
+      ],
+      "correcta": 1,
+      "explicacion": "El NIST CSF 2.0 define Gobernar, Identificar, Proteger, Detectar, Responder y Recuperar como sus seis funciones centrales."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿Cuál es la tarea primordial de los analistas de Nivel 1 en un SOC?",
+      "opciones": [
+        "Negociar con los atacantes para pagar rescates",
+        "El triaje de alertas, que consiste en filtrar falsos positivos y priorizar incidentes reales",
+        "Diseñar las leyes de privacidad del país",
+        "Fabricar los cables de red de la empresa"
+      ],
+      "correcta": 1,
+      "explicacion": "Los analistas N1 reciben el caudal masivo de alertas para realizar la primera clasificación y descartar falsas alarmas."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿A qué se le llama «fatiga de alertas» en un centro de operaciones?",
+      "opciones": [
+        "A que los monitores de la sala se calientan demasiado",
+        "Al agotamiento de los analistas por tener que revisar miles de avisos diarios, lo que incrementa el riesgo de ignorar una amenaza real",
+        "A una falla en las bocinas de emergencia de la empresa",
+        "A que los cables de red transmiten alertas demasiado despacio"
+      ],
+      "correcta": 1,
+      "explicacion": "La fatiga de alertas surge de la sobrecarga de notificaciones repetitivas y falsas alarmas que cansan a los operadores humanos."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "¿Qué mide la métrica MTTD (Mean Time to Detect)?",
+      "opciones": [
+        "El costo económico de los antivirus",
+        "El tiempo promedio transcurrido entre el inicio de una intrusión y su descubrimiento por el equipo de seguridad",
+        "La cantidad de contraseñas olvidadas por mes",
+        "El tiempo que tarda una computadora en encenderse"
+      ],
+      "correcta": 1,
+      "explicacion": "MTTD refleja la rapidez con la que el SOC es capaz de advertir la presencia de un atacante dentro de la red."
+    },
+    {
+      "ruta": "ambas",
+      "texto": "Si un equipo aísla una computadora infectada de la red local para que un gusano no se propague, ¿en qué función del NIST CSF se encuentra?",
+      "opciones": [
+        "Gobernar",
+        "Responder",
+        "Identificar",
+        "Recuperar"
+      ],
+      "correcta": 1,
+      "explicacion": "La contención de una amenaza activa es una actividad característica de la función Responder."
+    },
+    {
+      "ruta": "avanzada",
+      "texto": "¿Por qué un falso negativo en el triaje automático de alertas es más grave que un falso positivo?",
+      "opciones": [
+        "Porque gasta más memoria RAM en el servidor",
+        "Porque un falso negativo descarta una intrusión real sin que nadie la investigue, permitiendo que el adversario permanezca dentro de la red",
+        "Porque los falsos negativos apagan las pantallas de los analistas",
+        "Porque genera quejas inmediatas de los usuarios"
+      ],
+      "correcta": 1,
+      "explicacion": "Un falso negativo significa que el ataque ocurrió y el sistema lo clasificó como benigno, dejándolo desatendido."
+    },
+    {
+      "ruta": "avanzada",
+      "texto": "¿Qué función del NIST CSF 2.0 fue incorporada formalmente en la versión 2.0 para articular la supervisión y la estrategia de seguridad?",
+      "opciones": [
+        "Predecir",
+        "Gobernar (Govern)",
+        "Monitorear",
+        "Auditar"
+      ],
+      "correcta": 1,
+      "explicacion": "Gobernar se añadió como función transversal en NIST CSF 2.0 para enfatizar las políticas, la gestión del riesgo y la dirección estratégica."
+    }
+  ]
+}

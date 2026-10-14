@@ -1,0 +1,72 @@
+[
+  {
+    "id": "m0", "clave": "M0", "eje": "todos", "titulo": "Punto de partida",
+    "resumen": "Autoevaluación de entrada, elección de ruta y reglas de uso ético.",
+    "horas": { "basica": 1, "avanzada": 1 }, "estado": "disponible",
+    "archivo": "m0.md", "faq": "m0-faq.json", "diagnostico": "m0-diagnostico.json",
+    "insignia": { "nombre": "Compromiso ético", "icono": "🤝", "descripcion": "Aceptaste las reglas de uso ético y autorizado de las herramientas." }
+  },
+  {
+    "id": "m1", "clave": "M1", "eje": "A", "titulo": "Fundamentos de ciberseguridad",
+    "resumen": "Tríada de confidencialidad, integridad y disponibilidad, amenazas comunes y factor humano.",
+    "horas": { "basica": 5, "avanzada": 1 }, "estado": "disponible",
+    "archivo": "m1.md", "faq": "m1-faq.json", "autoevaluacion": "m1-autoevaluacion.json",
+    "insignia": { "nombre": "Defensor inicial", "icono": "🔐", "descripcion": "Comprendes la tríada CIA, identificas amenazas comunes y aplicas medidas de protección en cuentas y dispositivos." }
+  },
+  {
+    "id": "m2", "clave": "M2", "eje": "A", "titulo": "Redes, sistemas y registros",
+    "resumen": "Cómo se protegen las redes y los sistemas y cómo se registran sus eventos.",
+    "horas": { "basica": 5, "avanzada": 2 }, "estado": "disponible",
+    "archivo": "m2.md", "faq": "m2-faq.json", "autoevaluacion": "m2-autoevaluacion.json",
+    "insignia": { "nombre": "Rastreador de eventos", "icono": "📜", "descripcion": "Interpretas registros de eventos e identificas patrones de actividad anómala en redes y sistemas." }
+  },
+  {
+    "id": "m3", "clave": "M3", "eje": "A", "titulo": "El ciclo de la defensa y el SOC",
+    "resumen": "Las seis funciones del NIST CSF 2.0, las alertas y las métricas de un centro de operaciones de seguridad.",
+    "horas": { "basica": 5, "avanzada": 2 }, "estado": "disponible",
+    "archivo": "m3.md", "faq": "m3-faq.json", "autoevaluacion": "m3-autoevaluacion.json",
+    "insignia": { "nombre": "Estratega del SOC", "icono": "🏢", "descripcion": "Mapeas las operaciones de seguridad a las seis funciones del NIST CSF 2.0 y comprendes el flujo de alertas en un SOC." }
+  },
+  {
+    "id": "m4", "clave": "M4", "eje": "B", "titulo": "De la IA al LLM",
+    "resumen": "Qué es un modelo de lenguaje, cómo se ejecuta en local y cuáles son sus límites.",
+    "horas": { "basica": 4, "avanzada": 2 }, "estado": "disponible",
+    "archivo": "m4.md", "faq": "m4-faq.json", "autoevaluacion": "m4-autoevaluacion.json",
+    "insignia": { "nombre": "Operador de modelos", "icono": "🧠", "descripcion": "Ejecutas modelos de lenguaje locales sin conexión, analizas su ventana de contexto y reconoces sus límites." }
+  },
+  {
+    "id": "m5", "clave": "M5", "eje": "B", "titulo": "Anatomía de un agente y niveles de autonomía",
+    "resumen": "Percepción, razonamiento, memoria, herramientas y acción, y los niveles de autonomía del 0 al 4.",
+    "horas": { "basica": 4, "avanzada": 4 }, "estado": "disponible",
+    "archivo": "m5.md", "faq": "m5-faq.json", "autoevaluacion": "m5-autoevaluacion.json",
+    "insignia": { "nombre": "Arquitecto de agentes", "icono": "⚙️", "descripcion": "Distingues un asistente conversacional de un agente con herramientas y clasificas agentes según sus niveles de autonomía." }
+  },
+  {
+    "id": "m6", "clave": "M6", "eje": "B", "titulo": "Agentes en la defensa",
+    "resumen": "Triaje de alertas, análisis de registros y gestión de vulnerabilidades con agentes supervisados.",
+    "horas": { "basica": 5, "avanzada": 6 }, "estado": "disponible",
+    "archivo": "m6.md", "faq": "m6-faq.json", "autoevaluacion": "m6-autoevaluacion.json",
+    "insignia": { "nombre": "Analista de triaje", "icono": "📊", "descripcion": "Despliegas agentes defensivos supervisados para el triaje de alertas y evalúas su precisión frente a reglas fijas." }
+  },
+  {
+    "id": "m7", "clave": "M7", "eje": "C", "titulo": "Seguridad de los agentes",
+    "resumen": "Inyección de instrucciones, protección de credenciales y memoria envenenada.",
+    "horas": { "basica": 5, "avanzada": 7 }, "estado": "disponible",
+    "archivo": "m7.md", "faq": "m7-faq.json", "autoevaluacion": "m7-autoevaluacion.json",
+    "insignia": { "nombre": "Guardián de agentes", "icono": "🛡️", "descripcion": "Reconoces los principales ataques contra los agentes de IA y sabes cómo reducirlos." }
+  },
+  {
+    "id": "m8", "clave": "M8", "eje": "C", "titulo": "Gobernanza, ética y marcos",
+    "resumen": "Supervisión humana, uso dual y marcos como el NIST AI RMF.",
+    "horas": { "basica": 3, "avanzada": 3 }, "estado": "disponible",
+    "archivo": "m8.md", "faq": "m8-faq.json", "autoevaluacion": "m8-autoevaluacion.json",
+    "insignia": { "nombre": "Auditor ético", "icono": "⚖️", "descripcion": "Formulas políticas de gobernanza y supervisión humana para agentes y distingues usos autorizados bajo el NIST AI RMF." }
+  },
+  {
+    "id": "reto", "clave": "Reto", "eje": "C", "titulo": "Reto integrador tipo CTF",
+    "resumen": "Un escenario defensivo en el que combinas lo aprendido en los tres ejes.",
+    "horas": { "basica": 3, "avanzada": 4 }, "estado": "disponible",
+    "archivo": "reto.md", "faq": "reto-faq.json", "autoevaluacion": "reto-autoevaluacion.json",
+    "insignia": { "nombre": "Campeón de ciberdefensa", "icono": "🏆", "descripcion": "Resolviste el reto integrador aplicando defensas de red, triaje con agentes y mitigación de inyecciones." }
+  }
+]

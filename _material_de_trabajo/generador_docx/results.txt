@@ -1,0 +1,112 @@
+# Resultados
+En este capítulo se presentan los resultados obtenidos hasta el momento, organizados de acuerdo con los cuatro objetivos particulares. Los productos que derivan del análisis documental y del trabajo de diseño, como la caracterización de la literatura, la comparación de los planes de estudio, la matriz de competencias, la estructura de la guía, los laboratorios y la arquitectura del sitio web, se reportan completos. La validación por expertos, que es el único apartado que requiere la participación de personas, se deja indicada junto con el procedimiento que se seguirá, y se completará cuando se realice.
+
+## Diagnóstico de las poblaciones y del estado del conocimiento
+### Caracterización de la literatura sobre agentes de IA en ciberseguridad
+El corpus inicial de la revisión quedó integrado por 23 estudios publicados entre 2021 y 2026. Para caracterizarlo, cada estudio se clasificó según su año de publicación, el tipo de publicación, el tipo de estudio y la línea de investigación a la que contribuye. El Gráfico 1 muestra la distribución por año y tipo de publicación, y la Tabla 5 resume la distribución por línea de investigación.
+
+@FIG:corpus
+@CAP:Gráfico|Estudios del corpus inicial por año y tipo de publicación (n = 23).
+@SRC:Elaboración propia a partir del análisis del corpus.|center
+
+El primer rasgo que destaca es la novedad del campo. El 82.6 % de los estudios (19 de 23) se publicó en 2025 o 2026, y solo uno es anterior a 2024, el trabajo de Sarker (2021), que corresponde a la IA aplicada a la ciberseguridad antes de la aparición de los agentes basados en LLM. El segundo rasgo es la proporción de trabajos sin revisión por pares, ya que 11 de los 23 estudios (47.8 %) son preprints. Esto no les resta valor, pues incluyen investigaciones de instituciones como Stanford, Oxford u Oak Ridge National Laboratory, pero sí obliga a presentar sus cifras en la guía como resultados reportados y no como hechos consolidados. El tercer rasgo es que cuatro estudios (17.4 %) provienen de revistas cuya calidad editorial es cuestionable, ya que presentan resultados sin describir los datos ni los procedimientos de evaluación, o referencias que no corresponden a lo que citan. Estos trabajos se conservaron en el análisis únicamente como ejemplos de propuestas conceptuales y no se emplearán como evidencia en los materiales de la guía.
+
+@CAP:Tabla|Distribución del corpus inicial por línea de investigación.
+@TABLE:lineas
+@SRC:Elaboración propia a partir del análisis del corpus.
+
+La distribución por líneas confirma el vacío identificado en el estado del arte. Las tres primeras líneas concentran 22 de los 23 estudios y abordan los agentes desde su funcionamiento, sus capacidades o su seguridad, mientras que solo un estudio (4.3 %) vincula la IA con la educación en ciberseguridad (Tantaroudas et al., 2026), y lo hace con adultos y desde la concientización general, no desde los agentes como objeto de aprendizaje.
+
+Además de esta caracterización, se identificaron los temas que aparecen de forma recurrente en la literatura y que, por lo tanto, deben estar presentes en una iniciación al tema. La Tabla 6 relaciona cada tema con los estudios que lo abordan y con la decisión de diseño que se derivó para la guía.
+
+@CAP:Tabla|Temas recurrentes en la literatura y su implicación para el diseño de la guía.
+@TABLE:temas
+@SRC:Elaboración propia a partir del análisis del corpus.
+
+Este análisis corresponde al corpus inicial. La ampliación mediante la búsqueda sistemática en bases de datos, conforme a la declaración PRISMA 2020, permitirá confirmar o ajustar estas proporciones. ==[Pendiente] Agregar el diagrama de flujo PRISMA con el número de registros identificados, cribados, evaluados e incluidos, una vez concluida la búsqueda sistemática.==
+
+### Análisis comparativo de los planes de estudio
+Se compararon el programa de la carrera técnica en Programación del Cetis y el plan de estudios de Ingeniería en Sistemas Computacionales (Reforma 2023) de la Facultad de Ingeniería Tampico. El programa del Cetis se organiza en cinco módulos profesionales con un total de 1,200 horas, los tres primeros de 272 horas y los dos últimos de 192 horas, y desarrolla cinco competencias profesionales relacionadas con la programación estructurada con almacenamiento persistente de datos, la programación orientada a objetos, el desarrollo de aplicaciones web y móviles, la administración de sistemas operativos, aplicaciones y servicios, y las soluciones de aprendizaje en línea y comercio electrónico (CETIS 112, s.f.). El plan de ISC se distribuye en nueve semestres (Facultad de Ingeniería Tampico, s.f.). La Tabla 7 contrasta ambos programas en las áreas de conocimiento relevantes para la guía.
+
+@CAP:Tabla|Comparación de los planes de estudio en áreas relevantes para la guía.
+@TABLE:planes
+@SRC:Elaboración propia a partir de CETIS 112 (s.f.) y Facultad de Ingeniería Tampico (s.f.).
+
+La comparación arroja tres hallazgos que orientan el diseño. En primer lugar, ambas poblaciones comparten una base sólida de programación, lo que permite que los laboratorios de las dos rutas utilicen código, aunque en la ruta básica este se proporcione ya escrito y en la avanzada se construya. En segundo lugar, la seguridad y la inteligencia artificial no aparecen de forma explícita en el programa del Cetis, por lo que la ruta básica debe construir estos conceptos desde cero. En tercer lugar, el plan de ISC sí contempla Seguridad en Redes en sexto semestre, Inteligencia Artificial en séptimo y Aprendizaje Máquina en octavo, lo que implica que los estudiantes de séptimo semestre pueden estar cursando la materia de IA al mismo tiempo que usan la guía, mientras que los de octavo y noveno ya la habrán concluido. Por esta razón, en la ruta avanzada el módulo sobre IA y LLM se diseñó como un repaso breve con autoevaluación, que el estudiante puede acreditar si ya domina los conceptos, y no como un contenido nuevo. En ningún plan aparecen los agentes de IA ni su seguridad, lo que confirma que el eje central de la guía es un contenido nuevo para ambas poblaciones.
+
+La información del Cetis corresponde a la descripción de la carrera técnica publicada por el CETIS 112, que se tomó como referencia del programa de la especialidad.
+
+### Perfil de entrada de los destinatarios
+Como la tesis no contempla trabajo de campo con estudiantes, el perfil de entrada de cada población se construyó a partir de la comparación de los planes de estudio y de la evidencia reportada en la literatura. El estudiante de la ruta básica, que corresponde al Cetis, llega con bases de programación y de administración de sistemas operativos, pero sin formación explícita en redes, seguridad ni inteligencia artificial. El estudiante de la ruta avanzada, que corresponde a ISC, llega con formación en programación, bases de datos, redes, sistemas operativos y seguridad en redes, y con la materia de IA cursada o en curso, pero sin contacto formal con los agentes de IA ni con su seguridad.
+
+En cuanto a los hábitos digitales, se tomó como referencia el diagnóstico de Tantaroudas et al. (2026) con jóvenes de 18 a 20 años, en el que solo el 23.1 % reconocía correos de phishing, el 84.6 % no utilizaba la autenticación en dos pasos, el 59 % reutilizaba contraseñas y el 51.3 % usaba herramientas de IA con frecuencia. Aunque esa población no es idéntica a la de esta tesis, los datos indican que el uso frecuente de la IA no va acompañado de hábitos básicos de seguridad, por lo que la guía incluye estos temas desde el módulo M1 en ambas rutas.
+
+Dado que cada estudiante puede apartarse de estos perfiles generales, la guía no asigna la ruta según la institución de procedencia, sino según una autoevaluación de entrada en el módulo M0. Esa autoevaluación retoma los indicadores anteriores y algunos conceptos básicos de ciberseguridad e IA, y recomienda la ruta básica o la avanzada, aunque el estudiante puede cambiar de ruta en cualquier momento.
+
+## Matriz de competencias de la guía
+A partir de los marcos CSEC2017, NICE, NIST CSF 2.0, NIST AI RMF y la lista OWASP Top 10 para aplicaciones con LLM, se definieron doce competencias organizadas en los tres ejes de la guía, cuatro por eje. Cada competencia tiene un alcance distinto según la ruta. En la ruta básica, el alcance se centra en reconocer, explicar y aplicar con apoyo, mientras que en la ruta avanzada se busca aplicar de forma autónoma, construir y evaluar. La Tabla 8 presenta las competencias con su alcance por ruta y la Tabla 9 muestra su alineación con los marcos de referencia.
+
+@CAP:Tabla|Competencias de la guía y su alcance en cada ruta.
+@TABLE:competencias
+@SRC:Elaboración propia.
+
+@CAP:Tabla|Alineación de las competencias con los marcos de referencia.
+@TABLE:alineacion
+@SRC:Elaboración propia a partir de Joint Task Force (2017), NIST (2020, 2023, 2024) y OWASP (2024).
+
+La alineación muestra que las doce competencias tienen correspondencia con al menos un área de conocimiento de CSEC2017 y una categoría del marco NICE, lo que asegura que la guía no se aparta de los marcos curriculares y laborales vigentes. Al mismo tiempo, seis de las doce competencias (B1, B2, B4, C1, C2 y C3) requirieron referencias que no existen en esos dos marcos, como las funciones del NIST AI RMF o los riesgos de la lista OWASP para LLM. Este resultado confirma lo señalado en el planteamiento del problema, en el sentido de que los marcos tradicionales no bastan para formar en el tema de los agentes de IA y necesitan complementarse con referencias específicas de la IA.
+
+## Estructura pedagógica y secuencia de aprendizaje
+### Organización modular
+La guía se estructuró en nueve módulos agrupados en los tres ejes, precedidos por un módulo de entrada y cerrados por un reto integrador, como se muestra en la Figura 3. La secuencia avanza de lo general a lo particular y, dentro del eje de agentes, sigue los niveles de autonomía descritos en el capítulo de fundamentos. Primero se estudian los modelos de lenguaje como asistentes (niveles 0 y 1), después los agentes que usan herramientas bajo supervisión (nivel 2) y al final los retos de seguridad y gobernanza que plantean los agentes con mayor autonomía (niveles 3 y 4), que se abordan solo de forma conceptual.
+
+@FIG:roadmap
+@CAP:Figura|Estructura modular de la guía y rutas de aprendizaje.
+@SRC:Elaboración propia.|center
+
+El módulo M0 funciona como la puerta de entrada. En él, el estudiante responde una autoevaluación diagnóstica que le indica qué ruta seguir, y se le presentan las reglas de uso ético y autorizado de las herramientas, que deberá aceptar antes de iniciar cualquier práctica. El reto integrador, al final, consiste en una competencia defensiva tipo CTF en la que se combinan los conocimientos de los tres ejes.
+
+### Aplicación de la enseñanza diferenciada
+La diferenciación se aplicó en los tres ejes que propone la literatura. En cuanto al contenido, cada módulo tiene un núcleo común que ambas rutas comparten y una sección de profundización exclusiva de la ruta avanzada, de modo que los dos grupos trabajan los mismos conceptos, aunque con diferente profundidad. En cuanto al proceso, la ruta básica se apoya en explicaciones guiadas, analogías, retos gamificados con puntos e insignias y código ya escrito que el estudiante ejecuta y modifica, mientras que la ruta avanzada privilegia la lectura de fuentes originales, la construcción de agentes desde una plantilla mínima y la comparación de su desempeño con métricas. En cuanto al producto, cada módulo cierra con una autoevaluación que mide la misma competencia con distinta complejidad. Por ejemplo, en el módulo M7 el estudiante de la ruta básica debe identificar una instrucción oculta en un documento y explicar por qué es peligrosa, mientras que el de la ruta avanzada debe proponer y probar una mitigación.
+
+La ruta avanzada no es solo más difícil, sino también más breve en los primeros módulos. Dado que los estudiantes de ISC ya cursaron materias de redes, sistemas operativos y seguridad en redes, los módulos M1 a M3 se ofrecen como validación rápida, en la que el estudiante puede acreditar el módulo con la autoevaluación y dedicar ese tiempo a los ejes B y C. La Tabla 10 presenta la secuencia completa con la duración sugerida para cada ruta.
+
+@CAP:Tabla|Secuencia de módulos, duración sugerida y producto de aprendizaje.
+@TABLE:modulos
+@SRC:Elaboración propia.
+
+La duración total sugerida es de 40 horas para la ruta básica y de 32 horas para la ruta avanzada. En ambos casos, la mayor parte del tiempo se destina a los ejes B y C, que en conjunto representan 60 % de la ruta básica (24 de 40 horas) y 81 % de la ruta avanzada (26 de 32 horas), lo cual es congruente con el propósito de la guía de centrarse en los agentes de IA sin descuidar los fundamentos.
+
+## Desarrollo del material y validación
+### Laboratorios en entornos aislados
+Se diseñaron siete laboratorios que se ejecutan con modelos de lenguaje locales, sin conexión a sistemas externos y con datos sintéticos, siguiendo el enfoque de los prototipos de Lazer et al. (2026). Todos comparten tres medidas de seguridad. La primera es el aislamiento, ya que las prácticas se realizan en un contenedor o máquina virtual sin acceso a redes de terceros. La segunda es el mínimo privilegio, pues las herramientas que se conectan al agente son de solo lectura, salvo en el laboratorio dedicado a credenciales, que usa claves ficticias. La tercera es el registro, porque cada acción del agente queda anotada en una bitácora que el estudiante revisa al final. La Tabla 11 describe cada laboratorio.
+
+@CAP:Tabla|Laboratorios de la guía.
+@TABLE:labs
+@SRC:Elaboración propia a partir de Lazer et al. (2026), Jin et al. (2026) y OWASP (2024).
+
+La herramienta propuesta para ejecutar los modelos es Ollama, un entorno de código abierto que permite descargar y ejecutar modelos de lenguaje en el equipo del estudiante (Ollama, s.f.). Se eligió porque funciona sin conexión una vez descargado el modelo, no requiere cuentas ni pagos y admite modelos ligeros, lo que la hace viable en laboratorios escolares con equipos modestos, en línea con lo documentado por Tantaroudas et al. (2026) para asistentes que operan solo con procesador.
+
+### Curaduría de recursos
+Para complementar los contenidos, se seleccionaron recursos gratuitos y vigentes que cumplen tres criterios. Deben provenir de una fuente reconocida, estar disponibles sin costo y poder usarse de manera legal y segura. La Tabla 12 presenta los recursos seleccionados y su uso dentro de la guía.
+
+@CAP:Tabla|Recursos seleccionados para la guía.
+@TABLE:recursos
+@SRC:Elaboración propia.
+
+### Arquitectura del sitio web y del asistente
+La guía se desarrolla como un sitio web estático, es decir, un conjunto de páginas que se ejecutan por completo en el navegador del estudiante y que no requieren un servidor propio ni una cuenta de usuario. Se eligió esta arquitectura por tres razones. Puede alojarse sin costo, funciona en computadoras modestas y en teléfonos, y no recolecta datos personales, ya que el progreso, las insignias y la ruta elegida se guardan únicamente en el navegador de cada estudiante.
+
+Cada módulo presenta el núcleo común y la profundización de la ruta avanzada, las instrucciones y los archivos de sus laboratorios, una autoevaluación con retroalimentación inmediata y las insignias que se obtienen al completarla. Los contenidos se escriben en archivos de texto separados del código, de modo que puedan actualizarse sin modificar el sitio, lo cual es importante en un tema que cambia con tanta rapidez.
+
+El sitio integra un asistente conversacional que responde preguntas sobre el módulo que el estudiante está consultando. Para limitar los errores, el asistente recibe junto con cada pregunta el texto del módulo y responde con base en él, siguiendo el principio de la generación aumentada por recuperación descrito en el capítulo de fundamentos. Sus instrucciones le indican que se limite a los temas de la guía, que se niegue a apoyar usos no autorizados, que advierta que puede equivocarse y que remita al módulo correspondiente. El asistente no guarda las conversaciones. De acuerdo con los niveles de autonomía revisados, se trata de un sistema de nivel 1, ya que asiste al estudiante pero no ejecuta acciones, y esta característica se aprovecha como material de estudio en los módulos M5 y M7.
+
+La conexión con el modelo de lenguaje se diseñó como un componente intercambiable. En el prototipo que se presentará a los expertos se emplea el nivel gratuito de la API de Gemini, que no tiene costo por tokens (Google, s.f.), a través de un intermediario que protege la clave de acceso. Esta opción solo es adecuada para el prototipo, porque los términos de ese servicio prohíben su uso en aplicaciones dirigidas a menores de 18 años y, en el nivel gratuito, permiten que el contenido enviado se utilice para mejorar sus productos (Google, 2026). Por ello, el mismo componente admite conectarse a un modelo local mediante Ollama, que es la opción recomendada para cualquier uso con estudiantes, pues ninguna pregunta sale de la computadora del estudiante o de la red del plantel.
+
+==[Pendiente] Agregar capturas de pantalla del sitio y el mapa de navegación cuando el prototipo esté terminado.==
+
+### Validación por expertos
+El sitio se someterá a la evaluación de un panel de cinco a siete expertos en ciberseguridad, inteligencia artificial y pedagogía, mediante la rúbrica que se presenta en el Anexo 1. Cada experto valorará los nueve módulos y el reto integrador según cuatro criterios, que son la pertinencia, la claridad, la suficiencia y la seguridad, e indicará si cada módulo es esencial, útil pero no esencial o no necesario. Además, valorará una sola vez el desempeño del asistente conversacional y responderá la escala SUS sobre la usabilidad del sitio (Brooke, 1996). Con el juicio de necesidad se calculará la razón de validez de contenido de cada módulo y se comparará con el valor crítico que corresponde al número de expertos (Lawshe, 1975). Los módulos que no alcancen ese valor se ajustarán y volverán a evaluarse.
+
+==[Pendiente] Reportar la conformación del panel, la razón de validez de contenido por módulo y criterio, la valoración del asistente, el puntaje SUS del sitio, las observaciones cualitativas de los expertos y los ajustes realizados al material.==
+@SECT

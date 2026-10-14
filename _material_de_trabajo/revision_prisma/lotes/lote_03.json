@@ -1,0 +1,863 @@
+[
+ {
+  "clave": "R0155",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Multi-Agent Semantic Drift Detection and Self-Correction in Cybersecurity LLM Pipelines",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "International Research Journal on Advanced Engineering Hub (IRJAEH)",
+  "resumen": "Large Language Model (LLM) pipelines in cybersecurity contexts face a critical but under-studied failure mode: semantic drift, in which outputs progressively deviate from original intent, technical constraints, or safety boundaries as they pass through multiple agent handoffs. This paper presents CyberDrift, a multi-agent closed-loop architecture for semantic drift detection and self-correction in cybersecurity intelligence pipelines. The system makes two primary contributions: (i) discordance-aware reasoning, in which conflict between seven heterogeneous evaluator agents is computed as a structured signal beyond weighted similarity, enabling detection of subtle drift patterns such as entity suppression masked by surface-level fluency; and (ii) an Intelligent Gatekeeper Agent that makes Pass/Repair/Block routing decisions based on both drift magnitude and inter-agent discordance. The discordance signal identifies four interpretable conflict patterns (entity-compression, compression-uncertainty, semantic-compression, and entity-structural), each corresponding to a distinct cybersecurity failure mode. We further characterise the Repair Module through explicit algorithmic specification, demonstrate that repair effectiveness (87.0% mean drift reduction, 99.4% constraint preservation) is robust to classifier error, and establish an ablation baseline confirming that discordance-aware routing reduces unnecessary repair invocations relative to threshold-only gating. CyberDrift demonstrates that evaluator disagreement is itself a structured diagnostic signal, not a noise artefact to be averaged away."
+ },
+ {
+  "clave": "R0156",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "DISTRIBUTED CYBER DEFENSE: A MULTI-AGENT AI APPROACH FOR SAFEGUARDING DIGITAL FINANCIAL SERVICES",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "resumen": "This article examines the application of artificial intelligence–based multi-agent systems in protecting digital financial services from DDoS attacks. Centralized defense systems are often ineffective in countering modern cyberattacks and are characterized by limited adaptability. In the proposed approach, each agent independently monitors network traffic, detects anomalies, and makes real-time decisions through collaborative interaction. Based on adaptive learning, inter-agent communication, and reinforcement learning algorithms, the system continuously updates itself and responds rapidly to emerging threats. Simulation results demonstrate that the multi-agent defense approach enhances the accuracy of DDoS attack detection, reduces response time, and ensures the reliability of financial services, thereby contributing to the strengthening of economic stability."
+ },
+ {
+  "clave": "R0157",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "The agentic AI cyber threat: Cybersecurity challenges of using LLMs as attack actors",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "",
+  "resumen": ""
+ },
+ {
+  "clave": "R0158",
+  "cadenas": [
+   "A",
+   "B"
+  ],
+  "titulo": "Can LLM Agents Replace Reinforcement Learning Agents in Cyber Defence Automation: A Case Study Using the DARPA CAGE-2 Challenge",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "As cyber attacks grow more sophisticated, defenders need autonomous systems that are fast, adaptable, and explainable. Over the last decade, various strategies have been proposed for automated cyber defence (as opposed to static rule-based or signature-based), including those based on reinforcement learning (RL). Researchers have proposed various algorithms to improve RL-based defenders and evaluated them using simulation-based frameworks like the DARPA CAGE-2. Although RL showed promise, it has many limitations, for example, the lack of a realworld training environment and the need for extensive training, which is time-consuming. In this case study, we investigate whether LLM agents can be used instead of RL agents to automate cyber defence. Large Language Models (LLMs) can reason over natural language and generalize from extensive pretraining. They are attractive for cyber defence because they can read textbased system states and make human-like, explainable decisions. We propose a unique way to convert CAGE-2 states to natural language and a domain-specific fine-tuning method that improve the average reward and reduce hallucination significantly, beating existing RL-based agents and state-of-the-art LLM agents."
+ },
+ {
+  "clave": "R0159",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Game Theory Meets LLM and Agentic AI: Reimagining Cybersecurity for the Age of Intelligent Threats",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "Protecting cyberspace requires not only advanced tools but also a shift in how we reason about threats, trust, and autonomy. Traditional cybersecurity methods rely on manual responses and brittle heuristics. To build proactive and intelligent defense systems, we need integrated theoretical frameworks and software tools. Game theory provides a rigorous foundation for modeling adversarial behavior, designing strategic defenses, and enabling trust in autonomous systems. Meanwhile, software tools process cyber data, visualize attack surfaces, verify compliance, and suggest mitigations. Yet a disconnect remains between theory and practical implementation. The rise of Large Language Models (LLMs) and agentic AI offers a new path to bridge this gap. LLM-powered agents can operationalize abstract strategies into real-world decisions. Conversely, game theory can inform the reasoning and coordination of these agents across complex workflows. LLMs also challenge classical game-theoretic assumptions, such as perfect rationality or static payoffs, prompting new models aligned with cognitive and computational realities. This co-evolution promises richer theoretical foundations and novel solution concepts. Agentic AI also reshapes software design: systems must now be modular, adaptive, and trust-aware from the outset. This chapter explores the intersection of game theory, agentic AI, and cybersecurity. We review key game-theoretic frameworks (e.g., static, dynamic, Bayesian, and signaling games) and solution concepts. We then examine how LLM agents can enhance cyber defense and introduce LLM-driven games that embed reasoning into AI agents. Finally, we explore multi-agent workflows and coordination games, outlining how this convergence fosters secure, intelligent, and adaptive cyber s"
+ },
+ {
+  "clave": "R0160",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "An Agent-Based Cybersecurity Framework Enhanced by Large Language Models: Integrating Retrieval-Augmented Generation and Monte Carlo Tree Search",
+  "anio": 2025,
+  "tipo": "conference-paper",
+  "venue": "Lecture notes in computer science",
+  "resumen": ""
+ },
+ {
+  "clave": "R0161",
+  "cadenas": [
+   "A",
+   "B"
+  ],
+  "titulo": "Multi-Agent Reinforcement Learning in Cybersecurity: From Fundamentals to Applications",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "Multi-Agent Reinforcement Learning (MARL) has shown great potential as an adaptive solution for addressing modern cybersecurity challenges. MARL enables decentralized, adaptive, and collaborative defense strategies and provides an automated mechanism to combat dynamic, coordinated, and sophisticated threats. This survey investigates the current state of research in MARL applications for automated cyber defense (ACD), focusing on intruder detection and lateral movement containment. Additionally, it examines the role of Autonomous Intelligent Cyber-defense Agents (AICA) and Cyber Gyms in training and validating MARL agents. Finally, the paper outlines existing challenges, such as scalability and adversarial robustness, and proposes future research directions. This also discusses how MARL integrates in AICA to provide adaptive, scalable, and dynamic solutions to counter the increasingly sophisticated landscape of cyber threats. It highlights the transformative potential of MARL in areas like intrusion detection and lateral movement containment, and underscores the value of Cyber Gyms for training and validation of AICA."
+ },
+ {
+  "clave": "R0162",
+  "cadenas": [
+   "A",
+   "B"
+  ],
+  "titulo": "MANTIS: A Multi-Agent Autonomous Threat Intelligence System Integrating Deep Learning,Reinforcement Learning, and Agentic AI for Real-Time Enterprise Cybersecurity",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "resumen": "Modern cybersecurity operations face an asymmetric challenge: adversaries leverage automation and AI to generate attacks at machine speed, while defenders remain bottlenecked by manual triage, fragmented tooling, and alert fatigue. We present MANTIS (Multi-Agent Autonomous Threat Intelligence System), a fully implemented open-source platform that unifies twenty integrated modules into a cohesive security operations framework. MANTIS extends beyond traditional adversarial detection by combining a twelve-engine detection pipeline with weighted confidence fusion, an autonomous ReAct-based investigation agent, reinforcement learning response orchestration (PPO/DDPG/SAC), a security knowledge graph with PageRank-based risk propagation, causal reasoning for root cause analysis, privacy-preserving collective intelligence federation, a Sigma-compatible detection rules engine, full incident case management, twenty live threat intelligence connectors including VirusTotal, AbuseIPDB, Shodan, SecurityTrails, AlienVault OTX, MISP, and others, an LLM-powered SOC chat interface, and an enterprise React dashboard with real-time WebSocket streaming. The system comprises over 65,000 lines of Python, 130+ REST API endpoints, 1,200+ passing backend tests, and 150+ end-to-end Playwright tests. Experimental evaluation on the running system demonstrates a pipeline throughput of 500+ events per second, sub-150ms API response times at the 95th percentile, and complete incident lifecycle automation from detection through remediation. MANTIS represents a significant advancement toward fully autonomous security operations, providing capabilities comparable to commercial platforms such as Palo Alto XSOAR and CrowdStrike Falcon while remaining entirely open-source."
+ },
+ {
+  "clave": "R0163",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Cyber Defense Benchmark: Agentic Threat Hunting Evaluation for LLMs in SecOps",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "We introduce the Cyber Defense Benchmark, a benchmark for measuring how well large language model (LLM) agents perform the core SOC analyst task of threat hunting: given a database of raw Windows event logs with no guided questions or hints, identify the exact timestamps of malicious events. The benchmark wraps 106 real attack procedures from the OTRF Security-Datasets corpus - spanning 86 MITRE ATT&CK sub-techniques across 12 tactics - into a Gymnasium reinforcement-learning environment. Each episode presents the agent with an in-memory SQLite database of 75,000-135,000 log records produced by a deterministic campaign simulator that time-shifts and entity-obfuscates the raw recordings. The agent must iteratively submit SQL queries to discover malicious event timestamps and explicitly flag them, scored CTF-style against Sigma-rule-derived ground truth. Evaluating five frontier models - Claude Opus 4.6, GPT-5, Gemini 3.1 Pro, Kimi K2.5, and Gemini 3 Flash - on 26 campaigns covering 105 of 106 procedures, we find that all models fail dramatically: the best model (Claude Opus 4.6) submits correct flags for only 3.8% of malicious events on average, and no run across any model ever finds all flags. We define a passing score as >= 50% recall on every ATT&CK tactic - the minimum bar for unsupervised SOC deployment. No model passes: the leader clears this bar on 5 of 13 tactics and the remaining four on zero. These results suggest that current LLMs are poorly suited for open-ended, evidence-driven threat hunting despite strong performance on curated Q&A security benchmarks."
+ },
+ {
+  "clave": "R0164",
+  "cadenas": [
+   "A",
+   "B"
+  ],
+  "titulo": "HMARL-Pentest: Towards Autonomous Web Application Penetration Testing via LLM-Guided Multi-Agent Reinforcement Learning and Semantic Attack Memory",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "SSRN Electronic Journal",
+  "resumen": ""
+ },
+ {
+  "clave": "R0165",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Multi-Agent Penetration Testing AI for the Web",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "AI-powered development platforms are making software creation accessible to a broader audience, but this democratization has triggered a scalability crisis in security auditing. With studies showing that up to 40% of AI-generated code contains vulnerabilities, the pace of development now vastly outstrips the capacity for thorough security assessment. We present MAPTA, a multi-agent system for autonomous web application security assessment that combines large language model orchestration with tool-grounded execution and end-to-end exploit validation. On the 104-challenge XBOW benchmark, MAPTA achieves 76.9% overall success with perfect performance on SSRF and misconfiguration vulnerabilities, 83% success on broken authorization, and strong results on injection attacks including server-side template injection (85%) and SQL injection (83%). Cross-site scripting (57%) and blind SQL injection (0%) remain challenging. Our comprehensive cost analysis across all challenges totals $21.38 with a median cost of $0.073 for successful attempts versus $0.357 for failures. Success correlates strongly with resource efficiency, enabling practical early-stopping thresholds at approximately 40 tool calls or $0.30 per challenge. MAPTA's real-world findings are impactful given both the popularity of the respective scanned GitHub repositories (8K-70K stars) and MAPTA's low average operating cost of $3.67 per open-source assessment: MAPTA discovered critical vulnerabilities including RCEs, command injections, secret exposure, and arbitrary file write vulnerabilities. Findings are responsibly disclosed, 10 findings are under CVE review."
+ },
+ {
+  "clave": "R0166",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Hierarchical multi-agent AI framework for cybersecurity in cyber–physical systems",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Computer Networks",
+  "resumen": "Cyber-Physical Systems (CPS) drive modern critical infrastructures by tightly integrating physical processes with computation and communication networks. This convergence exposes CPS to sophisticated cyber threats propagating across physical, control, and network layers, where stealthy and multi-stage attacks manifest through weak and distributed signals, challenging centralized intrusion detection systems and monolithic AI models that struggle to scale across heterogeneous subsystems and lack the interpretability required in safety-critical environments. This paper proposes a hierarchical multi-agent AI framework for automated cybersecurity assessment with human-understandable explanations in networked CPS. The framework dynamically instantiates a task-specific agent hierarchy from a natural language description of the target system, aligning the security analysis process with the underlying CPS architecture. Specialized agents perform fine-grained analysis of heterogeneous data sources, subsystem supervisors aggregate and contextualize local findings, and a deliberative round-table consensus mechanism enables cross-subsystem correlation for detecting coordinated and stealthy attacks. The framework is evaluated using four LLMs (Qwen 3 4B, Qwen 3 8B, Llama 3.1 8B, and Llama 3.3 70B) across three datasets (PicoDomain, CERT r5.2, and SWaT), achieving perfect recall for models with 8B parameters and above (i.e., zero missed attacks), while reaching an accuracy of 90.18% on PicoDomain, 92.77% on CERT r5.2, and 96.97% on SWaT. An ablation study confirms the effectiveness of the cross-subsystem consensus mechanism, demonstrating substantial precision gains when collaborative deliberation is enabled. Overall, this work establishes hierarchical multi-agent architectures as a sc"
+ },
+ {
+  "clave": "R0167",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Large Language Model Security in Cyber Defense: A Systematic Review of Attack Surfaces, Adversarial Threats, Data Exposure, and Adaptive Defense in RAG- and Agentic Architectures",
+  "anio": 2026,
+  "tipo": "review",
+  "venue": "International Journal of Versatile Research and Analysis",
+  "resumen": "Large Language Models (LLMs) are becoming integral to cyber-defense processes, including threat intelligence, security event analysis, incident investigation, decision support, and automated response. As implementations incorporate retrieval-augmented generation (RAG), persistent memory, external tools, and agentic execution, the security landscape broadens beyond mere model parameters to include data, context, retrieval, state, authorization, tool interfaces, and underlying infrastructure. This systematic review compiles security literature across these dimensions and categorizes findings based on attack surface, adversarial mechanisms, security implications, defense strategies, evaluation methods, and adaptability capabilities. The review examined 1,945 records, eliminated 527 duplicates, screened 1,418 unique entries, analyzed 455 full texts, and selected 168 studies for qualitative synthesis. It highlights key threat classes such as prompt and indirect injection, jailbreaks, training and retrieval-data poisoning, information leakage, retrieval manipulation, memory contamination, tool misuse, and manipulation of agentic actions. Additionally, it reveals that security vulnerabilities can transcend layers: content controlled by attackers can impact retrieval and context, modify model reasoning, and influence downstream tool or agent responses. To address these complexities, the review puts forward the Attack Surface–Threat–Impact–Defense–Adaptation (ASTIDA) framework as a cross-layer analytical approach for linking vulnerabilities to impacts, controls, and necessary adaptations. The findings also suggest that static defenses and response-level assessments are inadequate for dynamic agentic systems; evaluations should include adaptive attack strategies, trajectory-level"
+ },
+ {
+  "clave": "R0168",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Autonomous AI Agents for Offensive Security: Redefining Penetration Testing and Remediation",
+  "anio": 2025,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "The AI-Driven Paradigm Shift in Offensive Security. The integration of Artificial Intelligence (AI) into cybersecurity operations marks a fundamental shift, particularly in the domain of offensive security and penetration testing. Autonomous AI agents, powered by advanced machine learning and Large Language Models (LLMs), are now capable of executing the full spectrum of offensive operations: from reconnaissance and vulnerability enumeration to exploitation and post-exploitation. These agents operate with minimal human oversight, enabling rapid, adaptive, and context-aware decision-making across dynamically shifting environments.Such a transformation speeds the penetrating testing process that previously required weeks and now takes only hours but is vastly more in-depth and thorough as well. Since ephemeral workloads (such as on the cloud, or as reached by CI/CD pipelines), and distributed attack surfaces are multiplying, the resiliency and speed of AI-based systems will be essential. Even human roles will change accordingly, shifting the operating KPIs of ensuring correct manual execution to strategic decision-making to risk, ethics, and action, such as the Mean Time to Remediate (MTTR) and to Respond (MTTR).In this age of an average data breach cost of more than 4.45 million dollars, AI is shifting not only to a strategic advantage but also to a minimum requirement. Companies which do not automate AI in offensive security may be left surpassed by opponents who already have access to automated power. The ones that survive will restructure the future of thunderous, adaptive cyber defense."
+ },
+ {
+  "clave": "R0169",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Design Principles for the Construction of a Benchmark Evaluating Security Operation Capabilities of Multi-agent AI Systems",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "As Large Language Models (LLMs) and multi-agent AI systems are demonstrating increasing potential in cybersecurity operations, organizations, policymakers, model providers, and researchers in the AI and cybersecurity communities are interested in quantifying the capabilities of such AI systems to achieve more autonomous SOCs (security operation centers) and reduce manual effort. In particular, the AI and cybersecurity communities have recently developed several benchmarks for evaluating the red team capabilities of multi-agent AI systems. However, because the operations in SOCs are dominated by blue team operations, the capabilities of AI systems & agents to achieve more autonomous SOCs cannot be evaluated without a benchmark focused on blue team operations. To our best knowledge, no systematic benchmark for evaluating coordinated multi-task blue team AI has been proposed in the literature. Existing blue team benchmarks focus on a particular task. The goal of this work is to develop a set of design principles for the construction of a benchmark, which is denoted as SOC-bench, to evaluate the blue team capabilities of AI. Following these design principles, we have developed a conceptual design of SOC-bench, which consists of a family of five blue team tasks in the context of large-scale ransomware attack incident response."
+ },
+ {
+  "clave": "R0170",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Cognitive SOC: Evidence-Backed Narrative Generation for Security Operations with Multi-Agent LLM Architecture",
+  "anio": 2025,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "We present Cognitive SOC, a multi-agent system leveraging Large Language Models (LLMs) to transform raw security alerts into evidence-backed narratives with complete citation chains. The proposed architecture employs specialized Triage, Enrichment, and StoryWeaver agents that collaborate to analyze security incidents and gather contextual intelligence through integration with threat-intelligence frameworks, including MITRE ATT&CK, Sigma detection rules (via a curated subset), and CVE databases. Evaluated on 1,000 alerts from the UNSW-NB15 dataset, the system achieved 99.6% evidence linkage rate and 100% citation coverage while maintaining an exceptionally low hallucination rate of 0.1%. The Cognitive SOC demonstrated superior accountability compared to baseline approaches, with a mean time-to-recommendation of 1.860 seconds and comprehensive evidence tracking. The system generated an average of 3.8 evidence artifacts and 5.4 citations per alert, substantially outperforming single-agent RAG (3.0 evidence, 0 citations, 11.8% hallucination) and static runbook baselines (1.0 evidence, 0 citations). This work fundamentally reframes security operations as collaborative human-AI storytelling, shifting the analyst role from manual data correlation to narrative validation and strategic decision-making."
+ },
+ {
+  "clave": "R0171",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Agentic AI and cybersecurity, the story so far",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Nature Machine Intelligence",
+  "resumen": "More oversight and a strong focus on safe testing and deployment seem needed after several security incidents in the past few months."
+ },
+ {
+  "clave": "R0172",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Automation-Exploit: A Multi-Agent LLM Framework for Adaptive Offensive Security with Digital Twin-Based Risk-Mitigated Exploitation",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "The offensive security landscape is highly fragmented: enterprise platforms avoid memory-corruption vulnerabilities due to Denial of Service (DoS) risks, Automatic Exploit Generation (AEG) systems suffer from semantic blindness, and Large Language Model (LLM) agents face safety alignment filters and \"Live Fire\" execution hazards. We introduce Automation-Exploit, a fully autonomous Multi-Agent System (MAS) framework designed for adaptive offensive security in complex black-box scenarios. It bridges the abstraction gap between reconnaissance and exploitation by autonomously exfiltrating executables and contextual intelligence across multiple protocols, using this data to fuel both logical and binary attack chains. The framework introduces an adaptive safety architecture to mitigate DoS risks. While it natively resolves logical and web-based vulnerabilities, it employs a conditional isomorphic validation for high-risk memory-corruption flaws: if the target binary is successfully exfiltrated, it dynamically instantiates a cross-platform digital twin. By enforcing strict state synchronization, including libc alignment and runtime file descriptor hooking, potentially destructive payloads are iteratively debugged in an isolated replica. This enables a highly risk-mitigated \"one-shot\" execution on the physical target. Empirical evaluations across eight scenarios, including undocumented zero-day environments to rule out LLM data contamination, validate the framework's architectural resilience, demonstrating its ability to prevent \"live fire\" crashes and execute risk-mitigated compromises on actual targets."
+ },
+ {
+  "clave": "R0173",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Adaptive Cyber Defense for Agentic AI in Industrial Systems",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "resumen": "Industrial cyber-physical systems increasingly use autonomous analytics to interpret sensor data and trigger defensive actions. This can improve response speed, but it also creates a new risk because corrupted observations may lead the controller to take the wrong action. This paper presents a modular defense pipeline that combines an autoencoder-based anomaly detector, a contextual risk engine, and a Dueling Double Deep Q Network responder with prioritized experience replay, while keeping the explanation layer outside the control loop. The main contribution is the integration of anomaly sensing, risk-aware state construction, and adaptive mitigation in a single workflow. Evaluation in a stochastic industrial simulator with multiple sensor channels, attack classes, and response actions shows that a cost-aware reward redesign improves recall, improves the F1 score, increases mitigation rate, and reduces detection delay. At the final calibrated operating point, the controller achieves a stronger balance between mitigation performance and false alarms. These results show that adaptive learning can support real-time industrial mitigation, although stronger calibration is still needed to control false positives."
+ },
+ {
+  "clave": "R0174",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Agentic AI Cybersecurity Framework",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "The increasing scale, complexity, and dynamism of modern cyber threats have rendered traditional reactive cybersecurity mechanisms insufficient. This paper introduces an Agentic AI Cybersecurity Framework (AACF) designed to enable autonomous, goal-driven, and adaptive cyber defense operations. Unlike conventional systems that rely on predefined rules and human intervention, the proposed framework leverages agentic artificial intelligence to perceive environmental states, reason about potential threats, and execute context-aware responses with minimal supervision. The framework is structured into key functional layers, including perception, reasoning, decisionmaking, action execution, and feedback-driven learning, enabling continuous adaptation to evolving attack patterns. By integrating intelligent agents with real-time data analysis and automated response mechanisms, AACF supports proactive threat detection, dynamic risk assessment, and coordinated mitigation strategies across distributed environments. A conceptual architecture is presented, along with illustrative use cases demonstrating its applicability to intrusion detection, incident response, and autonomous security orchestration. The proposed framework contributes to the emerging paradigm of self-directed cybersecurity systems and provides a foundation for developing resilient, scalable, and intelligent defense infrastructures."
+ },
+ {
+  "clave": "R0175",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Agentic AI-Enabled Privacy Penetration Testing",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "Journal of the Association for Information Systems",
+  "resumen": ""
+ },
+ {
+  "clave": "R0176",
+  "cadenas": [
+   "A",
+   "B"
+  ],
+  "titulo": "Multi-Agent Deep Reinforcement Learning Applications in Cybersecurity: Challenges and Perspectives",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "This paper explores the perspectives and challenges associated with the application of Multi-Agent Deep Reinforcement Learning (MADRL) in the field of cybersecurity. As cyber threats continue to evolve in complexity, the integration of MADRL techniques offers promising solutions for enhancing security measures. The paper delves into various perspectives surrounding the implementation of MADRL in cybersecurity applications, highlighting its potential benefits. Additionally, it addresses the challenges and obstacles faced in the deployment of such advanced techniques, emphasizing the need for further research and development to overcome these hurdles. The findings contribute to a comprehensive understanding of the landscape, paving the way for the effective integration of MADRL in cybersecurity frameworks. The paper outlines the growing significance of MAS and DRL, examines their current applications in cybersecurity, discusses the associated challenges, and provides insights into future directions. By investigating decentralized threat intelligence sharing, privacy-preserving collaboration, robustness against adversarial attacks, and crossdomain collaboration, this research aims to illuminate the path toward a more secure and resilient cyber future."
+ },
+ {
+  "clave": "R0177",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Governing the agents: Leadership dilemmas in deploying agentic AI in a cyber defence project team",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Journal of Information Technology Teaching Cases",
+  "resumen": "This teaching case follows Maya Mercer, Head of Cyber Defence at ‘Meridian Water & Power’, a United Kingdom critical national infrastructure (CNI) operator, as the security team introduces agentic artificial intelligence (AI) into its security operations centre (SOC). Over roughly 2 years, Mercer’s team moves from a fragmented, alert-saturated environment to one in which three custom multi-agent systems support incident analysis, detection engineering and threat intelligence under human-in-the-loop oversight. The case culminates in a decision: with strong early returns and growing pressure to pursue ‘frontier’ status, should Mercer approve the next phase – granting agents the autonomy to take limited containment actions without waiting for a human – or continue with decision-making by human analysts while the foundation matures? The case raises issues around the use of autonomous AI agents in security management, workforce anxiety and role evolution, and the governance of agentic AI in regulated environments. It is suitable for courses on digital and AI transformation, AI strategy, cybersecurity leadership, and technology and operations management at advanced undergraduate, postgraduate and executive levels."
+ },
+ {
+  "clave": "R0178",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "CyberLLM: A Multi-Agent LLM Framework for Autonomous Detection and Guarded Response in Automotive Cybersecurity",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "Software-Defined Vehicles (SDVs) expand the automotive attack surface across source code, runtime logs, and deployment topologies, while safety constraints forbid autonomous agents from acting without oversight. This paper presents CyberLLM, a multi-agent, LLM-orchestrated framework that autonomously detects vulnerabilities and executes remediations under a formal, runtime safety guard. Detection combines a deterministic layer (regex rules, AST analyzers, and topology graph checks) with an LLM refinement pass, so a high-recall floor is complemented by high-precision reasoning. A decision agent aggregates findings, tags them with a human-centric asset taxonomy, and selects a tiered response, ratcheting its confidence with signed cross-session memory and re-planning feedback. Every action is validated against four contextual security properties and an independent action-alignment oracle before it is allowed to run, and refused actions trigger escalation and re-planning. A symmetric attack pipeline generates and replays exploits so both sides can be exercised on the same scenarios. On an independent, ground-truthed benchmark of nine original automotive ECU modules in C, C++, and Rust seeding 47 layered vulnerabilities plus clean controls, the always-on deterministic layer covers 34\\% of the labeled vulnerabilities at perfect precision, and adding the grounded LLM refinement and completeness passes roughly doubles coverage to about 70\\% (F1 $0.83$) while producing zero false positives on the clean controls. The results indicate that LLM agents can perform useful autonomous cyber-defense when wrapped in a deterministic, auditable safety envelope."
+ },
+ {
+  "clave": "R0179",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Agentic AI for offensive cybersecurity build and automate smarter penetration testing workflows using AI-driven agents",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "",
+  "resumen": "Master offensive security with Agentic AI, MCP, and n8n. Build automated penetration testing workflows for reconnaissance, exploitation, reporting, and continuous threat intelligence. Key Features Build end-to-end agentic AI-driven penetration testing workflows using n8n and Model Context Protocol(MCP). Automate reconnaissance, exploitation, payload generation, and professional vulnerability reporting with agentic AI agents. Design browser-based security testing tools with MCP, and integrate continuous threat intelligence into your offensive workflows. Book Description AI agents have moved from demos to practical tooling, especially for offensive security work where repeatability and context matter. This book shows you how to apply agentic AI to real penetration testing automation, keeping a human in the loop while speeding up reconnaissance, validation, and reporting."
+ },
+ {
+  "clave": "R0180",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Leveraging Agentic AI for IoT Security Operations",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "Today’s enterprise environments consist of a large number of heterogeneous internet of things (IoT) devices, many of which have no standardized remote management interfaces. As a result, routine but security-critical operations—including credential rotation, certificate updates, configuration hardening, or compliance verification—remain largely manual, time-consuming, and difficult to scale. While prior work has explored automation and decision support for cyber defense, most approaches predate recent advances in agentic artificial intelligence and assume structured inputs and programmatic interfaces.In this paper, we explore how agentic artificial intelligence (AI), and in particular browser agents interacting with large language models (LLMs), can automate IoT security operations. We propose a multi-agent architecture that interacts with remote web-based management interfaces to harden, update, or restore systems. By enforcing separation of duties among agents, restricting access control permissions, and minimizing shared context, our architecture reduces the risks associated with non-deterministic agent behavior and adversarial manipulation of web interfaces that could lead to security being compromised.We implement a prototype agentic system for automated password rotation and evaluate it across 12 real-world applications commonly found in enterprise environments. Our results show that our system can reliably perform credential rotation across diverse web management interfaces (100% success rate in our experiments) fairly fast (154 seconds on average) and within reasonable cost limits (USD 0.108 on average for the LLM application programming interface [API] calls). More broadly, our findings suggest that carefully constrained agentic AI systems can serve as a practi"
+ },
+ {
+  "clave": "R0181",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "(EC)2: Event-Centric Explainability for Cybersecurity Through Multi-Agent LLM Investigations",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "Security operations centers rely on anomaly detection systems to flag suspicious events. Feature-level explanations for anomaly detectors offer limited value for operational investigations. To effectively handle alerts, analysts need to know contextual relationships and need actionable understanding of the entities involved. This paper introduces an event-centric detector-agnostic approach for explaining cybersecurity alerts in small- to medium-sized enterprise networks. We present (EC)2, a multi-agent framework that performs structured, hypothesis-driven investigation to provide explanations grounded in verifiable evidence. Evaluation results show that the proposed framework improves post-detection analysis by generating operationally meaningful explanations, which also enhance event classification accuracy."
+ },
+ {
+  "clave": "R0182",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "SOC-in-a-Box: A Multi-Agent LLM-Based Security Operations Center for Threat Detection and Automated Incident Response",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "International Research Journal on Advanced Engineering Hub (IRJAEH)",
+  "resumen": "Modern Security Operations Centres struggle with overwhelming alert volumes, chronic analyst shortages, and slow incident response times. This paper presents SOC-in-a-Box, a multi-agent prototype that automates the three core SOC functions—detection, investigation, and response—using specialised AI agents powered by a large language model (LLM). The Sentry agent monitors log files and flags suspicious events using either LLM classification or a built-in rule engine. The Investigator agent gathers related evidence from across the log corpus and asks the LLM to produce a structured root-cause analysis. The Responder agent selects a policy-approved containment action, executes it in a simulated or live environment, and generates a structured Markdown incident report. All three agents run as lightweight Python threads connected through in-memory queues with no external message broker. When the LLM is unavailable, a deterministic fallback engine ensures the pipeline continues to operate. Evaluation across five attack categories—brute-force, data exfiltration, privilege escalation, port scanning, and malware deployment—shows complete detection coverage with end-to-end latency below 60 seconds on a standard laptop. The system demonstrates that a self-contained, locally deployable multi-agent architecture can meaningfully reduce manual effort in routine SOC workflows while preserving human oversight on critical decisions."
+ },
+ {
+  "clave": "R0183",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "An Agentic Multi-Agent Architecture for Cybersecurity Risk Management",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "Getting a real cybersecurity risk assessment for a small organization is expensive -- a NIST CSF-aligned engagement runs $15,000 on the low end, takes weeks, and depends on practitioners who are genuinely scarce. Most small companies skip it entirely. We built a six-agent AI system where each agent handles one analytical stage: profiling the organization, mapping assets, analyzing threats, evaluating controls, scoring risks, and generating recommendations. Agents share a persistent context that grows as the assessment proceeds, so later agents build on what earlier ones concluded -- the mechanism that distinguishes this from standard sequential agent pipelines. We tested it on a 15-person HIPAA-covered healthcare company and compared outputs to independent assessments by three CISSP practitioners -- the system agreed with them 85% of the time on severity classifications, covered 92% of identified risks, and finished in under 15 minutes. We then ran 30 repeated single-agent assessments across five synthetic but sector-realistic organizational profiles in healthcare, fintech, manufacturing, retail, and SaaS, comparing a general-purpose Mistral-7B against a domain fine-tuned model. Both completed every run. The fine-tuned model flagged threats the baseline could not see at all: PHI exposure in healthcare, OT/IIoT vulnerabilities in manufacturing, platform-specific risks in retail. The full multi-agent pipeline, however, failed every one of 30 attempts on a Tesla T4 with its 4,096-token default context window -- context capacity, not model quality, turned out to be the binding constraint."
+ },
+ {
+  "clave": "R0184",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Agentic AI in Security Operations Centers: Transforming Cybersecurity Delivery Through Bounded Autonomy",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "resumen": "Agentic artificial intelligence (AI) represents a consequential evolution in security operations: from systems that recommend actions to software actors that can plan investigations, invoke tools, maintain working state, coordinate specialized agents, and execute authorized responses. Evidence remains uneven, but recent controlled and operational studies demonstrate material productivity gains. AI-assisted analysts have completed investigations 45–61% faster with 22–29% higher accuracy; a randomized trial of experienced analysts reported 23.1% faster task completion and 7% higher overall accuracy; and observational production data associated generative-AI adoption with a 30.13% reduction in incident mean time to resolution (MTTR) (Cloud Security Alliance [CSA], 2025; Edelman et al., 2024; Bono et al., 2024). The stronger claim—that fully autonomous SOCs will outperform human-led operations—is not established. A 2025 phishing-triage-agent trial reported up to 6.5 times more true positives per analyst-minute and a 77% F1-score improvement, but its scope was one bounded task, with curated evidence and modeled agent errors (Bono, 2025). Conversely, Agent Security Bench found attack success rates as high as 84.30% against tested large-language-model agents, while current defenses remained limited (Zhang et al., 2025). This paper concludes that the most defensible near-term model is not autonomous replacement but bounded agentic operations: specialized agents perform high-volume, reversible tasks under least privilege, policy-enforced authority, continuous monitoring, and risk-calibrated human approval. ISO/IEC 42001, ISO/IEC 23894, ISO/IEC 42005, ISO/IEC 27001, NIST AI RMF, NIST CSF 2.0, MITRE ATLAS, and sector regulation provide complementary foundations, but agent-specific"
+ },
+ {
+  "clave": "R0185",
+  "cadenas": [
+   "A",
+   "B"
+  ],
+  "titulo": "Adaptive zero-trust cyber defence using Graph Neural Networks and Multi-Agent Reinforcement Learning",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "ARPN Journal of Engineering and Applied Sciences",
+  "resumen": "The rapid evolution of cyberattacks in corporate networks requires intelligent and adaptive defence systems that do not rely solely on conventional rule-based intrusion-detection frameworks. This work presents ZT-GNN-MARL, a comprehensive zero-trust cyber-defence framework that combines threat detection using Graph Neural Networks (GNNs) with Multi-Agent Reinforcement Learning (MARL) for dynamic policy enforcement. Network traffic is represented as a temporal interaction graph, enabling the GNN to learn latent structural behaviours and detect malicious DDoS activity with high fidelity. The MARL engine autonomously makes dynamic zero-trust access-control decisions, including micro-segmentation, host quarantine, and step-up authentication, using risk scores derived from GNN predictions. The proposed system is evaluated on the CIC-IDS-2017 dataset and achieves an overall accuracy of 0.998, perfect recall for malicious flows, and superior performance compared with the Random Forest and MLP baselines. Additional analyses using ROC curves, confusion matrices, latent-space projections, and reinforcement-learning reward convergence demonstrate the robustness, adaptability, and generalization capability of the framework. The findings indicate that ZT-GNN-MARL is an effective and scalable solution for implementing zero-trust architectures in practical network environments."
+ },
+ {
+  "clave": "R0186",
+  "cadenas": [
+   "A",
+   "B"
+  ],
+  "titulo": "Retrieval-Augmented Reasoning for Offensive Security: Towards Robust LLM Agents for CTF Automation",
+  "anio": 2025,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "We present a retrieval-first reasoning-agent architecture for automating offensive cybersecurity tasks in the Capture The Flag (CTF) format. Our core hypothesis is that domain-specific contextual retrieval can stabilize large language model (LLM) reasoning under adversarial, multi-step challenges. To test this, we construct a bespoke retrieval corpus from scratch—excluding benchmark leakage—covering key CTF domains such as binary exploitation, reverse engineering, cryptography, and web vulnerabilities. Using FAISS indexing and Retrieval-Augmented Generation (RAG), our agent integrates this corpus with GPT-4o via a lightweight, tool-agnostic pipeline. Evaluated on NYU CTF benchmark [2], the RAG-enhanced agent achieves a 57.1% improvement in task completion over the vanilla GPT-4o baseline. Unlike prior work, which often depends on fragile tool orchestration, we demonstrate that focused retrieval alone significantly improves reasoning stability, reduces hallucinations, and enhances task-solving accuracy. Our threat model also considers prompt injection and contextual ambiguity, underlining the need for interpretable, corpus-grounded architectures in offensive reasoning."
+ },
+ {
+  "clave": "R0187",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "How Do LLM Agents Actually Get the Flag? Trace-Level Provenance for Agentic Offensive Security Evaluation",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "Capture-the-Flag (CTF) benchmarks are widely used to assess the offensive security capabilities of autonomous language-model agents. Evaluations rely on shallow binary judgments or aggregate scores, overlooking the agent's trajectory to the flag. Consequently actual exploitation is conflated with direct flag exposure, memorized recall, external lookup, guessing, and unsupported claims, potentially overstating the agent's cybersecurity capability. We introduce CTF-ABACUS, a trace-based agent auditing framework that reconstructs each run as an evidence-grounded solve profile. By decomposing agent actions into penetration-testing phases and categorical techniques, it identifies where exploitation occurs, where the flag first appears, and whether the recovered flag is supported by demonstrated behavior. Aggregating solve profiles across agents yields challenge signatures that reveal whether success was achieved via the intended exploit or via shortcut pathways. We apply CTF-ABACUS to 1,435 CTF attempts by six frontier and open-source models on 240 challenges, yielding 2,870 solve profiles under two judge lenses. Trace-verified exploits account for only 62-87% of recovered flags across benchmarks, while shortcut recoveries follow substantially shallower trajectories. These findings shift CTF evaluation from counting recovered flags to verifying demonstrated exploitation and provide a basis for designing benchmarks that better isolate the offensive capabilities."
+ },
+ {
+  "clave": "R0188",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "AGENTIC AI AND CYBER SECURITY: AUTONOMOUS THREAT HUNTING, INTRUSION DETECTION, AND ADAPTIVE DEFENSE MECHANISMS IN A WORLD OF INCREASINGLY SOPHISTICATED CYBER ATTACKS",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Journal of Digital Security and Forensics",
+  "resumen": "This study investigates the transformative potential of agentic artificial intelligence (AI) systems in enhancing cybersecurity through autonomous threat hunting, real-time intrusion detection, and adaptive defense mechanisms. Employing a mixed-methods research design, the investigation analyzes a large-scale dataset comprising 2.4 million network events collected from January 2023 to December 2024 across 150 enterprise environments. A custom agentic AI framework built on reinforcement learning (RL), large language models (LLMs), and multi-agent collaboration was developed and evaluated against baseline machine learning models. Results demonstrate a 41% improvement in threat detection accuracy, a 57% reduction in mean time to respond (MTTR), and a 63% increase in adaptive policy efficacy under simulated advanced persistent threat (APT) conditions. The findings underscore the necessity of goal-directed, self-improving AI agents in countering evolving cyber threats while highlighting ethical, interpretability, and integration challenges. This work contributes a reproducible methodology and empirical benchmarks for deploying agentic AI in operational security environments."
+ },
+ {
+  "clave": "R0189",
+  "cadenas": [
+   "A",
+   "B"
+  ],
+  "titulo": "Dataset for “Adversarial Multi-Agent LLM Framework for Adaptive Cybersecurity Education in Saudi Technical Colleges”",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Figshare",
+  "resumen": "Dataset for “Adversarial Multi-Agent LLM Framework for Adaptive Cybersecurity Education in Saudi Technical Colleges”"
+ },
+ {
+  "clave": "R0190",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Responsible Agentic AI for Effective Cyber-Defense and Ethical Safety",
+  "anio": 2026,
+  "tipo": "book-chapter",
+  "venue": "Auerbach Publications eBooks",
+  "resumen": "The transition from Industry 4.0 to Industry 5.0 is underway, reshaping the technological landscape—from traditional AI to Agentic AI, and from cyber-physical systems to cyber-physical-social systems—driven by human-centered AI innovation, which is a hallmark of Industry 5.0. While Agentic AI is shaping a smarter future, its implementation also introduces ethical and cybersecurity risks if proper controls, governance, regulations, and ethical considerations are not in place. This chapter explores human-centered AI innovations and opportunities, the evolving technological stack in Industry 5.0, and the challenges of human-machine collaboration. It further discusses trust and security concerns in Agentic AI and outlines the path forward. Finally, it examines how secure AI solutions can be built through the introduction of various controls, risk management frameworks, and secure Agentic AI practices to enable cybersecurity excellence and mitigate emerging threats. The chapter concludes with a discussion on the limitations and future opportunities to strengthen the AI-cybersecurity interface and reduce cyber risks effectively."
+ },
+ {
+  "clave": "R0191",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Cybersecurity Management with Agentic AI in Procurement",
+  "anio": 2026,
+  "tipo": "book-chapter",
+  "venue": "",
+  "resumen": ""
+ },
+ {
+  "clave": "R0192",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "What Makes a Good LLM Agent for Real-world Penetration Testing?",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "LLM-based agents show promise for automating penetration testing, yet reported performance varies widely across systems and benchmarks. We analyze 28 LLM-based penetration testing systems and evaluate five representative implementations across three benchmarks of increasing complexity. Our analysis reveals two distinct failure modes: Type A failures stem from capability gaps (missing tools, inadequate prompts) that engineering readily addresses, while Type B failures persist regardless of tooling due to planning and state management limitations. We show that Type B failures share a root cause that is largely invariant to the underlying LLM: agents lack real-time task difficulty estimation. As a result, agents misallocate effort, over-commit to low-value branches, and exhaust context before completing attack chains. Based on this insight, we present Excalibur, a penetration testing agent that couples strong tooling with difficulty-aware planning. A Tool and Skill Layer eliminates Type A failures through typed interfaces and retrieval-augmented knowledge. A Task Difficulty Assessment (TDA) mechanism addresses Type B failures by estimating tractability through four measurable dimensions (horizon estimation, evidence confidence, context load, and historical success) and uses these estimates to guide exploration-exploitation decisions within an Evidence-Guided Attack Tree Search (EGATS) framework. Excalibur achieves up to 91% task completion on CTF benchmarks with frontier models (39 to 49% relative improvement over baselines) and compromises 4 of 5 hosts on the GOAD Active Directory environment versus 2 by prior systems. These results show that difficulty-aware planning yields consistent end-to-end gains across models and addresses a limitation that model scaling alone does"
+ },
+ {
+  "clave": "R0193",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Stable Agentic Control: Tool-Mediated LLM Architecture for Autonomous Cyber Defense",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "Agentic systems involved in high-stake decision-making under adversarial pressure need formal guarantees not offered by existing approaches. Motivated by the operational needs of security operations centers (SOCs) that must configure endpoint detection and response (EDR) policies under adversarial pressure, we present a tool-mediated architecture: LLM agents use deterministic tools (Stackelberg best-response, Bayesian observer updates, attack-graph primitives) and select from finite action catalogs enforced at the tool-output interface. A composite Lyapunov function machine-checked in Lean 4 with zero sorry certifies controllability, observability from asymmetric sensor data, and Input-to-State Stability (ISS) robustness under intelligent adversarial disturbance, with two corollaries extending the certificate to any controller or adversary from the catalogs. On 282 real enterprise attack graphs, the claims hold with margin. On paired offensive/defensive telemetry, a tool-mediated Claude Sonnet 4 controller reduces the attacker's expected payoff (game value) by 59% relative to a deterministic greedy baseline, with zero variance across 40 runs at four temperatures. A Claude Haiku 4.5 controller converges to suboptimal game values but stays catalog-bounded over an additional 40 runs, demonstrating that architectural stability is not dependent on the controller capability. The LLM agent's non-determinism furthers creative exploration of strategies, while the tool-mediated architecture ensures system stability."
+ },
+ {
+  "clave": "R0194",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Environment-Grounded Multi-Agent Workflow for Autonomous Penetration Testing",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "The increasing complexity and interconnectivity of digital infrastructures make scalable and reliable security assessment methods essential. Robotic systems represent a particularly important class of operational technology, as modern robots are highly networked cyber-physical systems deployed in domains such as industrial automation, logistics, and autonomous services. This paper explores the use of large language models for automated penetration testing in robotic environments. We propose an environment-grounded multi-agent architecture tailored to Robotics-based systems. The approach dynamically constructs a shared graph-based memory during execution that captures the observable system state, including network topology, communication channels, vulnerabilities, and attempted exploits. This enables structured automation while maintaining traceability and effective context management throughout the testing process. Evaluated across multiple iterations within a specialized robotics Capture-the-Flag scenario (ROS/ROS2), the system demonstrated high reliability, successfully completing the challenge in 100\\% of test runs (n=5). This performance significantly exceeds literature benchmarks while maintaining the traceability and human oversight required by frameworks like the EU AI Act."
+ },
+ {
+  "clave": "R0195",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "ExploitBench: A Capability Ladder Benchmark for LLM Cybersecurity Agents",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "Exploitation is not a binary event. It is a ladder of acquiring progressive capabilities, from executing a single buggy line of code to taking full control of the target. However, existing LLM security benchmarks treat a crash as exploitation success. That single binary outcome collapses the hard parts of exploitation: the transition from triggering a bug to constructing reusable primitives and control. We present ExploitBench, a capability-graded benchmark that decomposes exploitation into 16 measurable flags, from coverage and crash through sandbox primitives, arbitrary read/write, control-flow hijack, and arbitrary code execution. Each capability is verified by a deterministic oracle that uses a per-run randomized challenge-response for primitives, differential execution against ground-truth binaries to measure progress, and a signal-handler proof for code execution. We instantiate ExploitBench on 41 V8 bugs because V8 is both widely deployed and exploitation-hardened. We report three arms: as the primary measurement of model-environment capability, as a secondary arm that adds adaptive coaching to test whether targeted feedback shifts outcomes, and as an ablation that swaps in the model's native CLI to check whether vendor-side optimizations increase exploitation capabilities. Our results show a sharp capability split between publicly deployed frontier models and the private frontier. Across the 8 publicly deployed models tested, reaching the vulnerable code and triggering a crash is routine, but arbitrary code execution is not. The private model shows arbitrary code execution on approximately half. Overall, results suggest that exploit construction against hardened targets is an emerging frontier capability."
+ },
+ {
+  "clave": "R0196",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Using LLM Agents for Data Integration in Cybersecurity Incidents",
+  "anio": 2025,
+  "tipo": "conference-paper",
+  "venue": "Lecture notes in computer science",
+  "resumen": ""
+ },
+ {
+  "clave": "R0197",
+  "cadenas": [
+   "A",
+   "B"
+  ],
+  "titulo": "Trident : How to Break Deep Reinforcement Learning Cyber Defenses (Agentic)",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "Autonomous cyber defense systems based on Deep Reinforcement Learning (DRL) have attracted significant research attention, yet remain evaluated almost exclusively against static, heuristic red agents, leaving their robustness against adaptive threats critically understudied. Meanwhile, recent advances in Reinforcement Learning with Verifiable Rewards (RLVR) have improved LLM reasoning, but their integration into cybersecurity remains elusive due to the absence of suitable benchmark environments and interaction datasets. To bridge this gap, we introduce Trident, an agentic LLM red teaming framework comprising three components: a dynamic benchmark with isolated sandbox servers spanning CybORG CAGE 4 and CyberWheel, a dataset comprises over 13,000 high-fidelity red-blue interaction trajectories for RLVR, and a ``Code-as-Policy'' RLVR agentic architecture Trident Agentic). The latter reformulates red agent training as a contextual bandit via a tripartite Log Summarizer--Planner--Coder design, where a trainable Planner generates complete attack strategies from compressed execution logs, which a frozen Coder translates into executable Python policies deployed against live DRL defenders. Empirical evaluations reveal a fundamental brittleness in existing defenses: with a single trainable 7B planner, Trident reduces blue agent defensive performance by an average of 522% compared to static red agent baselines while autonomously discovering emergent behaviors such as decoy avoidance and adaptive state prioritization that static heuristics entirely fail to uncover."
+ },
+ {
+  "clave": "R0198",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Governing Machine-speed Cyber Defence: Policy Frameworks for Agentic AI",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Balsillie Papers",
+  "resumen": ""
+ },
+ {
+  "clave": "R0199",
+  "cadenas": [
+   "A",
+   "B"
+  ],
+  "titulo": "AutoWAFuzzer: An adaptive framework for web application firewall penetration testing with multi-agent system and RAG-enabled reinforcement learning",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Expert Systems with Applications",
+  "resumen": ""
+ },
+ {
+  "clave": "R0200",
+  "cadenas": [
+   "A",
+   "B"
+  ],
+  "titulo": "Multi-agent deep reinforcement learning for penetration testing of IoT devices through their mobile companion app",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Journal of Systems and Software",
+  "resumen": "The increasing integration of IoT devices into critical infrastructure has made them prime targets for cyberattacks. Many of these devices rely on outdated or legacy software, which introduces inherent vulnerabilities and complicates firmware updates, making identifying and testing these weaknesses essential. Traditional methods typically employ black-box approaches, mutating network requests generated during device operation to craft potential attack vectors. However, these methods face limitations when dealing with encrypted or proprietary protocols. Recent tools, such as Diane and IoTFuzzer, interact with IoT devices through their mobile companion apps and use fuzzing techniques to modify request content, causing crashes in IoT device software. Although these approaches can effectively trigger software crashes, they do not generate actual exploits, as they do not precisely target or exploit specific vulnerabilities. To address these limitations, we introduce MITHRAS, the first approach that uses mobile companion apps to deliver maliciously mutated requests directly to IoT devices, explicitly targeting Remote Code Execution (RCE) vulnerabilities. MITHRAS uses Deep Reinforcement Learning to efficiently navigate the communication code within companion apps, dynamically mutating request payloads before transmission. Adapting to previous attack outcomes, MITHRAS refines its strategy, mimicking human decision-making to improve the effectiveness of exploit generation."
+ },
+ {
+  "clave": "R0201",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Agentic AI for Autonomous Cybersecurity Threat Mitigation",
+  "anio": 2025,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "The increasing sophistication of cyberattacks is requiring dynamic and autonomous defense processes that have the capacity to prevent, investigate, and suppress threats. This research will introduce an agentic Artificial Intelligence (AI) model of autonomous cybersecurity threat mitigation that relies on the Reinforcement Learning (RL) as the main algorithm and the use of the TensorFlow as tools. The framework relies on the RL agents that continuously train the optimal defense policies with the help of interaction with the dynamic cyber environment, as well as recognizing and applying real-time countermeasures on its own. The model also enhances the accuracy of detection, reducing false positive and maximising response time due to the scalability of deep learning systems supplied as a feature of TensorFlow, by comparison with rule-based or signature-driven systems. This is established by the experimental measurements, which indicate the proposed strategy is on course to zero-day attacks, sophisticated malwares, and network diversion, which manifests a concrete and self-promoting cybersecurity protection system. The research sheds light on the use of agentic AI to create resilient, intelligent, and comprehensive autonomous cyber defenses."
+ },
+ {
+  "clave": "R0202",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "VIGILANT AI: A MULTI-AGENT LLM-DRIVEN FRAMEWORK FOR AUTOMATED CYBER ATTACK SIMULATION, TELEMETRY COLLECTION, AND AUTONOMOUS INCIDENT REPORTING",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "International Research Journal of Modernization in Engineering Technology and Science",
+  "resumen": ""
+ },
+ {
+  "clave": "R0203",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "A Critical Review of LLM Agents for Automated Penetration Testing: Benchmark Realism and Evidence Grading",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "數據科學與人工智能學報",
+  "resumen": "Penetration testing has long resisted full automation because it requires contextual reasoning, adaptive tool use, and experience-driven decision making across the Penetration Testing Execution Standard (PTES) lifecycle. Recent advances in large language models (LLMs), agentic reasoning, and multi-tool invocation have shifted the field from rule-based scripts and attack-graph reinforcement-learning planners toward interactive agents capable of planning, reflection, and environment interaction. The accompanying literature, however, suffers from inconsistent evaluation protocols, opaque scaffolding, and indiscriminate mixing of peer-reviewed papers with vendor self-reports, rendering headline claims difficult to compare. This work presents a critical narrative review with structured evidence charting of AI-assisted automated penetration testing between January 2023 and May 2026, retaining DeepExploit and AutoPentest-DRL as historical anchors. We introduce a dual-axis framework that annotates every finding by environment realism (R1–R4, from single-challenge CTFs to live enterprise networks) and source authority (A–D, from peer review to vendor self-report). Frontier agents reach 22–44% on R1 single-challenge CTFs (D-CIPHER), 79.17% on R2 AutoPenBench subtasks with a domain-tuned 32B model (xOffense), and 71.4% on the AISI 95-task expert tier (GPT-5.5), yet only 20–30% end-to-end completion on the R3 32-step TLO cyber range. On R4 live enterprise networks, the ARTEMIS multi-agent framework placed second overall against ten human professionals on an 8,000-host university network, submitting nine valid vulnerabilities at an 82% acceptance rate. Robust autonomy remains weak in long-horizon exploitation, Active Directory lateral movement, and defender-present environments. We "
+ },
+ {
+  "clave": "R0204",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "TRUST-CALIBRATED EXPLAINABLE MULTI-AGENT AI FOR SAFE PREDICTIVE CYBER DEFENCE IN CRITICAL INFRASTRUCTURE AND CLOUD-NATIVE SYSTEMS",
+  "anio": 2024,
+  "tipo": "article",
+  "venue": "Umsida Repository (Universitas Muhammadiyah Sidoarjo)",
+  "resumen": "Objective: This article proposes TCX-MAD, a trust-calibrated explainable multi-agent defence framework for critical infrastructure and cloud-native systems that places a safety governor between collaborative detection and response execution. Method: A design-science methodology specifies the architecture, formal decision policy, threat model, public-dataset evaluation plan, and safety-centred metrics. Results: The framework reports analytical safety properties and an illustrative decision trace rather than fabricated benchmark results because no experimental observations were supplied. Its primary evaluation target is unsafe automated actions prevented without materially increasing valid response latency, supported by detection, disruption, rollback, explanation, and human-approval metrics. Novelty: TCX-MAD integrates separate threat and response-risk estimation, tiered autonomy, dynamic manipulation-aware agent trust, an explanation-sufficiency gate, and rollback-bounded execution. It reframes autonomous cyber defence as constrained and accountable action selection under dual uncertainty."
+ },
+ {
+  "clave": "R0205",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Agentic AI for Autonomous Cyber Defense: Architecture, Evaluation, and Risk Management",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "International Journal of Innovative Research in Technology",
+  "resumen": "Explore the article titled Agentic AI for Autonomous Cyber Defense: Architecture, Evaluation, and Risk Management from IJIRT Volume 13, Issue 1. This study evaluates the effectiveness of teaching programs on waste management knowledge among women."
+ },
+ {
+  "clave": "R0206",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Big Enough to Break Out: Tracking the Rising Capability of LLM Penetration-Testing Agents",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "Large language model (LLM) agents are increasingly applied to penetration testing, but we still know little about what they can do or how they fail. We compare two PentestGPT-based systems: a legacy human-in-the-loop system running the open-weight Kimi K2.5, and a newer autonomous system running Claude Opus 4.8. Across three public targets, the autonomous system solves all three, including the two the legacy system never finishes. The legacy result is the more surprising of the two. Even on the machines the legacy system fails to solve, it completes about half the subtasks, while running on ordinary university GPUs with no provider guardrails. We can describe the trend but not explain it, since model, harness, autonomy, and memory architecture all change together. Its direction still points to the next question: what will limit these agents as they take on more complex tasks? The usual answer is long-horizon memory, the loss of access to earlier findings during long attack chains. We test it by adding a coverage-memory layer to both systems, and neither improves outcomes. In the legacy stalled runs we could review, the limiting factor appeared to be planning and commitment rather than lost memory: agents held the evidence for a route forward and never turned it into a concrete exploitation hypothesis, which may suggest that offensive capability will advance with agents' ability to plan rather than with better memory. The same subtask scoring that tracks this capability is available to defenders, who can measure it as it rises instead of waiting to meet it in the field."
+ },
+ {
+  "clave": "R0207",
+  "cadenas": [
+   "A",
+   "B"
+  ],
+  "titulo": "Generalizable Graph-based Reinforcement Learning Agents for Automated Cyber Defense",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "Deep reinforcement learning (RL) is emerging as a viable strategy for automated cyber defense (ACD). The traditional RL approach represents networks as a list of computers in various states of safety or threat. Unfortunately, these models are forced to overfit to specific network topologies, rendering them ineffective when faced with even small environmental perturbations. In this work, we frame ACD as a two-player context-based partially observable Markov decision problem with observations represented as attributed graphs. This approach allows our agents to reason through the lens of relational inductive bias. Agents learn how to reason about hosts interacting with other system entities in a more general manner, and their actions are understood as edits to the graph representing the environment. By introducing this bias, we will show that our agents can better reason about the states of networks and zero-shot adapt to new ones. We show that this approach outperforms the state-of-the-art by a wide margin and makes our agents capable of defending never-before-seen networks against a wide range of adversaries in a variety of complex and multi-agent environments."
+ },
+ {
+  "clave": "R0208",
+  "cadenas": [
+   "A",
+   "B"
+  ],
+  "titulo": "Automated Cyber Defense with Generalizable Graph-based Reinforcement Learning Agents",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "Deep reinforcement learning (RL) is emerging as a viable strategy for automated cyber defense (ACD). The traditional RL approach represents networks as a list of computers in various states of safety or threat. Unfortunately, these models are forced to overfit to specific network topologies, rendering them ineffective when faced with even small environmental perturbations. In this work, we frame ACD as a two-player context-based partially observable Markov decision problem with observations represented as attributed graphs. This approach allows our agents to reason through the lens of relational inductive bias. Agents learn how to reason about hosts interacting with other system entities in a more general manner, and their actions are understood as edits to the graph representing the environment. By introducing this bias, we will show that our agents can better reason about the states of networks and zero-shot adapt to new ones. We show that this approach outperforms the state-of-the-art by a wide margin, and makes our agents capable of defending never-before-seen networks against a wide range of adversaries in a variety of complex, and multi-agent environments."
+ },
+ {
+  "clave": "R0209",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Application of Agentic AI for Cybersecurity Incident Handling",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": ""
+ },
+ {
+  "clave": "R0210",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Agentic AI for Cybersecurity and Autonomous Threat Detection",
+  "anio": 2026,
+  "tipo": "book-chapter",
+  "venue": "",
+  "resumen": ""
+ },
+ {
+  "clave": "R0211",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Agentic AI and Cybersecurity: Threats, Defenses, and Open Problems",
+  "anio": 2026,
+  "tipo": "book-chapter",
+  "venue": "Studies in computational intelligence",
+  "resumen": ""
+ },
+ {
+  "clave": "R0212",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Can We Trust Cyber Defence Agents? TrustOps for Evidence Grounded Security Operations",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "SSRN Electronic Journal",
+  "resumen": ""
+ },
+ {
+  "clave": "R0213",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Agentic AI for Autonomous Cybersecurity Defense Systems",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "resumen": "This paper presents an Agentic Artificial Intelligence (Agentic AI)-based approach for autonomous cybersecurity defense systems. The proposed framework utilizes intelligent agents capable of real-time monitoring, threat detection, and automated response without human intervention. By integrating machine learning and adaptive learning techniques, the system enhances detection accuracy, reduces response time, and improves overall security efficiency. The study highlights the potential of Agentic AI in developing scalable and intelligent solutions for next-generation cybersecurity environments."
+ },
+ {
+  "clave": "R0214",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Agentic AI for Cyber Defense: A Survey of Failure Modes, Applications, and Research Opportunities",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "Preprints.org",
+  "resumen": "Modern agentic systems that plan, reason, invoke tools, and self-reflect offer a promising path to autonomous cyber defense and SOC analyst augmentation. Yet this same autonomy introduces novel failure modes and attack surfaces absent from traditional security pipelines. Despite rapid adoption, prior surveys remain fragmented: addressing agentic safety domain-agnostically, focusing on offensive use, or examining pre-agentic LLM-based defense in isolation, leaving the field without a structured, defense-focused framework integrating failure characterization, operational lifecycle mapping, and compliance alignment. This survey closes that gap through four analytical artefacts: a four-category failure taxonomy (natural, system, adversarial, compliance) spanning 22 subcategories and 94 failure modes with mitigations; a decomposition of defensive cybersecurity into 13 tasks classified by autonomy level, oversight regime, and failure exposure; a review of 22 research systems and 10 commercial offerings across five operational categories; and a catalogue of 20 governance gaps mapped to GDPR, EU AI Act, NIST AI RMF, ISO 42001, and sector-specific frameworks. We argue the autonomy ceiling is bounded asymmetrically, not by reasoning capability but by action irreversibility, mitigation maturity, and compliance envelope, and consolidate open challenges into eight research directions."
+ },
+ {
+  "clave": "R0215",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Agentic AI: A Game-Changer in Cybersecurity Defense",
+  "anio": 2025,
+  "tipo": "book-chapter",
+  "venue": "",
+  "resumen": "Rising aggressive cyber threat development coupled with advanced threat methods demands a complete defense system transformation against cyber-attacks. This research examines Agentic Artificial Intelligence (AAI) as a cutting-edge cybersecurity defense. Practical evidence reveals that AAI systems enhance cybersecurity operations by learning independently as decision-making platforms. AI-based Agentic Algorithms identify and eliminate APTs 94% faster, decrease false alarms 78%, and respond 65% faster than traditional cybersecurity systems. Distributed collaborative agents allowed faster threat data exchange and coordinated responses than networks. Research implies AAI will shift cybersecurity models from defensive to predictive, prioritizing system integrity and morality."
+ },
+ {
+  "clave": "R0216",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "An Organization-Scoped LLM Agent Runtime Architecture for Regulated Cybersecurity Operations",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "Regulated cybersecurity workflows lack a runtime substrate that enforces organization-level scope across retrieval, tool calls, memory, findings, reports, and audit while remaining model-agnostic and locally deployable. Recent large language model (LLM) agent systems report strong results on isolated cybersecurity tasks, yet they do not by themselves define an auditable platform architecture for regulated security operations centre (SOC) and compliance workflows, where a single analyst may trigger actions that bind the organization, and where the runtime must integrate with existing SIEM/XDR stacks as a primary source of context and alert-driven triggers rather than operate as a standalone analytical layer. This paper proposes an organization-scoped LLM agent runtime architecture for financial cybersecurity. The contribution is a typed Security Context that is created at every entry point, including SIEM/XDR notifications ingested as first-class triggers, and enforced at every component boundary, combined with a shared Runtime Core, logical specialist subagents, a governed Tool Adapter Layer exposing SIEM/XDR query, enrichment, and response primitives under uniform policy and audit, structured findings with evidence references, tiered human-in-the-loop (HITL) gates, and append-only audit. Model Context Protocol (MCP), extended telemetry, digital twins for pentesting, graph retrieval, and federated knowledge sharing are treated as optional extension paths rather than mandatory runtime assumptions. We describe an implementable slice as the architecture's testability surface, and we propose a falsifiable evaluation plan with metric-level pass criteria for architecture readiness, security-policy enforcement, evidence traceability, output quality, and operational observabili"
+ },
+ {
+  "clave": "R0217",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Integrating Intelligence: The Importance of LLMs and AI Agents in Strengthening Cybersecurity Ecosystems",
+  "anio": 2024,
+  "tipo": "conference-paper",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "resumen": "Abstract Objectives: This research paper explores the significance of integrating large language models (LLMs) and AI agents into existing cybersecurity ecosystems. As cyber threats become more sophisticated, traditional security measures often fall short. This study highlights the need for intelligent integration to enhance the efficacy of cybersecurity tools and improve threat mitigation strategies. Prior Work: The paper builds on foundational concepts in cybersecurity and artificial intelligence. It synthesizes research on LLM applications and AI agents in security contexts while addressing the limitations of current tools. By examining the intersection of traditional practices and advanced technologies, this review situates the discussion within the broader landscape of ongoing research in the field. Approach: Through thematic analysis and synthesis of literature from multiple sources, the study identifies key themes related to the integration of LLMs and AI agents in cybersecurity. It explores relationships between these themes, providing insights into how they collectively enhance security measures and adaptive response capabilities. The review also formulates a central research question regarding the specific impacts of this integration. Results/Findings: The Intelligent Cybersecurity Synergy Framework (ICSF) is introduced as a result. This framework outlines essential components and processes for effectively integrating LLMs and AI agents into existing cybersecurity tools, thereby enhancing their functionality and responsiveness. Implications: The findings are innovative and can assist researchers and practitioners in understanding the benefits of AI integration in cybersecurity ecosystems. This framework can inform future implications for adopting AI-driven sol"
+ },
+ {
+  "clave": "R0218",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Enhancing Automated Penetration Testing with Minimal Human Intervention: The AutoPentester LLM Agent Framework",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "SSRN Electronic Journal",
+  "resumen": ""
+ },
+ {
+  "clave": "R0219",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "AD-CTIDRL: a multi-agent method for threat intelligence-enhanced automated cyber defense",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Complex & Intelligent Systems",
+  "resumen": "The increasing severity and frequency of cyberattacks pose significant challenges to real-world network systems, especially in rapidly evolving environments. Recent advances in automated defense methods have improved rapid threat detection, incident response, and decision-making processes. However, most existing methods still rely on predefined action spaces and static data for training and prediction purposes, which limits their ability to detect and mitigate emerging threats in a timely manner. We propose AD-CTIDRL, a multi-agent automated defense method that grounds Structured Threat Information Expression (STIX)-formatted cyber threat intelligence (CTI) into Open Command and Control (OpenC2)-compatible executable decision options for reinforcement-learning defenders. In AD-CTIDRL, the large language model (LLM)-based CTI analysis agent performs configuration-aware grounding of CTI into executable policy options, and the proximal policy optimization (PPO)-based defense agents use the resulting CTI-conditioned decision interface to select defense actions. We further design and implement a multi-agent PPO-based defense framework that classifies attack types and automatically generates and optimizes defense strategies. Experimental results show that AD-CTIDRL attains significantly enhanced defense performance, achieving reward improvements of 60.05%, 47.76%, 44.11%, and 28.63% over those of TL-Embedding, Ensemble, TL-PPO, and HIPPO, respectively. These results suggest that grounding semantic CTI into executable policy options improves the relevance of automated defense decisions while preserving PPO-compatible policy learning in evolving threat environments."
+ },
+ {
+  "clave": "R0220",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Securing Agentic AI with the NIST Cybersecurity Framework 2.0",
+  "anio": 2025,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "Agentic AI —LLM-powered autonomous agents— is reshaping cybersecurity paradigms, introducing a novel attack surface that exposes gaps in current security approaches. This Systematic Literature Review (SLR) of 30 peer-reviewed papers examines the emerging threats and mitigation strategies for these agentic systems. The review synthesizes evidence through a four-dimensional taxonomy derived from the OWASP Agentic AI Threats framework. Building on these findings, the paper proposes a new adaptation of the NIST Cybersecurity Framework (CSF) 2.0 to guide organizations in identifying, protecting, responding to, and recovering from risks associated with agentic AI. The presented framework provides a clear and practical method for securing agentic AI-driven systems in both enterprise and research contexts."
+ },
+ {
+  "clave": "R0221",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterprise scale: a finite context window cannot hold a multi-thousand-host authentication graph, and free-form generation offers no guarantee that a recommended containment action is consistent with the topology it operates on. We present Sentinel-RL, an agentic-SOC architecture that decouples topological reasoning from semantic reasoning: a heterogeneous graph attention encoder summarizes the live authentication subgraph into a fixed-dimensional state, a Proximal Policy Optimization (PPO) policy maps this state to a constrained set of investigative actions, and an LLM agent loop is restricted to consuming the policy's recommendations and producing analyst-readable narratives gated by a critic. We instantiate the system on the LANL Comprehensive, Multi-Source Cyber-Security Events dataset and the Indiana University Quartz HPC cluster, reporting four results: (i) a two-phase CREATE ingestion pattern loads a 24M-edge authentication subgraph into Neo4j in 14.2 minutes on a single 32-core node, roughly 24x faster than the canonical MERGE-based pipeline; (ii) a sliding-window alert engine reliably trips a 25-event/10-second threshold in <=2.5 s across 50 trials; (iii) PPO training over 200 iterations converges to a mean episodic return of 8.74+/-0.31, with held-out precision of 0.91 and recall of 0.87 on labeled red-team events; and (iv) the integrated containment loop completes a full detect-investigate-recommend-human-approve cycle in a median of 6.3 s. We contribute a reusable engineering pattern (the hot-node deadlock workaround), a portable HPC deployment pattern (anchor-node co-location), and an enterprise-readiness analysis covering fals"
+ },
+ {
+  "clave": "R0222",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "LanG -- A Governance-Aware Agentic AI Platform for Unified Security Operations",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "Modern Security Operations Centers struggle with alert fatigue, fragmented tooling, and limited cross-source event correlation. Challenges that current Security Information Event Management and Extended Detection and Response systems only partially address through fragmented tools. This paper presents the LLM-assisted network Governance (LanG), an open-source, governance-aware agentic AI platform for unified security operations contributing: (i) a Unified Incident Context Record with a correlation engine (F1 = 87%), (ii) an Agentic AI Orchestrator on LangGraph with human-in-the-loop checkpoints, (iii) an LLM-based Rule Generator finetuned on four base models producing deployable Snort 2/3, Suricata, and YARA rules (average acceptance rate 96.2%), (iv) a Three-Phase Attack Reconstructor combining Louvain community detection, LLM-driven hypothesis generation, and Bayesian scoring (87.5% kill-chain accuracy), and (v) a layered Governance-MCP-Agentic AI-Security architecture where all tools are exposed via the Model Context Protocol, governed by an AI Governance Policy Engine with a two-layer guardrail pipeline (regex + Llama Prompt Guard 2 semantic classifier, achieving 98.1% F1 score with experimental zero false positives). Designed for Managed Security Service Providers, the platform supports multi-tenant isolation, role-based access, and fully local deployment. Finetuned anomaly and threat detectors achieve weighted F1 scores of 99.0% and 91.0%, respectively, in intrusion-detection benchmarks, running inferences in $\\approx$21 ms with a machine-side mean time to detect of 1.58 s, and the rule generator exceeds 91% deployability on live IDS engines. A systematic comparison against eight SOC platforms confirms that LanG uniquely satisfies multiple industrial capabilities "
+ },
+ {
+  "clave": "R0223",
+  "cadenas": [
+   "A",
+   "B"
+  ],
+  "titulo": "Smart Cyber Learning: A Multi-Agent, AI-Driven Gamified Platform for Cybersecurity Awareness Education",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "There are several pedagogical approaches in cybersecurity education that not only enhance students' knowledge of the content but also assess students’ knowledge and skills, help students become experts in the content, and help students develop proven, practicable skills for the content. The mastery-based training, personalized feedback, and progressive mastery evaluation are frequently not effective in traditional academic curricula, lecture-based models, and rigid assessment methods. The paper introduces Smart Cyber Learning, a competency-oriented platform that uses Artificial Intelligence (AI) as part of a comprehensive educational framework designed to meet this challenge. This tool delivers cybersecurity education solutions specifically designed for Computer Information Science programs. To support this, the platform integrates the Competency-Based Learning (CBL) system and the 5E instructional model (Engage, Explore, Explain, Elaborate, and Evaluate), and allows for a structured, inquiry-based, outcome-focused learning environment. To help organize a sequential timeline of instruction to build students' interest, to conduct adaptive assessments, and to provide feedback to educators, we have developed a Multi-Agent System (MAS). Through AI, the platform analyzes learner data to determine competency mastery scores and proficiency levels, where it adapts assessments based on the dynamism applied by the AI within the system. It also produces actionable data for learning analytics that educators can use. This web-based platform, which works offline, supports classrooms, labs, and low-capacity settings. The architecture of the system is described in terms of its connection with teaching-learning design, MAS coordination, and AI-informed adaptive assessment. The findings "
+ },
+ {
+  "clave": "R0224",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "PenAgent: A Retrieval-Augmented Multi-Agent Framework for Automated Penetration Testing",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "Penetration testing is critical for identifying system vulnerabilities. Traditional manual methods, however, are laborintensive and rely heavily on scarce expert knowledge. Existing automated tools often require complete network visibility or specific pre-trained models, limiting their applicability in blackbox scenarios. To address these limitations, we propose PenAgent, a MetaGPT-based multi-agent framework that automates the entire penetration testing lifecycle. The system coordinates four specialized agents to perform reconnaissance, scanning, exploitation, and logic optimization via Retrieval-Augmented Generation (RAG). We evaluated PenAgent against ten N-day vulnerabilities, demonstrating that GPT-4-based agents achieved an exploitation success rate exceeding 80%. Furthermore, RAG integration significantly boosted the performance of smaller models (e.g., GPT-3.5-turbo) to levels comparable with GPT-4. These findings underscore the potential of collaborative LLM agents in autonomous security assessments."
+ },
+ {
+  "clave": "R0225",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Agentic AI-Driven Cyber Defense Framework for Autonomous Threat Detection and Response",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "",
+  "resumen": "The proliferation of cloud computing, Internet of Things (IoT), edge computing, and distributed enterprise networks has made the security landscape much more complex than ever before and has created a need for traditional rule-based security measures to be incapable of detecting advanced and ever-changing cyber threats. This research proposes a framework for Autonomous Threat Detection and Response (ATDR) based on Agentic AI which integrates multiple agents of Artificial Intelligence (AI), Transformer networks, Graph Neural Networks (GNNs), Reinforcement Learning (RL), Security Knowledge Graphs (SKGs), and Explainable Artificial Intelligence (XAI) to facilitate intelligent threat detection, context-aware reasoning, adaptive decision-making and autonomous incident response. The dataset CICIDS2017 was used to test the framework and it was implemented using the GPU acceleration of NVIDIA RTX 4090 on a Python environment. The accuracy, precision, recall, F1, AUC and response time of experimental results are 99.36%, 99.08%, 98.94%, 99.01%, 99.81% and 63ms, respectively, which are better than five recent state-of-the-art methods. The improvements were statistically significant $(\\mathbf{p}<\\mathbf{0. 0 0 1})$ according to the statistical analysis (ANOVA). The proposed framework is scalable, explainable and adaptive for the security of modern cyber infrastructures for advanced and evolving attacks."
+ },
+ {
+  "clave": "R0226",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "21st Century Paradigms of Agentic AI for Autonomous National Cyber Defense Architectures",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "",
+  "resumen": ""
+ },
+ {
+  "clave": "R0227",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Agentic AI for Cybersecurity: Threats, Defense Mechanisms, and Future Challenges",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "resumen": "The rapid evolution of cyber threats necessitates advanced, autonomous security solutions capable of real-time threat detection and response. Agentic Artificial Intelligence (AI) represents a paradigm shift from reactive large language models to autonomous, goal-directed systems that can independently identify, analyze, and mitigate cybersecurity threats. This comprehensive review synthesizes current research on agentic AI security, examining threat taxonomies, defense mechanisms, evaluation methodologies, and real-world applications. We analyze the unique security landscape introduced by agentic AI, including prompt injection attacks, autonomous cyber-exploitation, multiagent system vulnerabilities, and governance challenges. Our review reveals that while agentic AI demonstrates transformative capabilities—achieving 20× faster threat detection and 98% automation of security alerts—it simultaneously introduces novel attack vectors that expand the threat surface. We present a comprehensive taxonomy of threats spanning input manipulation, autonomous exploitation, protocol-level vulnerabilities, environmental fragilities, and accountability gaps. Additionally, we examine state-of-the-art defense strategies including promptinjection-resistant designs, policy enforcement frameworks, sandboxing techniques, and monitoring systems. The paper identifies critical open challenges in long-horizon security, adaptive defenses, multi-agent coordination, and human-AI interfaces. By synthesizing insights from recent research and connecting them to practical implementations, this review provides a foundational framework for developing secure-by-design agentic AI systems that balance autonomous capability with robust security controls. Index Terms—Agentic AI, Cybersecurity, Autonomous Thr"
+ },
+ {
+  "clave": "R0228",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "MITRE-SAGE: A Multi-Agent Cybersecurity Question-Answering Model",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "Effective cybersecurity operations require timely and accurate analysis of large-scale heterogeneous security information; however, analysts increasingly struggle with information overload, alert fatigue, and time-constrained decision-making. Although large language models (LLMs) have demonstrated promising capabilities for question answering (QA), their effectiveness in cybersecurity remains limited by insufficient domain knowledge, a tendency to hallucinate, and difficulties in capturing both semantic and structural relationships. This work proposes MITRE-SAGE, a multi-agent retrieval-augmented generation framework that integrates semantic and structural cybersecurity knowledge to improve the reliability and interpretability of LLM-based QA systems. By decomposing complex tasks into query interpretation, evidence retrieval, and answer synthesis, MITRE-SAGE effectively supports cybersecurity tasks such as vulnerability assessment, threat profiling, and relationship extraction. Furthermore, we propose MITRE-QA, a comprehensive benchmark comprising 3,000 question-answer pairs for evaluating LLMs across diverse cybersecurity knowledge tasks, and use it to systematically evaluate MITRE-SAGE against representative baseline methods. Extensive experiments demonstrate that MITRE-SAGE consistently outperforms standalone LLMs and conventional RAG approaches. Notably, a lightweight configuration comprising Qwen2.5-7B sub-agents and a Qwen2.5-14B orchestrator achieves superior performance on five of the eight benchmark tasks, indicating the effectiveness of the proposed multi-agent framework. The results highlight the potential of MITRE-SAGE as a scalable and interpretable approach for reliable cybersecurity QA, while MITRE-QA provides a standardized benchmark for future research."
+ },
+ {
+  "clave": "R0229",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "Agentic Security: A Systematization of Tools, Failure Modes, and Design Laws for LLM-Driven Penetration Testing",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "Agentic security uses large-language-model (LLM) agents to plan, dispatch, and interpret security tools. As these systems move from demonstrations to deployed products, practitioners repeatedly encounter the same operational failures. We systematize these failures through a hands-on evaluation of ten widely used static, dynamic, cloud, orchestration, and AI red-teaming tools for unattended pipelines. We introduce a four-dimensional Integration Friction Index that separates one-time engineering cost from recurring organisational, legal, and maintenance cost. We then derive quantitative regularities that explain recurring failure modes. Modelling an agentic security system as stochastic LLM policies wrapped by a deterministic mediator, we show that long-lived sessions lose resident evidence with phase count, while short-lived sub-agents extend the usable horizon according to the compression ratio between raw evidence and its summary. We show that a two-stage verdict cascade multiplies scorer likelihood ratios, but provides little benefit when scorer errors correlate. We show that treating unevaluable outcomes as attack failures biases downstream measurements toward evasive and severe responses. We formulate planner-versus-worker model routing as a knapsack problem and derive a closed-form execution cap for heavy-tailed tools, eta* = alpha v/c. Finally, we show why scope and budget enforcement cannot be delegated to system prompts: prompts do not constrain what actually executes. Inspectra, our implemented platform, serves as a worked instantiation, with mechanisms labelled shipped, partial, or planned, including those that did not work."
+ },
+ {
+  "clave": "R0230",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "NetForge RL: A Multi-Agent Simulation Environment for Cyber Defense with Durative Actions",
+  "anio": 2026,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "resumen": "Training reinforcement-learning agents for cyber defense requires an environment that reflects the operational setting: noisy, partial observations, several defenders coordinating across a network, and an adaptive adversary realized through self-play. We present NetForge RL, a multi-agent environment for this setting on procedurally generated enterprise and operational-technology (OT) networks. A red agent compromises hosts with partial observability; three zone-split blue agents defend from synthetic SIEM telemetry, Windows/Sysmon event logs encoded into dense embeddings rather than a ground-truth state vector. The environment follows the PettingZoo parallel API with fixed-shape observations and MITRE ATT&CK-mapped actions, ships five scenarios with named difficulty presets and a held-out evaluation split, and replays deterministically under a seed. A JAX backend vectorizes a reduced transition core, reaching 2.5 x 10^5 environment-steps/s at batch 4096 on CPU, as a fast surrogate for training-loop iteration. Alongside the environment we provide reference baselines (scripted, a JAX IPPO trainer, and a self-play tournament), six diagnostic probes that each measure one defensive skill, and an evaluation runner reporting 95% confidence intervals. We describe the reproducibility engineering behind the environment and include a responsible-use statement."
+ },
+ {
+  "clave": "R0231",
+  "cadenas": [
+   "A"
+  ],
+  "titulo": "LLM-Based Intelligent Agents for Cybersecurity: A Tutorial and Survey of Automated Vulnerability Discovery",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "IEEE Access",
+  "resumen": "This paper provides a tutorial and survey of LLM-based agents for automated vulnerability discovery and penetration testing. The rapid advancements in Large Language Models (LLMs) have opened new possibilities for their application in cybersecurity. Unlike traditional tools, LLMs can process natural language, retain context, and perform structured reasoning, enabling automation of complex security workflows. By equipping these models with memory mechanisms and tool-use interfaces, researchers have developed LLM-driven autonomous agents capable of performing specialized tasks such as web application testing, source code auditing, fuzzing, and network security assessment. Multi-agent architectures have emerged in which agents assume specialized roles (e.g., distinct penetration-test phases or exploit types). In addition to surveying existing applications, this work provides a step-by-step walkthrough of integrating agentic AI into penetration testing workflows. The walkthrough explores four phases: (I) mission scoping and prompt engineering for test definition and constraint enforcement, (II) autonomous exploration and tool selection for target interaction, (III) vulnerability hypothesis formation and verification through experiment design and feedback, and (IV) payload generation and refinement to transform validated findings into concrete exploits. The survey synthesizes 155 cited sources (2022–early 2026) using explicit inclusion/exclusion criteria, with coverage extending to reasoning-class models, the Model Context Protocol ecosystem, autonomous bug-bounty agents, and standardized agentic security benchmarks. Despite progress, challenges persist, such as model hallucination, context limitations, operating costs, and ethical concerns. Future directions include advance"
+ }
+]

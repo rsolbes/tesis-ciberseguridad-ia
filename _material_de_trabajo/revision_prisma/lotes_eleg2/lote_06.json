@@ -1,0 +1,218 @@
+[
+ {
+  "clave": "R0432",
+  "titulo": "Reinforcement Learning for Automated Cybersecurity Penetration Testing",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0432.txt"
+ },
+ {
+  "clave": "R0433",
+  "titulo": "Evaluation of AI Models to Update Cybersecurity Curriculum",
+  "anio": 2024,
+  "tipo": "article",
+  "venue": "Journal of The Colloquium for Information Systems Security Education",
+  "texto": "textos/R0433.txt"
+ },
+ {
+  "clave": "R0442",
+  "titulo": "Adversarial Reinforcement Learning for Adaptive Cyber Security Defence",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "International Journal for Global Academic & Scientific Research",
+  "texto": "textos/R0442.txt"
+ },
+ {
+  "clave": "R0443",
+  "titulo": "Deep Reinforcement Learning-Based Framework for Enhancing Cybersecurity",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "International Journal of Interactive Mobile Technologies (iJIM)",
+  "texto": "textos/R0443.txt"
+ },
+ {
+  "clave": "R0444",
+  "titulo": "APPLICATION OF ARTIFICIAL INTELLIGENCE FOR IMPROVING SITUATIONAL TRAINING OF CYBERSECURITY SPECIALISTS",
+  "anio": 2023,
+  "tipo": "article",
+  "venue": "Information Technologies and Learning Tools",
+  "texto": "textos/R0444.txt"
+ },
+ {
+  "clave": "R0450",
+  "titulo": "CyberBOT: Ontology-Grounded Retrieval Augmented Generation for Reliable Cybersecurity Education",
+  "anio": 2025,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0450.txt"
+ },
+ {
+  "clave": "R0453",
+  "titulo": "Behaviour-Diverse Automatic Penetration Testing: A Curiosity-Driven Multi-Objective Deep Reinforcement Learning Approach",
+  "anio": 2022,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0453.txt"
+ },
+ {
+  "clave": "R0459",
+  "titulo": "Training Automated Defense Strategies Using Graph-based Cyber Attack Simulations",
+  "anio": 2023,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0459.txt"
+ },
+ {
+  "clave": "R0470",
+  "titulo": "Evaluation of Reinforcement Learning for Autonomous Penetration Testing using A3C, Q-learning and DQN",
+  "anio": 2024,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0470.txt"
+ },
+ {
+  "clave": "R0479",
+  "titulo": "Catch Me if You Can: Improving Adversaries in Cyber-Security with Q-Learning Algorithms",
+  "anio": 2023,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0479.txt"
+ },
+ {
+  "clave": "R0480",
+  "titulo": "Addressing GenAI use through transparency in teaching and learning in a Master of Cyber Security program",
+  "anio": 2024,
+  "tipo": "article",
+  "venue": "ASCILITE Publications",
+  "texto": "textos/R0480.txt"
+ },
+ {
+  "clave": "R0481",
+  "titulo": "CyberMentor: AI Powered Learning Tool Platform to Address Diverse Student Needs in Cybersecurity Education",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0481.txt"
+ },
+ {
+  "clave": "R0490",
+  "titulo": "ANALYSIS OF MACHINE LEARNING METHODS FOR AUTOMATING PENETRATION TESTING",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "Cybersecurity Education Science Technique",
+  "texto": "textos/R0490.txt"
+ },
+ {
+  "clave": "R0494",
+  "titulo": "Ontology-Aware RAG for Improved Question-Answering in Cybersecurity Education",
+  "anio": 2024,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0494.txt"
+ },
+ {
+  "clave": "R0501",
+  "titulo": "Pentest-R1: Towards Autonomous Penetration Testing Reasoning Optimized via Two-Stage Reinforcement Learning",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0501.txt"
+ },
+ {
+  "clave": "R0509",
+  "titulo": "Cybersecurity Risk Modeling in CI/CD Pipelines Using Reinforcement Learning for Test Optimization",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "",
+  "texto": "textos/R0509.txt"
+ },
+ {
+  "clave": "R0514",
+  "titulo": "Advances in AI-Driven Cybersecurity: Tackling Prompt Injection Attacks through Adversarial Learning",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "Journal of Engineering Issues and Solutions",
+  "texto": "textos/R0514.txt"
+ },
+ {
+  "clave": "R0515",
+  "titulo": "Cybersecurity AI: The World's Top AI Agent for Security Capture-the-Flag (CTF)",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0515.txt"
+ },
+ {
+  "clave": "R0516",
+  "titulo": "CyberBOT: Towards Reliable Cybersecurity Education via Ontology-Grounded Retrieval Augmented Generation",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0516.txt"
+ },
+ {
+  "clave": "R0523",
+  "titulo": "A deep Q-learning approach for adaptive cybersecurity threat detection in dynamic networks",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "Bulletin of Electrical Engineering and Informatics",
+  "texto": "textos/R0523.txt"
+ },
+ {
+  "clave": "R0526",
+  "titulo": "AI-Powered Automated Penetration Testing in Kali Linux: An Enterprise-Scale Offensive Security Framework Driven by Reinforcement Learning and Large Language Models",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "International Journal of Science and Research (IJSR)",
+  "texto": "textos/R0526.txt"
+ },
+ {
+  "clave": "R0528",
+  "titulo": "Revolutionizing Cybersecurity Education in Undergraduate Curriculum by Leveraging Retrieval-Augmented Generation with Large Language Models",
+  "anio": 2026,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0528.txt"
+ },
+ {
+  "clave": "R0529",
+  "titulo": "Federated deep reinforcement learning with transformer-based anomaly detection for cybersecurity in next-generation agricultural IoT networks",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "Discover Artificial Intelligence",
+  "texto": "textos/R0529.txt"
+ },
+ {
+  "clave": "R0530",
+  "titulo": "Autonomous AI Agents in Cybersecurity: from Training Environments to Combat Application",
+  "anio": 2026,
+  "tipo": "article",
+  "venue": "INFORMATION AND LAW",
+  "texto": "textos/R0530.txt"
+ },
+ {
+  "clave": "R0531",
+  "titulo": "Large Language Model-Based Reward Design for Deep Reinforcement Learning-Driven Autonomous Cyber Defense",
+  "anio": 2025,
+  "tipo": "preprint",
+  "venue": "arXiv (Cornell University)",
+  "texto": "textos/R0531.txt"
+ },
+ {
+  "clave": "R0532",
+  "titulo": "A Creative, Capture the Flag (CTF)-Based Approach to Analyzing Chatgpt As A Cybersecurity Tool",
+  "anio": 2025,
+  "tipo": "article",
+  "venue": "Advances in Multidisciplinary & Scientific Research Journal Publication",
+  "texto": "textos/R0532.txt"
+ },
+ {
+  "clave": "R0533",
+  "titulo": "Integrating Generative AI into Cybersecurity Education: A Study of OCR and Multimodal LLM-Assisted Instruction",
+  "anio": 2025,
+  "tipo": "conference-paper",
+  "venue": "",
+  "texto": "textos/R0533.txt"
+ }
+]

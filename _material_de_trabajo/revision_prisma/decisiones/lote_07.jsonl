@@ -1,0 +1,77 @@
+{"clave": "R0463", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agentes RL multiobjetivo para ciberdefensa autónoma resiliente"}
+{"clave": "R0464", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Modelo ML explicable con retroalimentación humana, no agéntico"}
+{"clave": "R0465", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agente RL para priorizar alertas en SOC"}
+{"clave": "R0466", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Agregación de datos sociales con ML y LLM, no agéntico"}
+{"clave": "R0467", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Agente RL genera rutas de ataque para pentesting automatizado"}
+{"clave": "R0468", "decision": "incierto", "criterio": "DUDA", "tema": "educacion", "nota": "Sin resumen; capacitación en ciberseguridad con IA, tipo incierto"}
+{"clave": "R0469", "decision": "incierto", "criterio": "DUDA", "tema": "educacion", "nota": "Sin resumen; juego serio educativo, uso de IA desconocido"}
+{"clave": "R0470", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Agentes RL para pentesting autónomo en NASim"}
+{"clave": "R0471", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "Agente RL tipo 20 preguntas para formación en ciberseguridad"}
+{"clave": "R0472", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Agente pentester entrenado con PPO, DQN y A2C"}
+{"clave": "R0473", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Aprendizaje profundo en ciberseguridad vehicular, no agéntico"}
+{"clave": "R0474", "decision": "incierto", "criterio": "DUDA", "tema": "educacion", "nota": "Sin resumen; plataforma adaptativa con IA para aprender ciberseguridad"}
+{"clave": "R0475", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Meta-RL para agentes de ciberdefensa automatizada"}
+{"clave": "R0476", "decision": "incierto", "criterio": "DUDA", "tema": "educacion", "nota": "Sin resumen; currículo de ciberseguridad en realidad virtual"}
+{"clave": "R0477", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Meta-RL para agentes en entornos dinámicos de ciberseguridad"}
+{"clave": "R0478", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Detección de ataques con clasificadores de ML"}
+{"clave": "R0479", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Agente atacante entrenado con Q-learning para exfiltración"}
+{"clave": "R0480", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "Uso transparente de IA generativa en maestría de ciberseguridad"}
+{"clave": "R0481", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "Plataforma CyberMentor con LLM para estudiantes de ciberseguridad"}
+{"clave": "R0482", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Meta-RL y aleatorización de dominio para pentesting autónomo"}
+{"clave": "R0483", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "RL con atención en grafos para ciberdefensa autónoma"}
+{"clave": "R0484", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Detección de amenazas con ML, no agéntico"}
+{"clave": "R0485", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "DRL para pentesting generalizable"}
+{"clave": "R0486", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "DRL cuántico-inspirado para agentes de ciberdefensa autónoma"}
+{"clave": "R0487", "decision": "excluir", "criterio": "E1", "tema": "", "nota": "Plataforma antiplagio académico, no trata ciberseguridad informática"}
+{"clave": "R0488", "decision": "incierto", "criterio": "DUDA", "tema": "seguridad_agentes", "nota": "Detección de prompts maliciosos a ChatGPT, relación con agentes dudosa"}
+{"clave": "R0489", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "IA generativa para instrucción individualizada en seguridad de hardware"}
+{"clave": "R0490", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Revisión de ML, RL y LLM para automatizar pentesting"}
+{"clave": "R0491", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agente RL explicable para ciberdefensa adaptativa en redes cifradas"}
+{"clave": "R0492", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Aprendizaje federado para detección, agentes no basados en RL/LLM"}
+{"clave": "R0493", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Pentesting automático con RL y mecanismo de curiosidad"}
+{"clave": "R0494", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "RAG con ontología para preguntas en educación de ciberseguridad"}
+{"clave": "R0495", "decision": "incierto", "criterio": "DUDA", "tema": "educacion", "nota": "Evaluaciones auténticas; papel de IA generativa poco claro"}
+{"clave": "R0496", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Valores Q de RL para planificar ciberdefensa estratégica"}
+{"clave": "R0497", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Pentesting inteligente con aprendizaje por imitación adversarial"}
+{"clave": "R0498", "decision": "incierto", "criterio": "DUDA", "tema": "defensa", "nota": "IDS con agente DQN, posiblemente solo clasificador"}
+{"clave": "R0499", "decision": "incierto", "criterio": "DUDA", "tema": "educacion", "nota": "Sin resumen; capítulo introductorio sobre IA en capacitación"}
+{"clave": "R0500", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "IDS federado con redes neuronales, no agéntico"}
+{"clave": "R0501", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "LLM optimizado con RL para pentesting autónomo"}
+{"clave": "R0502", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "RL con atención en grafos para ciberdefensa autónoma AIoT"}
+{"clave": "R0503", "decision": "incierto", "criterio": "DUDA", "tema": "defensa", "nota": "Agentes cognitivos IBL en juegos de ciberseguridad, sin ML claro"}
+{"clave": "R0504", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Predicción de riesgo con Bayes ingenuo, no agéntico"}
+{"clave": "R0505", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "Estudiantes usan IA generativa para revisar reportes de pentesting"}
+{"clave": "R0506", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Marco multimodal de aprendizaje profundo, no agéntico"}
+{"clave": "R0507", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Revisión de ML adversarial en finanzas, no agéntico"}
+{"clave": "R0508", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "Plataforma con capacitación en concientización impulsada por LLM"}
+{"clave": "R0509", "decision": "incierto", "criterio": "DUDA", "tema": "defensa", "nota": "Agentes RL para priorizar pruebas de seguridad en CI/CD"}
+{"clave": "R0510", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Generalización de agentes DRL para evaluación y pentesting"}
+{"clave": "R0511", "decision": "excluir", "criterio": "E2", "tema": "", "nota": "Agentes son personal humano de institución educativa"}
+{"clave": "R0512", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "DRL para respuesta coordinada de dispositivos de protección eléctrica"}
+{"clave": "R0513", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Revisión de IA en redes eléctricas inteligentes, no agéntica"}
+{"clave": "R0514", "decision": "incluir", "criterio": "IA", "tema": "seguridad_agentes", "nota": "Defensas contra inyección de instrucciones en LLM"}
+{"clave": "R0515", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Agente CAI resuelve competencias CTF superando humanos"}
+{"clave": "R0516", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "Chatbot RAG con ontología para educación en ciberseguridad"}
+{"clave": "R0517", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "Andamiaje pedagógico con IA para educación en ciberseguridad"}
+{"clave": "R0518", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agente RL para respuesta automatizada a incidentes"}
+{"clave": "R0519", "decision": "excluir", "criterio": "E4", "tema": "", "nota": "Juego serio de escape sin uso de IA generativa"}
+{"clave": "R0520", "decision": "incierto", "criterio": "DUDA", "tema": "defensa", "nota": "DRL para seguridad de Ethereum, resumen confuso"}
+{"clave": "R0521", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agente DQN detecta y aplica contramedidas en IoT"}
+{"clave": "R0522", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "IDS/IPS con redes neuronales, no agéntico"}
+{"clave": "R0523", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Deep Q-learning para detección y mitigación autónoma"}
+{"clave": "R0524", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Detección de malware con ensamble profundo, no agéntico"}
+{"clave": "R0525", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "Integración pedagógica de LLM en curso de ciberseguridad"}
+{"clave": "R0526", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Evalúa agentes RL, LLM y multiagente para pentesting"}
+{"clave": "R0527", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "RL solo para selección de características en clasificación"}
+{"clave": "R0528", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "RAG con LLM para currículo de ciberseguridad"}
+{"clave": "R0529", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "DRL federado multiagente MAPPO para detección en IoT agrícola"}
+{"clave": "R0530", "decision": "incluir", "criterio": "IA", "tema": "general", "nota": "Agentes autónomos de IA en ciberseguridad, autonomía y responsabilidad"}
+{"clave": "R0531", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "LLM diseña recompensas para agentes DRL de ciberdefensa"}
+{"clave": "R0532", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Evaluación de ChatGPT en retos CTF"}
+{"clave": "R0533", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "LLM multimodal como asistente en laboratorio de ciberseguridad"}
+{"clave": "R0534", "decision": "incierto", "criterio": "DUDA", "tema": "general", "nota": "Sin resumen; LLM en ciberseguridad, alcance agéntico desconocido"}
+{"clave": "R0535", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "LLM caracteriza vulnerabilidades como clasificador"}
+{"clave": "R0536", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Preentrenamiento de LLM para ciberseguridad, no agéntico"}
+{"clave": "R0537", "decision": "excluir", "criterio": "E4", "tema": "", "nota": "Percepción de seguridad en enfermería sin LLM ni agentes"}
+{"clave": "R0538", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "Gemelos digitales y LLM para educación en ciberseguridad"}
+{"clave": "R0539", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Entrenamiento intermedio de LLM para ciberseguridad, no agéntico"}

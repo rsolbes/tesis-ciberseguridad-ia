@@ -1,0 +1,73 @@
+{"clave": "R0694", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agente DQN para mitigación autónoma de amenazas"}
+{"clave": "R0695", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Aprendizaje por refuerzo profundo para mitigar ciberataques en redes eléctricas"}
+{"clave": "R0696", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Revisión de aprendizaje automático adversario, sin agentes"}
+{"clave": "R0697", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Aprendizaje contrastivo para clasificación de amenazas, no agéntico"}
+{"clave": "R0698", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "IDS por ensamble; refuerzo usado como clasificador"}
+{"clave": "R0699", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "Ejercicios de mesa educativos con IA generativa para documentación"}
+{"clave": "R0700", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Revisión de aprendizaje profundo en ciberseguridad, no agéntica"}
+{"clave": "R0701", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Aprendizaje automático general en ciberseguridad, sin agentes"}
+{"clave": "R0702", "decision": "excluir", "criterio": "E4", "tema": "", "nota": "IA en educación general con riesgos de privacidad"}
+{"clave": "R0703", "decision": "incierto", "criterio": "DUDA", "tema": "defensa", "nota": "Sin resumen; entorno SDN para refuerzo en ciberseguridad"}
+{"clave": "R0704", "decision": "incierto", "criterio": "DUDA", "tema": "defensa", "nota": "Sin resumen; control robusto por refuerzo ante ciberataques"}
+{"clave": "R0705", "decision": "excluir", "criterio": "E5", "tema": "", "nota": "Materiales de reproducibilidad, no trabajo con contenido propio"}
+{"clave": "R0706", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Señuelos generados con refuerzo para ciberdefensa industrial"}
+{"clave": "R0707", "decision": "incierto", "criterio": "DUDA", "tema": "educacion", "nota": "Sin resumen; grafos de conocimiento automáticos para educación"}
+{"clave": "R0708", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Aplicaciones de aprendizaje automático, no agénticas"}
+{"clave": "R0709", "decision": "incierto", "criterio": "DUDA", "tema": "educacion", "nota": "Juego educativo con sistema multiagente y ML, naturaleza incierta"}
+{"clave": "R0710", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Agente atacante con metaaprendizaje en simulador NetSecGame"}
+{"clave": "R0711", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Aprendizaje federado en sistemas energéticos, no agéntico"}
+{"clave": "R0712", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Revisión de refuerzo y multiagente para ciberdefensa proactiva"}
+{"clave": "R0713", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Marco neurosimbólico de detección, sin LLM ni refuerzo"}
+{"clave": "R0714", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "RAG con LLM contra smishing recontextualizado para educación"}
+{"clave": "R0715", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "Agente de refuerzo en juego para concientización en ciberseguridad"}
+{"clave": "R0716", "decision": "excluir", "criterio": "E4", "tema": "", "nota": "Sala de escape educativa sin LLM ni agentes"}
+{"clave": "R0717", "decision": "incluir", "criterio": "IA", "tema": "general", "nota": "Revisión de refuerzo profundo en defensa y pentesting"}
+{"clave": "R0718", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Refuerzo profundo multiagente para ciberdefensa IoT"}
+{"clave": "R0719", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agentes de refuerzo para respuesta autónoma a amenazas"}
+{"clave": "R0720", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Autorreparación con refuerzo en ciberseguridad autónoma"}
+{"clave": "R0721", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Autorreparación con refuerzo en ciberseguridad autónoma"}
+{"clave": "R0722", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Aprendizaje profundo para secretos en Kubernetes, no agéntico"}
+{"clave": "R0723", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "ML para reputación de IP en SOC, no agéntico"}
+{"clave": "R0724", "decision": "incierto", "criterio": "DUDA", "tema": "defensa", "nota": "Sin resumen; refuerzo para simular deriva textual"}
+{"clave": "R0725", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agente de refuerzo para contención de amenazas en telecomunicaciones"}
+{"clave": "R0726", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Ciberdefensa autónoma con refuerzo en redes eléctricas"}
+{"clave": "R0727", "decision": "incluir", "criterio": "IB", "tema": "educacion", "nota": "Agentes inteligentes personalizan formación gamificada en ciberseguridad"}
+{"clave": "R0728", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agentes de ciberdefensa autónoma robustos a topologías"}
+{"clave": "R0729", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Revisión general de ML, sin agentes"}
+{"clave": "R0730", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Clasificación de incidentes con ML de ensamble"}
+{"clave": "R0731", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agente de refuerzo para detección de ataques en DER"}
+{"clave": "R0732", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Refuerzo para reconocimiento de entidades, no agente de ciberseguridad"}
+{"clave": "R0733", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Defensa proactiva con refuerzo profundo en redes de sensores"}
+{"clave": "R0734", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agente de refuerzo optimiza políticas de seguridad en nube"}
+{"clave": "R0735", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agente DQN con autorreparación y respuesta a incidentes"}
+{"clave": "R0736", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Revisión general de IA en varios dominios"}
+{"clave": "R0737", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Aprendizaje profundo en tiempo real, no agéntico"}
+{"clave": "R0738", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Revisión pandisciplinaria sin foco en agentes de ciberseguridad"}
+{"clave": "R0739", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Evaluación de agentes de código ante vulnerabilidades"}
+{"clave": "R0740", "decision": "incierto", "criterio": "DUDA", "tema": "defensa", "nota": "Arquitectura multiagente V2X; no claro uso de aprendizaje o LLM"}
+{"clave": "R0741", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Agentes de pentesting autónomo ante evidencia engañosa"}
+{"clave": "R0742", "decision": "incluir", "criterio": "IA", "tema": "seguridad_agentes", "nota": "Sistema operativo seguro para agentes contra inyección de instrucciones"}
+{"clave": "R0743", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Refuerzo multiagente federado para defensa de microrredes"}
+{"clave": "R0744", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Benchmark de agentes en descubrimiento y parcheo de vulnerabilidades"}
+{"clave": "R0745", "decision": "incluir", "criterio": "IA", "tema": "seguridad_agentes", "nota": "Pruebas de penetración sobre sistemas de agentes a gran escala"}
+{"clave": "R0746", "decision": "incluir", "criterio": "IA", "tema": "seguridad_agentes", "nota": "Metodologías de evaluación de riesgos de agentes, incluida ciberseguridad"}
+{"clave": "R0747", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Agentes frente a profesionales en pentesting real"}
+{"clave": "R0748", "decision": "incluir", "criterio": "IA", "tema": "general", "nota": "Metabenchmark de agentes ofensivos y defensivos"}
+{"clave": "R0749", "decision": "incluir", "criterio": "IA", "tema": "general", "nota": "Marco de selección de agentes de IA según NIST CSF"}
+{"clave": "R0750", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Benchmark real y agentes con memoria para pentesting"}
+{"clave": "R0751", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Entrenamiento de agentes LLM para CTF sin entorno"}
+{"clave": "R0752", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Agente LLM para pentesting autónomo con benchmarks CTF"}
+{"clave": "R0753", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Benchmark de agentes con vulnerabilidades reales"}
+{"clave": "R0754", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Evaluación dinámica de riesgos de agentes ofensivos"}
+{"clave": "R0755", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Agente LLM con conocimiento para resolver CTF"}
+{"clave": "R0756", "decision": "incluir", "criterio": "IA", "tema": "general", "nota": "Agentes atacantes y defensores en sistemas reales"}
+{"clave": "R0757", "decision": "incluir", "criterio": "IA", "tema": "seguridad_agentes", "nota": "Restricciones de seguridad para agentes robóticos con LLM"}
+{"clave": "R0758", "decision": "incluir", "criterio": "IA", "tema": "ofensiva", "nota": "Agentes LLM para pentesting semiautónomo"}
+{"clave": "R0759", "decision": "incierto", "criterio": "DUDA", "tema": "general", "nota": "Simulación multiagente de escenarios; no claro uso de LLM"}
+{"clave": "R0760", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agentes de ciberdefensa con árboles de comportamiento evolutivos"}
+{"clave": "R0761", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Panorama de agentes autónomos inteligentes de ciberdefensa"}
+{"clave": "R0762", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Agente azul con optimización bayesiana causal en simulador"}
+{"clave": "R0763", "decision": "incluir", "criterio": "IA", "tema": "general", "nota": "Lecciones de IA agéntica en ciberseguridad para África"}
+{"clave": "R0764", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Ajuste de seguridad de LLM, sin agentes"}
+{"clave": "R0765", "decision": "excluir", "criterio": "E3", "tema": "", "nota": "Aprendizaje federado con blockchain, no agéntico"}
+{"clave": "R0766", "decision": "incluir", "criterio": "IA", "tema": "defensa", "nota": "Revisión de refuerzo profundo para detección y protección"}

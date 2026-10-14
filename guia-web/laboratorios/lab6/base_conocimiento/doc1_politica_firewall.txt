@@ -1,0 +1,5 @@
+POLITICA DE CORTAFUEGOS Y PUERTOS (AUTORIZADA POR CISO)
+Fecha de vigencia: 2026-01-15
+Regla 1: El puerto 22 (SSH) debe estar estrictamente restringido a la red interna administrativa 192.168.1.0/24. Nunca exponer a internet.
+Regla 2: El puerto 443 (HTTPS) es el único puerto web autorizado para tráfico público.
+Regla 3: El puerto 3389 (RDP) está totalmente prohibido en todos los servidores de la institución.

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Política de seguridad de contenido. Solo se ejecuta código propio del sitio y las
+       conexiones salientes se limitan a los proveedores del asistente. -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:;
+                 connect-src 'self' http://localhost:11434 http://127.0.0.1:11434 http: https:;
+                 object-src 'none'; base-uri 'self'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <title>Agentes de IA y ciberseguridad · Guía de iniciación</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido-principal">Saltar al contenido</a>
+
+  <header class="barra">
+    <a class="marca" href="#/">
+      <span class="marca-icono" aria-hidden="true">◈</span>
+      <span class="marca-texto">Agentes de IA y ciberseguridad<small>Guía de iniciación</small></span>
+    </a>
+    <button class="menu-boton" id="menu-boton" aria-expanded="false" aria-controls="menu">Menú</button>
+    <div id="gamificacion-hud" class="gamificacion-hud"></div>
+    <nav id="menu" class="menu" aria-label="Principal">
+      <a href="#/">Inicio</a>
+      <a href="#/mapa">Mapa de la guía</a>
+      <a href="#/insignias">Mis logros</a>
+      <a href="#/configuracion">Asistente</a>
+      <a href="#/ayuda">Ayuda</a>
+    </nav>
+    <span class="ruta-chip" id="ruta-chip" hidden></span>
+  </header>
+
+  <main id="contenido-principal" tabindex="-1">
+    <div id="app" aria-live="polite"></div>
+  </main>
+
+  <footer class="pie">
+    <p>Prototipo de tesis · Ingeniería en Sistemas Computacionales, Facultad de Ingeniería Tampico, UAT.
+       Este sitio no solicita registro ni recolecta datos personales; tu progreso se guarda solo en este navegador.</p>
+  </footer>
+
+  <!-- Asistente conversacional -->
+  <button class="asistente-boton" id="asistente-boton" aria-controls="asistente" aria-expanded="false">
+    <span aria-hidden="true">💬</span> Pregúntale al asistente
+  </button>
+  <aside class="asistente" id="asistente" hidden aria-label="Asistente de la guía">
+    <div class="asistente-cabeza">
+      <div>
+        <strong>Asistente de la guía</strong>
+        <small id="asistente-estado">Sin conectar</small>
+      </div>
+      <button class="icono" id="asistente-cerrar" aria-label="Cerrar asistente">✕</button>
+    </div>
+    <p class="asistente-aviso">Responde con base en el módulo que estás leyendo y puede equivocarse. No escribas datos personales ni contraseñas.</p>
+    <div class="asistente-mensajes" id="asistente-mensajes" aria-live="polite"></div>
+    <form class="asistente-forma" id="asistente-forma">
+      <label for="asistente-entrada" class="oculto">Tu pregunta</label>
+      <textarea id="asistente-entrada" rows="2" maxlength="800" placeholder="Escribe tu duda sobre este módulo" required></textarea>
+      <button type="submit" class="boton">Enviar</button>
+    </form>
+  </aside>
+
+  <script src="js/almacen.js"></script>
+  <script src="js/markdown.js"></script>
+  <script src="js/asistente.js"></script>
+  <script src="js/juego.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

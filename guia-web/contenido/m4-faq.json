@@ -1,0 +1,22 @@
+[
+  {
+    "pregunta": "¿Qué es un token en un modelo de lenguaje?",
+    "claves": ["token", "tokens", "palabras", "fragmento", "modelo"],
+    "respuesta": "Es la unidad básica de texto que procesa un LLM. Puede ser una palabra completa, una sílaba o unos pocos caracteres. Un modelo lee y genera texto token por token. Revisa la sección 1 del módulo."
+  },
+  {
+    "pregunta": "¿Qué es la temperatura de un LLM?",
+    "claves": ["temperatura", "parametro", "creatividad", "determinismo"],
+    "respuesta": "Es un ajuste que define qué tan aleatorias son las elecciones de palabras del modelo. Valores cercanos a cero producen respuestas directas y consistentes; valores altos producen textos más creativos pero con mayor riesgo de error. Revisa la sección 1."
+  },
+  {
+    "pregunta": "¿Por qué alucinan los modelos de lenguaje?",
+    "claves": ["alucinacion", "alucinan", "inventan", "falso"],
+    "respuesta": "Porque los modelos no consultan una base de hechos verificados, sino que predicen qué secuencias de palabras suenan lingüísticamente plausibles. Por eso pueden redactar con total seguridad afirmaciones o comandos totalmente falsos. Revisa la sección 2."
+  },
+  {
+    "pregunta": "¿Cómo inicio el Laboratorio 1?",
+    "claves": ["laboratorio", "lab1", "ollama", "instalar", "probar"],
+    "respuesta": "Debes tener instalado Ollama en tu computadora y ejecutar el script disponible en la carpeta laboratorios/lab1/. En el archivo LEEME.md encontrarás los pasos detallados para descargar un modelo ligero y registrar tu bitácora de pruebas."
+  }
+]

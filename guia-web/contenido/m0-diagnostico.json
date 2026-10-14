@@ -1,0 +1,87 @@
+{
+  "indicacion": "Responde con sinceridad. Esta autoevaluación no se califica ni se envía a nadie; solo sirve para recomendarte una ruta.",
+  "umbral": 11,
+  "maximo": 18,
+  "preguntas": [
+    {
+      "texto": "¿Qué tanto has programado?",
+      "opciones": [
+        { "texto": "Casi nada o nada", "puntos": 0 },
+        { "texto": "He hecho programas sencillos en la escuela", "puntos": 1 },
+        { "texto": "Programo con frecuencia y he hecho proyectos propios", "puntos": 2 }
+      ]
+    },
+    {
+      "texto": "¿Has estudiado redes de computadoras (direcciones IP, puertos, protocolos)?",
+      "opciones": [
+        { "texto": "No", "puntos": 0 },
+        { "texto": "Un poco, conozco los conceptos básicos", "puntos": 1 },
+        { "texto": "Sí, cursé materias de redes", "puntos": 2 }
+      ]
+    },
+    {
+      "texto": "¿Has cursado alguna materia de seguridad informática o ciberseguridad?",
+      "opciones": [
+        { "texto": "No", "puntos": 0 },
+        { "texto": "He visto algunos temas sueltos", "puntos": 1 },
+        { "texto": "Sí, una materia completa", "puntos": 2 }
+      ]
+    },
+    {
+      "texto": "¿Has cursado alguna materia de inteligencia artificial o aprendizaje automático?",
+      "opciones": [
+        { "texto": "No", "puntos": 0 },
+        { "texto": "La estoy cursando ahora", "puntos": 1 },
+        { "texto": "Sí, ya la cursé", "puntos": 2 }
+      ]
+    },
+    {
+      "texto": "Cuando un servicio en línea deja de estar disponible por un ataque, ¿qué propiedad de la información se afecta?",
+      "opciones": [
+        { "texto": "No lo sé", "puntos": 0 },
+        { "texto": "La confidencialidad", "puntos": 0 },
+        { "texto": "La disponibilidad", "puntos": 2 },
+        { "texto": "La integridad", "puntos": 0 }
+      ]
+    },
+    {
+      "texto": "¿En qué se diferencia un agente de IA de un asistente conversacional común?",
+      "opciones": [
+        { "texto": "No lo sé", "puntos": 0 },
+        { "texto": "El agente es más amable", "puntos": 0 },
+        { "texto": "El agente puede planificar y ejecutar acciones con herramientas para cumplir una meta", "puntos": 2 },
+        { "texto": "No hay diferencia", "puntos": 0 }
+      ]
+    },
+    {
+      "texto": "¿Usas la autenticación en dos pasos en tu correo o en tus redes sociales?",
+      "opciones": [
+        { "texto": "No sé qué es", "puntos": 0, "consejo": "Activa la autenticación en dos pasos en tu correo. Es una de las medidas más efectivas para proteger tus cuentas y la verás en el módulo M1." },
+        { "texto": "No", "puntos": 0, "consejo": "Activa la autenticación en dos pasos en tu correo y tus redes sociales; así, aunque alguien robe tu contraseña, no podrá entrar." },
+        { "texto": "Sí", "puntos": 2 }
+      ]
+    },
+    {
+      "texto": "¿Usas la misma contraseña en más de un servicio?",
+      "opciones": [
+        { "texto": "Sí", "puntos": 0, "consejo": "Usa una contraseña distinta para cada servicio, idealmente con un gestor de contraseñas. Si se filtra una, las demás siguen a salvo." },
+        { "texto": "No", "puntos": 2 }
+      ]
+    },
+    {
+      "texto": "¿Alguna vez has pegado una contraseña, una clave de acceso o datos personales en un asistente de IA?",
+      "opciones": [
+        { "texto": "Sí", "puntos": 0, "consejo": "Evita escribir contraseñas, claves o datos personales en asistentes de IA. En el módulo M7 verás por qué es un riesgo." },
+        { "texto": "No estoy seguro", "puntos": 0, "consejo": "Revisa tus conversaciones con asistentes de IA y evita compartir en ellas contraseñas, claves o datos personales." },
+        { "texto": "No", "puntos": 2 }
+      ]
+    }
+  ],
+  "reglas": [
+    "Practicaré únicamente en los laboratorios de la guía, en mi propia computadora o en la del laboratorio escolar, con los datos inventados que se proporcionan.",
+    "Nunca usaré lo aprendido contra sistemas, cuentas o personas reales sin una autorización expresa y por escrito de su responsable.",
+    "No usaré el asistente de la guía ni otros modelos de IA para intentar dañar sistemas, crear programas maliciosos o engañar a personas.",
+    "No escribiré contraseñas, claves reales ni datos personales en los laboratorios ni en el asistente.",
+    "Si encuentro una vulnerabilidad real, la reportaré de forma responsable a mi docente o al responsable del sistema, sin aprovecharla."
+  ]
+}

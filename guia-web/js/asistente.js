@@ -16,6 +16,7 @@ const Asistente = (() => {
     intermediarioUrl: '',
     geminiClave: '',
     geminiModelo: '',
+    codigoAcceso: '',
   };
 
   let historial = [];
@@ -101,6 +102,26 @@ const Asistente = (() => {
       if (!r.ok) throw new Error(`El intermediario devolvió ${r.status}`);
       return textoGemini(await r.json());
     },
+
+    async servidor(cfg, mensajes) {
+      const codigo = Almacen.codigoAcceso() || cfg.codigoAcceso;
+      const r = await conTiempo('/api/chat', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-codigo-acceso': codigo,
+        },
+        body: JSON.stringify(cuerpoGemini(mensajes)),
+      }, 45000);
+      if (r.status === 401) throw new Error('Código de evaluador no válido o expirado.');
+      if (r.status === 429) throw new Error('Se alcanzó el límite de preguntas por minuto. Intenta en un momento.');
+      if (!r.ok) {
+        let det = '';
+        try { const j = await r.json(); det = j.error || ''; } catch (e) {}
+        throw new Error(det || `El servidor devolvió ${r.status}`);
+      }
+      return textoGemini(await r.json());
+    },
   };
 
   function cuerpoGemini(mensajes) {
@@ -119,6 +140,15 @@ const Asistente = (() => {
   // ---------- detección del modo ----------
   async function resolverModo() {
     const cfg = config();
+    const codigo = Almacen.codigoAcceso() || cfg.codigoAcceso;
+
+    // 1. Si hay código de evaluador o se seleccionó servidor explícito
+    if (codigo || cfg.modo === 'servidor') {
+      if (codigo) return { modo: 'servidor', cfg, etiqueta: 'Agente Gemini activo (Servidor seguro)' };
+      return { modo: 'sin-conexion', cfg, etiqueta: 'Requiere código de evaluador' };
+    }
+
+    // 2. Modo Ollama local
     if (cfg.modo === 'ollama' || cfg.modo === 'auto') {
       try {
         const modelos = await proveedores.ollamaModelos(cfg);
@@ -131,13 +161,16 @@ const Asistente = (() => {
         if (cfg.modo === 'ollama') return { modo: 'sin-conexion', cfg, etiqueta: 'No se encontró Ollama' };
       }
     }
+
+    // 3. Intermediario externo o Gemini directo
     if ((cfg.modo === 'intermediario' || cfg.modo === 'auto') && cfg.intermediarioUrl) {
       return { modo: 'intermediario', cfg, etiqueta: 'Gemini mediante intermediario' };
     }
     if ((cfg.modo === 'gemini' || cfg.modo === 'auto') && cfg.geminiClave && cfg.geminiModelo) {
       return { modo: 'gemini', cfg, etiqueta: `Gemini directo · ${cfg.geminiModelo}` };
     }
-    return { modo: 'sin-conexion', cfg, etiqueta: 'Sin modelo · preguntas frecuentes' };
+
+    return { modo: 'sin-conexion', cfg, etiqueta: 'Modo seguro · preguntas frecuentes' };
   }
 
   // ---------- respaldo sin conexión ----------
@@ -196,16 +229,63 @@ const Asistente = (() => {
     burbuja('assistant', respuesta);
   }
 
+  function refrescarBarraAuth() {
+    const codigo = Almacen.codigoAcceso();
+    const faqBar = $('auth-modo-faq');
+    const formBar = $('auth-formulario');
+    const activoBar = $('auth-activo');
+    if (!faqBar || !formBar || !activoBar) return;
+
+    if (codigo) {
+      faqBar.hidden = true;
+      formBar.hidden = true;
+      activoBar.hidden = false;
+    } else {
+      activoBar.hidden = true;
+      formBar.hidden = true;
+      faqBar.hidden = false;
+    }
+  }
+
   function abrir(abierto) {
     $('asistente').hidden = !abierto;
     $('asistente-boton').setAttribute('aria-expanded', String(abierto));
     $('asistente-boton').hidden = abierto;
-    if (abierto) { actualizarEstado(); $('asistente-entrada').focus(); }
+    if (abierto) {
+      refrescarBarraAuth();
+      actualizarEstado();
+      $('asistente-entrada').focus();
+    }
   }
 
   function iniciar() {
     $('asistente-boton').addEventListener('click', () => abrir(true));
     $('asistente-cerrar').addEventListener('click', () => abrir(false));
+
+    $('btn-mostrar-auth')?.addEventListener('click', () => {
+      $('auth-modo-faq').hidden = true;
+      $('auth-formulario').hidden = false;
+      $('input-codigo-evaluador').focus();
+    });
+    $('btn-cancelar-auth')?.addEventListener('click', () => {
+      refrescarBarraAuth();
+    });
+    $('btn-guardar-codigo')?.addEventListener('click', async () => {
+      const val = $('input-codigo-evaluador').value.trim();
+      if (!val) return;
+      Almacen.fijarCodigoAcceso(val);
+      $('input-codigo-evaluador').value = '';
+      refrescarBarraAuth();
+      await actualizarEstado();
+      burbuja('assistant', '✓ Código de acceso registrado. El asistente se ha conectado con el agente de IA.');
+    });
+    $('btn-cambiar-codigo')?.addEventListener('click', () => {
+      $('auth-activo').hidden = true;
+      $('auth-formulario').hidden = false;
+      $('input-codigo-evaluador').value = Almacen.codigoAcceso();
+      $('input-codigo-evaluador').focus();
+    });
+
     $('asistente-forma').addEventListener('submit', (ev) => {
       ev.preventDefault();
       const q = $('asistente-entrada').value.trim();

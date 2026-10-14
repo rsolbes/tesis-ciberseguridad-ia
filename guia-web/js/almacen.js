@@ -66,6 +66,12 @@ const Almacen = (() => {
     actualizarModulo(id, cambios) { Object.assign(modulo(id), cambios); guardar(); },
     asistente: () => memoria.asistente,
     fijarAsistente(cfg) { memoria.asistente = cfg; guardar(); },
+    codigoAcceso: () => (memoria.asistente && memoria.asistente.codigoAcceso) || '',
+    fijarCodigoAcceso(codigo) {
+      memoria.asistente = memoria.asistente || {};
+      memoria.asistente.codigoAcceso = (codigo || '').trim();
+      guardar();
+    },
     sonidoHabilitado: () => memoria.sonido !== false,
     conmutarSonido() { memoria.sonido = !memoria.sonido; guardar(); return memoria.sonido; },
     obtenerXP: () => memoria.xp || 0,

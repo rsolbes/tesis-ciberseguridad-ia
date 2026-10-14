@@ -55,6 +55,21 @@
       <button class="icono" id="asistente-cerrar" aria-label="Cerrar asistente">✕</button>
     </div>
     <p class="asistente-aviso">Responde con base en el módulo que estás leyendo y puede equivocarse. No escribas datos personales ni contraseñas.</p>
+    <div class="asistente-auth" id="asistente-auth">
+      <div id="auth-modo-faq" class="auth-bar">
+        <span>🔒 Modo offline (FAQ)</span>
+        <button type="button" id="btn-mostrar-auth" class="auth-link">¿Eres evaluador? Activar IA</button>
+      </div>
+      <div id="auth-formulario" class="auth-form" hidden>
+        <input type="password" id="input-codigo-evaluador" placeholder="Código (EVAL-...)" autocomplete="off">
+        <button type="button" id="btn-guardar-codigo" class="boton chico">Guardar</button>
+        <button type="button" id="btn-cancelar-auth" class="icono">✕</button>
+      </div>
+      <div id="auth-activo" class="auth-bar auth-activo" hidden>
+        <span>⚡ Agente Gemini Activo</span>
+        <button type="button" id="btn-cambiar-codigo" class="auth-link">Cambiar clave</button>
+      </div>
+    </div>
     <div class="asistente-mensajes" id="asistente-mensajes" aria-live="polite"></div>
     <form class="asistente-forma" id="asistente-forma">
       <label for="asistente-entrada" class="oculto">Tu pregunta</label>

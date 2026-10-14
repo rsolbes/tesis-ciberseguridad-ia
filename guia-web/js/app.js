@@ -357,18 +357,20 @@
     Asistente.fijarModulo({ id: null, titulo: '', texto: '', faq: [] });
     h(`
       <h1>Configuración del asistente</h1>
-      <p class="entrada">El asistente puede usar un modelo que corre en tu computadora o en el laboratorio (Ollama), o el servicio Gemini.
-        Si no hay ningún modelo disponible, responde con las preguntas frecuentes del módulo.</p>
+      <p class="entrada">El asistente puede conectarse al servidor seguro en Vercel con código de evaluador, a un modelo local en tu computadora (Ollama), o a Gemini directo.
+        Si no hay ningún modelo configurado, responde con las preguntas frecuentes de cada módulo.</p>
       <form id="forma-cfg" class="caja">
         <fieldset class="pregunta"><legend>Modo de conexión</legend>
-          ${[['auto', 'Automático (intenta Ollama, luego Gemini y, si no hay ninguno, preguntas frecuentes)'],
-             ['ollama', 'Ollama, modelo local (recomendado para estudiantes)'],
-             ['intermediario', 'Gemini mediante intermediario (prototipo publicado)'],
-             ['gemini', 'Gemini directo con clave en este navegador (solo pruebas del autor)'],
+          ${[['auto', 'Automático (intenta Servidor seguro, luego Ollama y, si no hay ninguno, preguntas frecuentes)'],
+             ['servidor', 'Servidor seguro Vercel (recomendado con código de evaluador)'],
+             ['ollama', 'Ollama, modelo local (ideal para estudiantes de bachillerato)'],
+             ['intermediario', 'Gemini mediante intermediario externo'],
+             ['gemini', 'Gemini directo con clave en este navegador (solo pruebas locales)'],
              ['sin-conexion', 'Sin modelo, solo preguntas frecuentes']]
             .map(([v, t]) => `<label><input type="radio" name="modo" value="${v}" ${c.modo === v ? 'checked' : ''}> ${t}</label>`).join('')}
         </fieldset>
         <div class="campos">
+          <label>Código de evaluador (Servidor Vercel) <input name="codigoAcceso" type="password" autocomplete="off" value="${esc(c.codigoAcceso || Almacen.codigoAcceso() || '')}" placeholder="EVAL-..."></label>
           <label>Dirección de Ollama <input name="ollamaUrl" value="${esc(c.ollamaUrl)}" placeholder="http://localhost:11434"></label>
           <label>Modelo de Ollama <select name="ollamaModelo" id="sel-ollama"><option value="${esc(c.ollamaModelo)}">${esc(c.ollamaModelo || 'Primero busca los modelos')}</option></select></label>
           <button class="boton secundario" type="button" id="buscar-ollama">Buscar modelos de Ollama</button>
@@ -377,9 +379,7 @@
           <label>Modelo de Gemini <select name="geminiModelo" id="sel-gemini"><option value="${esc(c.geminiModelo)}">${esc(c.geminiModelo || 'Primero busca los modelos')}</option></select></label>
           <button class="boton secundario" type="button" id="buscar-gemini">Buscar modelos de Gemini</button>
         </div>
-        <p class="aviso">La clave de Gemini se guarda solo en este navegador. No la uses en computadoras compartidas ni la publiques en el código del sitio;
-          para un sitio publicado usa el intermediario. Los términos de Gemini prohíben su uso en aplicaciones dirigidas a menores de 18 años,
-          por lo que con estudiantes de bachillerato debe usarse Ollama.</p>
+        <p class="aviso">El servidor seguro en Vercel mantiene la API Key de Gemini en el backend y verifica el código de evaluador sin requerir base de datos ni exponer secretos al navegador.</p>
         <div class="acciones"><button class="boton" type="submit">Guardar</button><button class="boton secundario" type="button" id="probar">Probar conexión</button></div>
         <p id="cfg-estado" aria-live="polite"></p>
       </form>`);
@@ -413,12 +413,16 @@
     });
     forma.addEventListener('submit', (ev) => {
       ev.preventDefault();
-      Almacen.fijarAsistente(Object.assign({}, Asistente.config(), leerForma()));
+      const cfg = Object.assign({}, Asistente.config(), leerForma());
+      if (cfg.codigoAcceso !== undefined) Almacen.fijarCodigoAcceso(cfg.codigoAcceso);
+      Almacen.fijarAsistente(cfg);
       estado.textContent = '✓ Configuración guardada.';
       Asistente.actualizarEstado();
     });
     document.getElementById('probar').addEventListener('click', async () => {
-      Almacen.fijarAsistente(Object.assign({}, Asistente.config(), leerForma()));
+      const cfg = Object.assign({}, Asistente.config(), leerForma());
+      if (cfg.codigoAcceso !== undefined) Almacen.fijarCodigoAcceso(cfg.codigoAcceso);
+      Almacen.fijarAsistente(cfg);
       const est = await Asistente.actualizarEstado();
       estado.textContent = `Modo en uso: ${est.etiqueta}.`;
     });
